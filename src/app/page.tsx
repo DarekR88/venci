@@ -24,7 +24,7 @@ export default function Home() {
       </FadeInSection>
 
       <FadeInSection>
-        <h1 className="text-7xl lg:mb-[10px]">Our Work</h1>
+        <h1 className="text-7xl lg:mb-[10px] font-bold">Our Work</h1>
         <div className="flex flex-col lg:flex-row lg:gap-5 lg:h-[165px] lg:mb-[100px]">
           <div className="overflow-hidden w-full lg:w-1/3">
             <Image src={photoImg} alt="photo" />
@@ -39,9 +39,9 @@ export default function Home() {
       </FadeInSection>
 
       <FadeInSection>
-      <h1 className="text-7xl lg:mb-[20px]">Our Services</h1>
-        <div className="flex lg:gap-8">
-          <div className="w-full lg:w-1/4 hover:bg-lime-400 transition-colors duration-1000">
+      <h1 className="text-7xl mb-[20px] font-bold">Our Services</h1>
+        <div className="flex flex-col lg:mb-[100px] lg:flex-row gap-5 lg:gap-8">
+          <div className="w-full lg:w-1/4 hover:bg-lime-400 transition-colors duration-500">
             <h1 className="text-5xl lg:ml-1 lg:mb-2">Website Services</h1>
             <p className="lg:px-2 lg:pb-2">
               At Venci, we understand the importance of a strong online presence
@@ -51,7 +51,7 @@ export default function Home() {
               hefty upfront investment.
             </p>
           </div>
-          <div className="w-full lg:w-1/4 hover:bg-pink-400 transition-colors duration-1000">
+          <div className="w-full lg:w-1/4 hover:bg-pink-400 transition-colors duration-500">
             <h1 className="text-5xl lg:ml-1 lg:mb-2">Paper Media</h1>
             <p className="lg:px-2 lg:pb-2">
               Elevate your marketing efforts with Venci's paper advertising
@@ -60,7 +60,7 @@ export default function Home() {
               directly to your website and maximizing your return on investment
             </p>
           </div>
-          <div className="w-full lg:w-1/4 hover:bg-amber-300 transition-colors duration-1000">
+          <div className="w-full lg:w-1/4 hover:bg-amber-300 transition-colors duration-500">
             <h1 className="text-5xl lg:ml-1 lg:mb-2">Social Media</h1>
             <p>
               Stay ahead of the curve with Venci's social media management
@@ -69,7 +69,7 @@ export default function Home() {
               platforms and targeted outreach to your desired audience.
             </p>
           </div>
-          <div className="w-full lg:w-1/4 hover:bg-cyan-400 transition-colors duration-1000">
+          <div className="w-full lg:w-1/4 hover:bg-cyan-400 transition-colors duration-500">
             <h1 className="text-5xl lg:ml-1 lg:mb-2">360&deg; Branding</h1>
             <p className="lg:px-2 lg:pb-2">
               At Venci, we understand that branding is more than just a logo -
