@@ -23,7 +23,7 @@ export function NavBar() {
     // Set a timeout to update the state after a delay
     const timeout = setTimeout(() => {
       setIsVisible(true);
-    }, 100); // Adjust the delay as needed
+    }, 0); // Adjust the delay as needed
 
     // Clear the timeout on component unmount to avoid memory leaks
     return () => clearTimeout(timeout);
