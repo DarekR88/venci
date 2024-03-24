@@ -44,15 +44,15 @@ export function NavBar() {
         {/* <Link onClick={handleClick} className="text-3xl" href="/howitworks">
           How it Works
         </Link> */}
-        <Link onClick={handleClick} className="text-3xl" href="/plans&pricing">
-          Plans & Pricing
+        <Link onClick={handleClick} className="text-3xl" href="/websites">
+          Websites
         </Link>
-        {/* <Link onClick={handleClick} className="text-3xl" href="/programs">
-          Programs
-        </Link> */}
-        {/* <Link onClick={handleClick} className="text-3xl" href="/nutrition">
-          Nutrition
-        </Link> */}
+        <Link onClick={handleClick} className="text-3xl" href="/social">
+          Social Media
+        </Link>
+        <Link onClick={handleClick} className="text-3xl" href="/advertising">
+          Advertising
+        </Link>
         {/* <Link onClick={handleClick} className="text-3xl" href="/testimonials">
           Testimonials
         </Link> */}
@@ -91,8 +91,14 @@ export function NavBar() {
           <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center" href="/">
             Home
           </Link>
-          <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center" href="/plans&pricing">
-            Plans & Pricing
+          <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center" href="/websites">
+            Websites
+          </Link>
+          <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center" href="/social">
+            Social Media
+          </Link>
+          <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center" href="/advertising">
+            Advertising
           </Link>
           <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center" href="/contact">
             Contact
