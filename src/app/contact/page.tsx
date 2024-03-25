@@ -1,7 +1,7 @@
 import Image from "next/image";
 import contactImg from "../../../public/images/darkphone.jpg";
 import phoneSVG from "../../../public/icons/phone-svgrepo-com.svg";
-import emailSVG from "../../../public/icons/mail.svg";
+import emailSVG from "../../../public/icons/mail_icon.svg";
 
 export default function Contact() {
   return (
