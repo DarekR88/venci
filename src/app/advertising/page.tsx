@@ -10,10 +10,10 @@ import flyerImg from "../../../public/images/blueflyer.png";
 
 export default function Advertising() {
   return (
-    <main className="lg:max-w-[1200px] m-auto">
+    <main className="lg:max-w-[1200px] m-auto px-2">
       <FadeInSection>
         <div className="flex flex-col lg:mb-[100px]">
-          <h1 className="font-bold text-5xl lg:mb-[10px]">
+          <h1 className="font-bold text-5xl mb-[10px]">
             Be Seen Where it Matters
           </h1>
           <p className="lg:max-w-[850px] lg:pl-[10px] lg:text-2xl">
@@ -26,7 +26,7 @@ export default function Advertising() {
       </FadeInSection>
 
       <FadeInSection>
-        <h1 className="text-5xl lg:mb-[10px] font-bold">How it Works</h1>
+        <h1 className="text-5xl mb-[10px] font-bold">How it Works</h1>
         <div className="flex flex-col lg:flex-row lg:gap-5 lg:mb-[100px]">
           <p className="lg:max-w-[850px] lg:pl-[10px] lg:text-2xl lg:w-2/3">
             At Venci, we specialize in placing advertisements for your business
