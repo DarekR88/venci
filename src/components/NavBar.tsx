@@ -32,7 +32,7 @@ export function NavBar() {
   return (
     <main className={`transition-all duration-700 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
       <div
-        className={`fixed flex flex-col w-screen h-screen z-10 bg-button-primary text-center pt-20 gap-8 ${
+        className={`fixed flex flex-col w-screen h-screen z-10 bg-white text-center pt-20 gap-8 ${
           isOpen
             ? "transition ease-in-out translate-y-0 duration-500"
             : "transition ease-in-out -translate-y-full duration-500"
@@ -63,20 +63,13 @@ export function NavBar() {
           About
         </Link>
       </div>
-      <header className="flex flex-wrap gap-10 py-4 justify-center items-center w-screen lg:flex-row lg:justify-between lg:px-20 lg:h-28 lg:mb-[20px]">
+      <header className="flex flex-wrap gap-10 py-4 justify-center items-center w-screen lg:flex-row lg:justify-between lg:px-20 lg:h-28 lg:mb-[75px]">
       <Link href={"/"} className="font-Playfair flex flex-col lg:flex-row lg:justify-center tracking-widest text-xl z-0 px-3">
           <p className="text-5xl"><span>V</span>ENCI</p>
           <p className="text-base lg:mt-auto">Websites</p>
           <p className="text-base lg:mt-auto"><span>&</span>Advertising</p>
         </Link>
-        <a
-          href="tel:408-761-4606"
-          target="_blank"
-          rel="noreferrer noopener"
-          className="lg:hidden"
-        >
-          <Image src={PhoneSvg} alt="pfp" width={23} />
-        </a>
+
         <Link
           href={"/contact"}
 
@@ -142,19 +135,19 @@ export function NavBar() {
           className="inline flex flex-col justify-center items-center z-20 lg:hidden"
         >
           <span
-            className={`bg-white block transition-all duration-300 ease-out 
+            className={`bg-black block transition-all duration-300 ease-out 
                     h-1 w-8 rounded-sm ${
                       isOpen ? "rotate-45 translate-y-1.5" : "-translate-y-1.5"
                     }`}
           ></span>
           <span
-            className={`bg-white block transition-all duration-300 ease-out 
+            className={`bg-black block transition-all duration-300 ease-out 
                     h-1 w-8 rounded-sm my-0.5 ${
                       isOpen ? "opacity-0" : "opacity-100"
                     }`}
           ></span>
           <span
-            className={`bg-white block transition-all duration-300 ease-out 
+            className={`bg-black block transition-all duration-300 ease-out 
                     h-1 w-8 rounded-sm ${
                       isOpen ? "-rotate-45 -translate-y-1.5" : "translate-y-1.5"
                     }`}
