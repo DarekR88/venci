@@ -8,10 +8,10 @@ import chartsImg from "../../../public/images/charts.jpg";
 
 export default function Social() {
   return (
-    <main className="lg:max-w-[1200px] m-auto">
+    <main className="lg:max-w-[1200px] m-auto px-2">
       <FadeInSection>
-        <div className="flex flex-col lg:mb-[100px]">
-          <h1 className="font-bold text-5xl lg:mb-[10px]">About</h1>
+        <div className="flex flex-col lg:mb-[100px] mb-[50px]">
+          <h1 className="font-bold text-5xl mb-[10px]">About</h1>
           <p className="lg:max-w-[850px] lg:pl-[10px] lg:text-2xl">
             At Venci, we are driven by a passion for empowering individuals and
             businesses to thrive in the digital world. Our journey began with a
@@ -28,8 +28,8 @@ export default function Social() {
       </FadeInSection>
 
       <FadeInSection>
-        <h1 className="text-5xl lg:mb-[10px] font-bold">How it Works</h1>
-        <div className="flex flex-col lg:flex-row lg:mb-[100px]">
+        <h1 className="text-5xl mb-[10px] font-bold">How it Works</h1>
+        <div className="flex flex-col lg:flex-row lg:mb-[100px] mb-[50px]">
           <p className="lg:max-w-[850px] lg:pl-[10px] lg:text-2xl lg:w-2/3">
             At Venci, we go beyond traditional marketing methods to deliver
             tangible results for our clients. Leveraging the most advanced
@@ -52,7 +52,7 @@ export default function Social() {
 
       <FadeInSection>
         <h1 className="text-5xl mb-[20px] font-bold">Our Services</h1>
-        <div className="flex flex-col lg:mb-[100px] lg:flex-row gap-5 lg:gap-8">
+        <div className="flex flex-col lg:mb-[100px] mb-[50px] lg:flex-row gap-5 lg:gap-8">
           <div className="w-full lg:w-1/4 hover:bg-lime-400 transition-colors duration-500">
             <h1 className="text-5xl lg:ml-1 lg:mb-2">Website Services</h1>
             <p className="lg:px-2 lg:pb-2">
