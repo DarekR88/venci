@@ -108,13 +108,13 @@ export function NavBar() {
           </Link>
         </div>
         <div className="flex gap-4 px-2 z-0">
-          <a
+          {/* <a
             href="mailto:darekradke2@gmail.com"
             target="_blank"
             rel="noreferrer noopener"
           >
             <Image src={InstaIcon} alt="pfp" width={27} />
-          </a>
+          </a> */}
           {/* <a
             href="mailto:darekradke2@gmail.com"
             target="_blank"

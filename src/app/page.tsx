@@ -9,7 +9,7 @@ export default function Home() {
     <main className="lg:max-w-[1200px] m-auto">
       <FadeInSection>
         <div className="flex flex-col lg:mb-[100px]">
-          <h1 className="font-bold text-7xl lg:mb-[10px]">
+          <h1 className="font-bold text-5xl lg:mb-[10px]">
             Get More Business Now
           </h1>
           <p className="lg:max-w-[850px] lg:pl-[10px] lg:text-2xl">
@@ -24,7 +24,7 @@ export default function Home() {
       </FadeInSection>
 
       <FadeInSection>
-        <h1 className="text-7xl lg:mb-[10px] font-bold">Our Work</h1>
+        <h1 className="text-5xl lg:mb-[10px] font-bold">Our Work</h1>
         <div className="flex flex-col lg:flex-row lg:gap-5 lg:h-[165px] lg:mb-[100px]">
           <div className="overflow-hidden w-full lg:w-1/3">
             <Image src={photoImg} alt="photo" />
@@ -39,7 +39,7 @@ export default function Home() {
       </FadeInSection>
 
       <FadeInSection>
-      <h1 className="text-7xl mb-[20px] font-bold">Our Services</h1>
+      <h1 className="text-5xl mb-[20px] font-bold">Our Services</h1>
         <div className="flex flex-col lg:mb-[100px] lg:flex-row gap-5 lg:gap-8">
           <div className="w-full lg:w-1/4 hover:bg-lime-400 transition-colors duration-500">
             <h1 className="text-5xl lg:ml-1 lg:mb-2">Website Services</h1>
