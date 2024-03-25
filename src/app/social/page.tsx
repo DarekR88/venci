@@ -3,60 +3,42 @@ import FadeInSection from "@/components/FadeInSection";
 import trainerImg from "../../../public/images/ptss.png";
 import photoImg from "../../../public/images/photosite.png";
 import gardenImg from "../../../public/images/lsss.png";
+import socialImg from "../../../public/images/social.jpg";
 
-export default function Websites() {
+export default function Social() {
   return (
     <main className="lg:max-w-[1200px] m-auto">
       <FadeInSection>
         <div className="flex flex-col lg:mb-[100px]">
           <h1 className="font-bold text-5xl lg:mb-[10px]">
-            Website Management
+            Social Media Management
           </h1>
           <p className="lg:max-w-[850px] lg:pl-[10px] lg:text-2xl">
-            Say goodbye to large upfront investments with Venci's website design
-            subscription. Our flexible pricing plans allow you to get started
-            with professional website design and free SEO services without
-            breaking the bank, ensuring your online presence remains up-to-date
-            and competitive.
-          </p>
-        </div>
-      </FadeInSection>
-
-      <FadeInSection>
-        <div className="flex flex-col lg:mb-[100px]">
-          <h1 className="font-bold text-5xl lg:mb-[10px]">
-            Professional Design and SEO for $19.99/month
-          </h1>
-          <p className="text-2xl">
-            At Venci, we pride ourselves on offering high-end search engine
-            optimized (SEO) websites at an unbeatable price. For just $19.99 a
-            month, our clients can enjoy the benefits of a professionally
-            designed website that ranks well on search engines, helping them
-            attract more visitors and grow their online presence.
+            Unlock the full potential of social media with Venci's comprehensive
+            management solutions. We blanket all major social media platforms,
+            ensuring your ads reach their intended audience and drive meaningful
+            engagement for your business.
           </p>
         </div>
       </FadeInSection>
 
       <FadeInSection>
         <h1 className="text-5xl lg:mb-[10px] font-bold">How it Works</h1>
-        <div className="flex flex-col lg:flex-row">
+        <div className="flex flex-col lg:flex-row lg:mb-[100px]">
           <p className="lg:max-w-[850px] lg:pl-[10px] lg:text-2xl lg:w-2/3">
-            At Venci, we've simplified the website design process for our
-            clients. Upon signing up, you'll gain access to our team of
-            experienced designers who will craft a beautifully designed website
-            tailored to your brand. With security handled by our experts, your
-            website is safe and protected. Our subscription model ensures
-            affordability and includes one free content update each month,
-            keeping your website fresh. Plus, we offer complimentary SEO
-            services to optimize your website for search engines and boost your
-            online visibility.
+            At Venci, we understand the power of social media in today's digital
+            landscape. Our social media management service goes beyond just
+            posting content; we craft engaging posts and videos specifically
+            tailored to your brand and target audience. By leveraging compelling
+            visuals and strategic messaging, we boost your business's visibility
+            on social media platforms, helping you connect with potential
+            customers and foster meaningful engagement. With Venci, you can
+            trust that your social media presence is in expert hands, driving
+            growth and success for your business.
           </p>
-          <div className="flex flex-col lg:gap-5 lg:w-1/3 lg:mb-[100px]">
-            <div className="overflow-hidden w-full lg:h-[165px]">
-              <Image src={trainerImg} alt="photo" />
-            </div>
-            <div className="overflow-hidden w-full lg:h-[165px]">
-              <Image src={gardenImg} alt="photo" />
+          <div className="flex flex-col lg:gap-5 lg:w-1/3">
+            <div className="overflow-hidden w-full">
+              <Image src={socialImg} alt="photo" />
             </div>
           </div>
         </div>

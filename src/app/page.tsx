@@ -62,7 +62,7 @@ export default function Home() {
           </div>
           <div className="w-full lg:w-1/4 hover:bg-amber-300 transition-colors duration-500">
             <h1 className="text-5xl lg:ml-1 lg:mb-2">Social Media</h1>
-            <p>
+            <p className="lg:px-2 lg:pb-2">
               Stay ahead of the curve with Venci's social media management
               subscription. Our expert team will handle all aspects of your
               social media presence, ensuring consistent engagement across
