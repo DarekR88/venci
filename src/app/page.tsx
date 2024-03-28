@@ -3,6 +3,9 @@ import FadeInSection from "@/components/FadeInSection";
 import trainerImg from "../../public/images/ptss.png";
 import photoImg from "../../public/images/photosite.png";
 import gardenImg from "../../public/images/lsss.png";
+import restaurantImg from "../../public/images/restaurantss.png";
+import landscapeImg from "../../public/images/gardeningss.png";
+import constructionImg from "../../public/images/constructionss.png";
 
 export default function Home() {
   return (
@@ -24,25 +27,44 @@ export default function Home() {
       </FadeInSection>
 
       <FadeInSection>
-        <h1 className="text-5xl mb-[10px] font-bold px-2 lg:px-0">Our Work</h1>
-        <div className="flex flex-col lg:flex-row lg:gap-5 lg:h-[165px] lg:mb-[100px] mb-[50px]">
+        <h1 className="text-5xl mb-[20px] font-bold px-2 lg:px-0">Our Work</h1>
+        <div className="flex flex-col lg:flex-row lg:gap-5 lg:h-[165px] lg:mb-[20px] mb-[50px]">
           <div className="overflow-hidden w-full lg:w-1/3">
-            <Image src={photoImg} alt="photo" />
+            <a href="https://photographernext.vercel.app/" target="_blank">
+              <Image src={photoImg} alt="photo" />
+            </a>
           </div>
           <div className="overflow-hidden w-full lg:w-1/3">
-            <Image src={trainerImg} alt="photo" />
+            <a href="https://nextpt.vercel.app/" target="_blank">
+              <Image src={trainerImg} alt="photo" />
+            </a>
           </div>
           <div className="overflow-hidden w-full lg:w-1/3">
             <Image src={gardenImg} alt="photo" />
           </div>
         </div>
+        <div className="flex flex-col lg:flex-row lg:gap-5 lg:h-[165px] lg:mb-[100px] mb-[50px]">
+          <div className="overflow-hidden w-full lg:w-1/3">
+            <Image src={landscapeImg} alt="photo" />
+          </div>
+          <div className="overflow-hidden w-full lg:w-1/3">
+            <Image src={constructionImg} alt="photo" />
+          </div>
+          <div className="overflow-hidden w-full lg:w-1/3">
+            <Image src={restaurantImg} alt="photo" />
+          </div>
+        </div>
       </FadeInSection>
 
       <FadeInSection>
-      <h1 className="text-5xl mb-[20px] font-bold px-2 lg:px-0">Our Services</h1>
+        <h1 className="text-5xl mb-[20px] font-bold px-2 lg:px-0">
+          Our Services
+        </h1>
         <div className="flex flex-col lg:mb-[100px] lg:flex-row gap-5 lg:gap-8">
           <div className="w-full lg:w-1/4 hover:bg-lime-400 transition-colors duration-500">
-            <h1 className="text-5xl lg:ml-1 lg:mb-2 px-2 lg:px-0">Website Services</h1>
+            <h1 className="text-5xl lg:ml-1 lg:mb-2 px-2 lg:px-0">
+              Website Services
+            </h1>
             <p className="lg:px-2 lg:pb-2 px-2 lg:px-0">
               At Venci, we understand the importance of a strong online presence
               for businesses. That&#39;s why we offer custom website design as a
@@ -52,7 +74,9 @@ export default function Home() {
             </p>
           </div>
           <div className="w-full lg:w-1/4 hover:bg-pink-400 transition-colors duration-500">
-            <h1 className="text-5xl lg:ml-1 lg:mb-2 px-2 lg:px-0">Paper Media</h1>
+            <h1 className="text-5xl lg:ml-1 lg:mb-2 px-2 lg:px-0">
+              Paper Media
+            </h1>
             <p className="lg:px-2 lg:pb-2 px-2 lg:px-0">
               Elevate your marketing efforts with Venci&#39;s paper advertising
               service. Our campaigns include strategically placed QR codes that
@@ -61,7 +85,9 @@ export default function Home() {
             </p>
           </div>
           <div className="w-full lg:w-1/4 hover:bg-amber-300 transition-colors duration-500">
-            <h1 className="text-5xl lg:ml-1 lg:mb-2 px-2 lg:px-0">Social Media</h1>
+            <h1 className="text-5xl lg:ml-1 lg:mb-2 px-2 lg:px-0">
+              Social Media
+            </h1>
             <p className="lg:px-2 lg:pb-2 px-2 lg:px-0">
               Stay ahead of the curve with Venci&#39;s social media management
               subscription. Our expert team will handle all aspects of your
@@ -70,7 +96,9 @@ export default function Home() {
             </p>
           </div>
           <div className="w-full lg:w-1/4 hover:bg-cyan-400 transition-colors duration-500">
-            <h1 className="text-5xl lg:ml-1 lg:mb-2 px-2 lg:px-0">360&deg; Branding</h1>
+            <h1 className="text-5xl lg:ml-1 lg:mb-2 px-2 lg:px-0">
+              360&deg; Branding
+            </h1>
             <p className="lg:px-2 lg:pb-2 px-2 lg:px-0">
               At Venci, we understand that branding is more than just a logo -
               it&#39;s a reflection of your business identity. Our 360&deg;
