@@ -15,10 +15,8 @@ export default function Contact() {
             <span className="">C</span>ONTACT
           </h2>
           <p className="text-center lg:text-left mb-[15px]">
-            Connect with a real personal trainer in your area today. Whether you
-            prefer a phone call, text message, or email, our team is ready to
-            assist you on your fitness journey. Take the first step towards
-            changing your life today.
+            Book your free consultation today! At Venci, we believe in continued
+            support. Call or message any time with questions or concerns.
           </p>
           <p className="text-center mb-[15px]">
             Hours of Operation: 9:00am - 9:00pm
@@ -70,13 +68,12 @@ export default function Contact() {
                 rel="noreferrer noopener"
                 className="flex flex-row justify-center"
               >
-                <span>Insightptmail@Gmail.com</span>
+                <span>VenciDesign@Gmail.com</span>
               </a>
             </div>
           </div>
         </div>
       </div>
-
     </main>
   );
 }
