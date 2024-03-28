@@ -8,7 +8,7 @@ export default function Advertising() {
   return (
     <main className="lg:max-w-[1200px] m-auto px-2">
       
-        <div className="flex flex-col lg:mb-[100px]">
+        <div className="flex flex-col lg:mb-[100px] mb-[50px]">
           <h1 className="font-bold text-5xl mb-[10px]">
             Be Seen Where it Matters
           </h1>
@@ -23,7 +23,7 @@ export default function Advertising() {
 
       
         <h1 className="text-5xl mb-[10px] font-bold">How it Works</h1>
-        <div className="flex flex-col lg:flex-row lg:gap-5 lg:mb-[100px]">
+        <div className="flex flex-col lg:flex-row lg:gap-5 lg:mb-[100px] mb-[50px]">
           <p className="lg:max-w-[850px] lg:pl-[10px] lg:text-2xl lg:w-2/3 lg:pr-3">
             At Venci, we specialize in placing advertisements for your business
             in strategic locations where they&#39;ll be seen by your target
