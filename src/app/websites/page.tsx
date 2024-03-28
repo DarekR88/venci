@@ -48,17 +48,20 @@ export default function Websites() {
           visibility.
         </p>
         <div className="flex flex-col lg:gap-5 lg:w-1/3 lg:mb-[100px]">
-          <div className="overflow-hidden w-full lg:h-[165px]">
-            <Image src={trainerImg} alt="photo" />
+          <div className="overflow-hidden w-full lg:h-[165px] bg-blue-400">
+            <a href="https://nextpt.vercel.app/" target="_blank" className='hover:opacity-50 transition-opacity duration-300'>
+              <Image src={trainerImg} alt="photo" />
+            </a>
           </div>
-          <div className="overflow-hidden w-full lg:h-[165px]">
-            <Image src={gardenImg} alt="photo" />
+          <div className="overflow-hidden w-full lg:h-[165px] bg-green-400">
+            <a href="https://nextlandscaping.vercel.app/" target="_blank" className='hover:opacity-50 transition-opacity duration-300'>
+              <Image src={gardenImg} alt="photo" />
+            </a>
           </div>
         </div>
       </div>
 
       <Services />
-      
     </main>
   );
 }
