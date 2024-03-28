@@ -30,11 +30,7 @@ export function NavBar() {
   }, []); // Run only on component mount
 
   return (
-    <main
-      className={`transition-all duration-700 ${
-        isVisible ? "opacity-100" : "opacity-0"
-      }`}
-    >
+    <main>
       <div
         className={`fixed flex flex-col w-screen h-screen z-10 bg-white text-center pt-20 gap-8 ${
           isOpen
