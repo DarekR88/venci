@@ -9,7 +9,7 @@ import chartsImg from "../../../public/images/charts.jpg";
 export default function Social() {
   return (
     <main className="lg:max-w-[1200px] m-auto px-2">
-      <FadeInSection>
+      
         <div className="flex flex-col lg:mb-[100px] mb-[50px]">
           <h1 className="font-bold text-5xl mb-[10px]">About</h1>
           <p className="lg:max-w-[850px] lg:pl-[10px] lg:text-2xl">
@@ -25,9 +25,9 @@ export default function Social() {
             all.
           </p>
         </div>
-      </FadeInSection>
+      
 
-      <FadeInSection>
+      
         <h1 className="text-5xl mb-[10px] font-bold">How it Works</h1>
         <div className="flex flex-col lg:flex-row lg:mb-[100px] mb-[50px]">
           <p className="lg:max-w-[850px] lg:pl-[10px] lg:pr-[20px] lg:text-2xl lg:w-2/3">
@@ -48,9 +48,9 @@ export default function Social() {
             </div>
           </div>
         </div>
-      </FadeInSection>
+      
 
-      <FadeInSection>
+      
         <h1 className="text-5xl mb-[20px] font-bold">Our Services</h1>
         <div className="flex flex-col lg:mb-[100px] mb-[50px] lg:flex-row gap-5 lg:gap-8">
           <div className="w-full lg:w-1/4 hover:bg-lime-400 transition-colors duration-500">
@@ -92,7 +92,7 @@ export default function Social() {
             </p>
           </div>
         </div>
-      </FadeInSection>
+      
     </main>
   );
 }

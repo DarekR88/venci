@@ -1,13 +1,11 @@
 import Image from "next/image";
-import FadeInSection from "@/components/FadeInSection";
 import trainerImg from "../../../public/images/ptss.png";
-import photoImg from "../../../public/images/photosite.png";
 import gardenImg from "../../../public/images/lsss.png";
 
 export default function Websites() {
   return (
     <main className="lg:max-w-[1200px] m-auto">
-      <FadeInSection>
+      
         <div className="flex flex-col lg:mb-[100px] mb-[50px]">
           <h1 className="font-bold text-5xl mb-[10px] px-2 lg:px-0">
             Website Management
@@ -20,9 +18,9 @@ export default function Websites() {
             and competitive.
           </p>
         </div>
-      </FadeInSection>
+      
 
-      <FadeInSection>
+      
         <div className="flex flex-col lg:mb-[100px] mb-[50px]">
           <h1 className="font-bold text-5xl mb-[10px] px-2 lg:px-0">
             Professional Design and SEO for $19.99/month
@@ -35,12 +33,12 @@ export default function Websites() {
             attract more visitors and grow their online presence.
           </p>
         </div>
-      </FadeInSection>
+      
 
-      <FadeInSection>
+      
         <h1 className="text-5xl mb-[10px] font-bold px-2 lg:px-0">How it Works</h1>
         <div className="flex flex-col lg:flex-row mb-[50px] lg:mb-0">
-          <p className="lg:max-w-[850px] lg:pl-[10px] lg:text-2xl lg:w-2/3 px-2 lg:px-0">
+          <p className="lg:max-w-[850px] lg:pl-[10px] lg:text-2xl lg:w-2/3 px-2 lg:pr-3">
             At Venci, we&#39;ve simplified the website design process for our
             clients. Upon signing up, you&#39;ll gain access to our team of
             experienced designers who will craft a beautifully designed website
@@ -60,9 +58,9 @@ export default function Websites() {
             </div>
           </div>
         </div>
-      </FadeInSection>
+      
 
-      <FadeInSection>
+      
         <h1 className="text-5xl mb-[20px] font-bold">Our Services</h1>
         <div className="flex flex-col lg:mb-[100px] lg:flex-row gap-5 lg:gap-8">
           <div className="w-full lg:w-1/4 hover:bg-lime-400 transition-colors duration-500">
@@ -104,7 +102,7 @@ export default function Websites() {
             </p>
           </div>
         </div>
-      </FadeInSection>
+      
     </main>
   );
 }

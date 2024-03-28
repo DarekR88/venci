@@ -1,9 +1,4 @@
 import Image from "next/image";
-import FadeInSection from "@/components/FadeInSection";
-import trainerImg from "../../../public/images/ptss.png";
-import photoImg from "../../../public/images/photosite.png";
-import gardenImg from "../../../public/images/lsss.png";
-import socialImg from "../../../public/images/social.jpg";
 import pinkcoastImg from "../../../public/images/pinkcoaster.png";
 import breadImg from "../../../public/images/breadflyer.png";
 import flyerImg from "../../../public/images/blueflyer.png";
@@ -11,7 +6,7 @@ import flyerImg from "../../../public/images/blueflyer.png";
 export default function Advertising() {
   return (
     <main className="lg:max-w-[1200px] m-auto px-2">
-      <FadeInSection>
+      
         <div className="flex flex-col lg:mb-[100px]">
           <h1 className="font-bold text-5xl mb-[10px]">
             Be Seen Where it Matters
@@ -23,12 +18,12 @@ export default function Advertising() {
             maximum exposure and engagement for your business.
           </p>
         </div>
-      </FadeInSection>
+      
 
-      <FadeInSection>
+      
         <h1 className="text-5xl mb-[10px] font-bold">How it Works</h1>
         <div className="flex flex-col lg:flex-row lg:gap-5 lg:mb-[100px]">
-          <p className="lg:max-w-[850px] lg:pl-[10px] lg:text-2xl lg:w-2/3">
+          <p className="lg:max-w-[850px] lg:pl-[10px] lg:text-2xl lg:w-2/3 lg:pr-3">
             At Venci, we specialize in placing advertisements for your business
             in strategic locations where they&#39;ll be seen by your target
             audience. From coasters at local cafes to flyer kiosks in busy
@@ -52,9 +47,9 @@ export default function Advertising() {
             </div>
           </div>
         </div>
-      </FadeInSection>
+      
 
-      <FadeInSection>
+      
         <h1 className="text-5xl mb-[20px] font-bold">Our Services</h1>
         <div className="flex flex-col lg:mb-[100px] lg:flex-row gap-5 lg:gap-8">
           <div className="w-full lg:w-1/4 hover:bg-lime-400 transition-colors duration-500">
@@ -96,7 +91,7 @@ export default function Advertising() {
             </p>
           </div>
         </div>
-      </FadeInSection>
+      
     </main>
   );
 }

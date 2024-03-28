@@ -1,14 +1,10 @@
 import Image from "next/image";
-import FadeInSection from "@/components/FadeInSection";
-import trainerImg from "../../../public/images/ptss.png";
-import photoImg from "../../../public/images/photosite.png";
-import gardenImg from "../../../public/images/lsss.png";
 import socialImg from "../../../public/images/social.jpg";
 
 export default function Social() {
   return (
     <main className="lg:max-w-[1200px] m-auto px-2">
-      <FadeInSection>
+      
         <div className="flex flex-col lg:mb-[100px] mb-[50px]">
           <h1 className="font-bold text-5xl mb-[10px]">
             Social Media Management
@@ -20,12 +16,11 @@ export default function Social() {
             engagement for your business.
           </p>
         </div>
-      </FadeInSection>
-
-      <FadeInSection>
+      
+      
         <h1 className="text-5xl mb-[10px] font-bold">How it Works</h1>
         <div className="flex flex-col lg:flex-row lg:mb-[100px] mb-[50px]">
-          <p className="lg:max-w-[850px] lg:pl-[10px] lg:text-2xl lg:w-2/3">
+          <p className="lg:max-w-[850px] lg:pl-[10px] lg:text-2xl lg:w-2/3 lg:pr-3">
             At Venci, we understand the power of social media in today&#39;s digital
             landscape. Our social media management service goes beyond just
             posting content; we craft engaging posts and videos specifically
@@ -42,9 +37,8 @@ export default function Social() {
             </div>
           </div>
         </div>
-      </FadeInSection>
-
-      <FadeInSection>
+      
+      
         <h1 className="text-5xl mb-[20px] font-bold">Our Services</h1>
         <div className="flex flex-col lg:mb-[100px] mb-[50px] lg:flex-row gap-5 lg:gap-8">
           <div className="w-full lg:w-1/4 hover:bg-lime-400 transition-colors duration-500">
@@ -86,7 +80,6 @@ export default function Social() {
             </p>
           </div>
         </div>
-      </FadeInSection>
-    </main>
+          </main>
   );
 }
