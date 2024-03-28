@@ -30,7 +30,7 @@ export default function Social() {
       <FadeInSection>
         <h1 className="text-5xl mb-[10px] font-bold">How it Works</h1>
         <div className="flex flex-col lg:flex-row lg:mb-[100px] mb-[50px]">
-          <p className="lg:max-w-[850px] lg:pl-[10px] lg:text-2xl lg:w-2/3">
+          <p className="lg:max-w-[850px] lg:pl-[10px] lg:pr-[20px] lg:text-2xl lg:w-2/3">
             At Venci, we go beyond traditional marketing methods to deliver
             tangible results for our clients. Leveraging the most advanced
             marketing algorithms and cutting-edge analytical tools, we employ a

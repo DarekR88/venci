@@ -27,7 +27,7 @@ export default function Home() {
       </div>
 
       <h1 className="text-5xl mb-[20px] font-bold px-2 lg:px-0">Our Work</h1>
-      <div className="flex flex-col lg:flex-row lg:gap-5 lg:h-[165px] lg:mb-[20px] mb-[50px]">
+      <div className="flex flex-col lg:flex-row lg:gap-5 lg:h-[165px] lg:mb-[20px] mb-[0px]">
         <div className="overflow-hidden w-full lg:w-1/3 bg-red-400">
           <a href="https://photographernext.vercel.app/" target="_blank" className='hover:opacity-50 transition-opacity duration-300'>
             <Image src={photoImg} alt="photo" />
