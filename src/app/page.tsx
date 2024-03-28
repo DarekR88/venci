@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+"use client";
+
+import React, { useState } from "react";
 import Image from "next/image";
 import FadeInSection from "@/components/FadeInSection";
 import trainerImg from "../../public/images/ptss.png";
@@ -9,9 +11,12 @@ import landscapeImg from "../../public/images/gardeningss.png";
 import constructionImg from "../../public/images/constructionss.png";
 
 export default function Home() {
-
   const [isHovered, setIsHovered] = useState(false);
-
+  const [isHoveredTwo, setIsHoveredTwo] = useState(false);
+  const [isHoveredThree, setIsHoveredThree] = useState(false);
+  const [isHoveredFour, setIsHoveredFour] = useState(false);
+  const [isHoveredFive, setIsHoveredFive] = useState(false);
+  const [isHoveredSix, setIsHoveredSix] = useState(false);
 
   return (
     <main className="lg:max-w-[1200px] m-auto">
@@ -32,17 +37,41 @@ export default function Home() {
       <h1 className="text-5xl mb-[20px] font-bold px-2 lg:px-0">Our Work</h1>
       <div className="flex flex-col lg:flex-row lg:gap-5 lg:h-[165px] lg:mb-[20px] mb-[50px]">
         <div className="overflow-hidden w-full lg:w-1/3">
-          <a href="https://photographernext.vercel.app/" target="_blank">
+          <a
+            href="https://photographernext.vercel.app/"
+            target="_blank"
+            className={`transition-opacity duration-300 ${
+              isHovered ? "opacity-50" : "opacity-100"
+            }`}
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}
+          >
             <Image src={photoImg} alt="photo" />
           </a>
         </div>
         <div className="overflow-hidden w-full lg:w-1/3">
-          <a href="https://nextpt.vercel.app/" target="_blank">
+          <a
+            href="https://nextpt.vercel.app/"
+            target="_blank"
+            className={`transition-opacity duration-300 ${
+              isHoveredTwo ? "opacity-50" : "opacity-100"
+            }`}
+            onMouseEnter={() => setIsHoveredTwo(true)}
+            onMouseLeave={() => setIsHoveredTwo(false)}
+          >
             <Image src={trainerImg} alt="photo" />
           </a>
         </div>
         <div className="overflow-hidden w-full lg:w-1/3">
-          <a href="https://nextlandscaping.vercel.app/" target="_blank">
+          <a
+            href="https://nextlandscaping.vercel.app/"
+            target="_blank"
+            className={`transition-opacity duration-300 ${
+              isHoveredThree ? "opacity-50" : "opacity-100"
+            }`}
+            onMouseEnter={() => setIsHoveredThree(true)}
+            onMouseLeave={() => setIsHoveredThree(false)}
+          >
             <Image src={gardenImg} alt="photo" />
           </a>
         </div>
@@ -50,17 +79,41 @@ export default function Home() {
 
       <div className="flex flex-col lg:flex-row lg:gap-5 lg:h-[165px] lg:mb-[100px] mb-[50px]">
         <div className="overflow-hidden w-full lg:w-1/3">
-          <a href="https://landscaperdemo.vercel.app/" target="_blank">
+          <a
+            href="https://landscaperdemo.vercel.app/"
+            target="_blank"
+            className={`transition-opacity duration-300 ${
+              isHoveredFour ? "opacity-50" : "opacity-100"
+            }`}
+            onMouseEnter={() => setIsHoveredFour(true)}
+            onMouseLeave={() => setIsHoveredFour(false)}
+          >
             <Image src={landscapeImg} alt="photo" />
           </a>
         </div>
         <div className="overflow-hidden w-full lg:w-1/3">
-          <a href="https://painterdemo.vercel.app/" target="_blank">
+          <a
+            href="https://painterdemo.vercel.app/"
+            target="_blank"
+            className={`transition-opacity duration-300 ${
+              isHoveredFive ? "opacity-50" : "opacity-100"
+            }`}
+            onMouseEnter={() => setIsHoveredFive(true)}
+            onMouseLeave={() => setIsHoveredFive(false)}
+          >
             <Image src={constructionImg} alt="photo" />
           </a>
         </div>
         <div className="overflow-hidden w-full lg:w-1/3">
-          <a href="https://restaurantnext.vercel.app/" target="_blank">
+          <a
+            href="https://restaurantnext.vercel.app/"
+            target="_blank"
+            className={`transition-opacity duration-300 ${
+              isHoveredSix ? "opacity-50" : "opacity-100"
+            }`}
+            onMouseEnter={() => setIsHoveredSix(true)}
+            onMouseLeave={() => setIsHoveredSix(false)}
+          >
             <Image src={restaurantImg} alt="photo" />
           </a>
         </div>
