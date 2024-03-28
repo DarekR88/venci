@@ -5,7 +5,7 @@ import trainerImg from "../../public/images/ptss.png";
 import photoImg from "../../public/images/photosite.png";
 import gardenImg from "../../public/images/lsss.png";
 import restaurantImg from "../../public/images/restaurantss.png";
-import landscapeImg from "../../public/images/gardeningss.png";
+import landscapeImg from "../../public/images/growgreen.png";
 import constructionImg from "../../public/images/constructionss.png";
 
 export default function Home() {
