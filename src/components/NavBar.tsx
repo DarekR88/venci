@@ -79,7 +79,7 @@ export function NavBar() {
           </div>
         </Link>
 
-        <Link href={"/contact"} className="hidden lg:inline lg:flex gap-1">
+        <Link href={"/contact"} className="hidden lg:inline lg:flex lg:p-1 gap-1 hover:bg-orange-400 transition-colors duration-300">
           <Image src={PhoneSvg} alt="pfp" width={23} />
           <span>Connect With Us</span>
           <Image src={MailIcon} alt="pfp" width={23} />
@@ -87,37 +87,37 @@ export function NavBar() {
 
         <div className="hidden lg:flex gap-6">
           <Link
-            className="text-l relative w-fit block focus:bg-green-400 hover:bg-green-400 transition-colors duration-300 after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center"
+            className="text-l relative w-fit block px-1 focus:bg-green-400 hover:bg-green-400 transition-colors duration-300 after:block after:content-[''] after:px-1 after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center"
             href="/"
           >
             Home
           </Link>
           <Link
-            className="text-l relative w-fit block focus:bg-amber-400 hover:bg-amber-400 transition-colors duration-300 after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center"
+            className="text-l relative w-fit block px-1 focus:bg-amber-400 hover:bg-amber-400 transition-colors duration-300 after:block after:content-[''] after:px-1 after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center"
             href="/websites"
           >
             Websites
           </Link>
           <Link
-            className="text-l relative w-fit block focus:bg-red-400 hover:bg-red-400 transition-colors duration-300 after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center"
+            className="text-l relative w-fit block px-1 focus:bg-red-400 hover:bg-red-400 transition-colors duration-300 after:block after:content-[''] after:px-1 after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center"
             href="/social"
           >
             Social Media
           </Link>
           <Link
-            className="text-l relative w-fit block focus:bg-blue-400 hover:bg-blue-400 transition-colors duration-300 after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center"
+            className="text-l relative w-fit block px-1 focus:bg-blue-400 hover:bg-blue-400 transition-colors duration-300 after:block after:content-[''] after:px-1 after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center"
             href="/advertising"
           >
             Advertising
           </Link>
           <Link
-            className="text-l relative w-fit block focus:bg-lime-400 hover:bg-lime-400 transition-colors duration-300 after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center"
+            className="text-l relative w-fit block px-1 focus:bg-lime-400 hover:bg-lime-400 transition-colors duration-300 after:block after:content-[''] after:px-1 after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center"
             href="/contact"
           >
             Contact
           </Link>
           <Link
-            className="text-l relative w-fit block focus:bg-cyan-400 hover:bg-cyan-400 transition-colors duration-300 after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center"
+            className="text-l relative w-fit block px-1 focus:bg-cyan-400 hover:bg-cyan-400 transition-colors duration-300 after:block after:content-[''] after:px-1 after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center"
             href="/about"
           >
             About
