@@ -41,8 +41,6 @@ export default function Social() {
           </div>
         </div>
       </div>
-
-      <Services />
       
     </main>
   );

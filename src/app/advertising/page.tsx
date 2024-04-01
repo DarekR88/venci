@@ -49,8 +49,6 @@ export default function Advertising() {
           </div>
         </div>
       
-      <Services />
-      
     </main>
   );
 }

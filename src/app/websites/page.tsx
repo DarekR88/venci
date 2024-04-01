@@ -61,7 +61,6 @@ export default function Websites() {
         </div>
       </div>
 
-      <Services />
     </main>
   );
 }
