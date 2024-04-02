@@ -1,9 +1,30 @@
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import Image from "next/image";
 import contactImg from "../../../public/images/darkphone.jpg";
 import phoneSVG from "../../../public/icons/phone-svgrepo-com.svg";
 import emailSVG from "../../../public/icons/mail_icon.svg";
 
 export default function Contact() {
+  const form = useRef<HTMLFormElement>(null);
+
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    if (!form.current) return;
+
+    const formData = new FormData(form.current);
+
+    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, {
+      publicKey: 'YOUR_PUBLIC_KEY',
+    })
+      .then(() => {
+        console.log('SUCCESS!');
+      })
+      .catch((error) => {
+        console.error('FAILED...', error.text);
+      });
+  };
   return (
     <main className="h-screen">
       <div className="flex flex-col lg:flex-row lg:gap-10 max-w-[1200px] m-auto lg:mb-[80px] mb-[50px]">
@@ -74,7 +95,16 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      
+
+      <form ref={form} onSubmit={sendEmail}>
+      <label>Name</label>
+      <input type="text" name="user_name" />
+      <label>Email</label>
+      <input type="email" name="user_email" />
+      <label>Message</label>
+      <textarea name="message" />
+      <input type="submit" value="Send" />
+    </form>
     </main>
   );
 }
