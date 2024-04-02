@@ -11,6 +11,7 @@ const config: Config = {
       fontFamily: {
         Open: ["Open Sans", "sans-serif"],
         Montserrat: ["Montserrat", "sans-serif"],
+        Orbitron: ["Orbitron", "sans-serif"],
       },
     },
   },

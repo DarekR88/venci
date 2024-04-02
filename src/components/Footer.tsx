@@ -10,7 +10,7 @@ export function Footer() {
           <span>&copy;</span> 2023 Venci
         </p>
         <Link href={"/"} className="font-Anton text-2xl">
-          <span className="text-button-primary text-4xl">VENCI</span> Websites&Advertising
+          <span className="text-button-primary text-4xl font-Orbitron">VENCI</span> Websites&Advertising
         </Link>
         <Link href={"/contact"} className="text-xl">
           Reach your Audience

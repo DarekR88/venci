@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Image from "next/image";
 import Link from "next/link";
-import { Services } from '@/components/Services';
 import trainerImg from "../../public/images/ptss.png";
 import photoImg from "../../public/images/photosite.png";
 import gardenImg from "../../public/images/lsss.png";
@@ -63,8 +62,6 @@ export default function Home() {
           </a>
         </div>
       </div>
-
-      <Services />
       
     </main>
   );

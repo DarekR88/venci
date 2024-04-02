@@ -68,7 +68,7 @@ export function NavBar() {
           href={"/"}
           className="font-Playfair flex flex-col lg:flex-row lg:justify-center tracking-widest text-xl z-0 px-3"
         >
-          <p className="text-5xl">
+          <p className="text-5xl font-Orbitron">
             <span>V</span>ENCI
           </p>
           <div className="flex flex-col">
@@ -79,7 +79,7 @@ export function NavBar() {
           </div>
         </Link>
 
-        <Link href={"/contact"} className="hidden lg:inline lg:flex lg:p-1 gap-1 hover:bg-orange-400 transition-colors duration-300">
+        <Link href={"/contact"} className="hidden lg:inline lg:flex lg:p-1 gap-1">
           <Image src={PhoneSvg} alt="pfp" width={23} />
           <span>Connect With Us</span>
           <Image src={MailIcon} alt="pfp" width={23} />

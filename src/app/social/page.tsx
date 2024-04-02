@@ -17,26 +17,24 @@ export default function Social() {
         </p>
       </div>
 
-      <h1 className="text-5xl mb-[10px] font-bold">How it Works</h1>
-      <div className="flex flex-col lg:flex-row lg:mb-[100px] mb-[50px]">
-        <p className="lg:max-w-[850px] lg:pl-[10px] lg:text-2xl lg:w-2/3 lg:pr-3">
-          At Venci, we understand the power of social media in today&#39;s
-          digital landscape. Our social media management service goes beyond
-          just posting content; we craft engaging posts and videos specifically
-          tailored to your brand and target audience. By leveraging compelling
-          visuals and strategic messaging, we boost your business&#39;s
-          visibility on social media platforms, helping you connect with
-          potential customers and foster meaningful engagement. With Venci, you
-          can trust that your social media presence is in expert hands, driving
-          growth and success for your business.
-        </p>
-        <div className="flex flex-col lg:gap-5 lg:w-1/3">
-          <div className="overflow-hidden w-full">
-            <Image src={socialImg} alt="photo" />
-          </div>
+      <h1 className="text-5xl font-bold pb-[20px]">Plans&Pricing</h1>
+      <h1 className="text-3xl">Social Media page creation and optimization</h1>
+      <ul className="list-disc list-inside pl-[20px]">
+        <li>$100 per page</li>
+        <li>Social Media SEO (be searchable on social media)</li>
+        <li>Local SEO (be seen by customers in your area)</li>
+      </ul>
+      <div className="flex flex-col lg:flex-row max-w-[1200px]">
+        <div className="w-full lg:w-1/2">
+          <h1>Basic</h1>
+          <p>$199/month</p>
+          <ul>
+            <li>
+              3 Social Media posts per week
+            </li>
+          </ul>
         </div>
       </div>
-
     </main>
   );
 }
