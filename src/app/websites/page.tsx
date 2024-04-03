@@ -5,7 +5,7 @@ import gardenImg from "../../../public/images/lsss.png";
 
 export default function Websites() {
   return (
-    <main className="lg:max-w-[1200px] m-auto">
+    <main className="lg:max-w-[1200px] m-auto lg:pt-[162px]">
       <div className="flex flex-col lg:mb-[100px] mb-[50px]">
         <h1 className="font-bold text-5xl mb-[10px] px-2 lg:px-0">
           Website Management
