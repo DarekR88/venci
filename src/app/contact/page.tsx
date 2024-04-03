@@ -106,7 +106,7 @@ export default function Contact() {
       </div>
 
       <div>
-        <h1></h1>
+        <h1 className="text-center text-3xl mb-[20px]">Send us a message anytime!</h1>
         <form ref={form} className="flex flex-col w-[350px] m-auto gap-3 mb-[50px]" onSubmit={sendEmail}>
           <label>Name</label>
           <input className="border-2 border-black" type="text" name="user_name" />
