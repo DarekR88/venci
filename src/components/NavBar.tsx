@@ -63,7 +63,7 @@ export function NavBar() {
           About
         </Link>
       </div>
-      <header className="flex flex-wrap gap-10 py-4 items-center w-screen lg:flex-row lg:justify-between lg:px-20 lg:h-28 lg:mb-[75px]">
+      <header className="lg:fixed bg-white flex flex-wrap gap-10 py-4 items-center w-screen lg:flex-row lg:justify-between lg:px-20 lg:h-28 lg:mb-[75px]">
         <Link
           href={"/"}
           className="font-Playfair flex flex-col lg:flex-row lg:justify-center tracking-widest text-xl z-0 px-3"

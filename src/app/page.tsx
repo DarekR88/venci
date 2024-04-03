@@ -12,7 +12,7 @@ export default function Home() {
 
   return (
     <main className="lg:max-w-[1200px] m-auto">
-      <div className="flex flex-col lg:mb-[100px] mb-[50px]">
+      <div className="flex flex-col lg:pt-[162px] lg:mb-[100px] mb-[50px]">
         <h1 className="font-bold text-5xl lg:mb-[10px] px-2 lg:px-0">
           Get More Business Now
         </h1>
