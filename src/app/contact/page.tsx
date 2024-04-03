@@ -1,4 +1,6 @@
-import React, { useRef } from "react";
+"use client";
+
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Image from "next/image";
 import contactImg from "../../../public/images/darkphone.jpg";
@@ -7,6 +9,7 @@ import emailSVG from "../../../public/icons/mail_icon.svg";
 
 export default function Contact() {
   const form = useRef<HTMLFormElement>(null);
+  const [messageSent, setMessageSent] = useState(false);
 
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -15,18 +18,24 @@ export default function Contact() {
 
     const formData = new FormData(form.current);
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, {
-      publicKey: 'YOUR_PUBLIC_KEY',
+    emailjs.sendForm("service_qfgklbh", "template_nkx1gkp", form.current, {
+      publicKey: "kvoo8qIQ_D8PVYgsu",
     })
       .then(() => {
         console.log('SUCCESS!');
+        setMessageSent(true);
+        setTimeout(() => {
+          setMessageSent(false);
+        }, 3000); // Clear message after 3 seconds
+        form.current?.reset(); // Clear form fields
       })
       .catch((error) => {
         console.error('FAILED...', error.text);
       });
   };
+
   return (
-    <main className="h-screen">
+    <main className="">
       <div className="flex flex-col lg:flex-row lg:gap-10 max-w-[1200px] m-auto lg:mb-[80px] mb-[50px]">
         <div className="lg:w-[750px] lg:h-[350px] overflow-hidden mb-[20px]">
           <Image src={contactImg} alt="weights" />
@@ -96,15 +105,19 @@ export default function Contact() {
         </div>
       </div>
 
-      <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
-    </form>
+      <div>
+        <h1></h1>
+        <form ref={form} className="flex flex-col w-[350px] m-auto gap-3 mb-[50px]" onSubmit={sendEmail}>
+          <label>Name</label>
+          <input className="border-2 border-black" type="text" name="user_name" />
+          <label>Email</label>
+          <input className="border-2 border-black" type="email" name="user_email" />
+          <label>Message</label>
+          <textarea className="border-2 border-black" name="message" />
+          <input className="border-2 border-black cursor-pointer" type="submit" value="Send" />
+        </form>
+        {messageSent && <p className="w-[350px] m-auto">Message sent!</p>}
+      </div>
     </main>
   );
 }
