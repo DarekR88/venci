@@ -19,6 +19,13 @@ export default function Websites() {
         </p>
       </div>
 
+      <h1 className="text-5xl font-bold">Plans&Pricing</h1>
+      <div className="md:hidden lg:flex flex-row lg:mb-[50px]">
+        <div>
+
+        </div>
+      </div>
+
       <div className="flex flex-col lg:mb-[100px] mb-[50px]">
         <h1 className="font-bold text-5xl mb-[10px] px-2 lg:px-0">
           Professional Design and SEO for $19.99/month
