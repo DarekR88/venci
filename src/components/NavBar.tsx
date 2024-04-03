@@ -14,10 +14,30 @@ import PhoneSvg from "../../public/icons/phone-svgrepo-com.svg";
 export function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
+  const [isTop, setIsTop] = useState(true);
 
   const handleClick = () => {
     setIsOpen(!isOpen);
   };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollY = window.scrollY;
+      if (scrollY !== 0) {
+        setIsTop(false);
+      } else {
+        setIsTop(true);
+      }
+    };
+
+    // Add scroll event listener when component mounts
+    window.addEventListener("scroll", handleScroll);
+
+    // Clean up scroll event listener when component unmounts
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   useEffect(() => {
     // Set a timeout to update the state after a delay
@@ -63,7 +83,15 @@ export function NavBar() {
           About
         </Link>
       </div>
-      <header className="lg:fixed bg-white flex flex-wrap gap-10 py-4 items-center w-screen lg:flex-row lg:justify-between lg:px-20 lg:h-28 lg:mb-[75px]">
+      <header
+        className={`lg:fixed bg-white flex flex-wrap gap-10 py-4 items-center w-screen lg:flex-row lg:justify-between lg:px-20 lg:h-${
+          isTop ? "28" : "20"
+        } lg:mb-${isTop ? "[75px]" : "[25px]"} ${
+          !isTop
+            ? "shadow-md transition-all duration-300 lg:transition-height"
+            : "transition-all duration-300"
+        }`}
+      >
         <Link
           href={"/"}
           className="font-Playfair flex flex-col lg:flex-row lg:justify-center tracking-widest text-xl z-0 px-3"
@@ -79,7 +107,10 @@ export function NavBar() {
           </div>
         </Link>
 
-        <Link href={"/contact"} className="hidden lg:inline lg:flex lg:p-1 gap-1">
+        <Link
+          href={"/contact"}
+          className="hidden lg:inline lg:flex lg:p-1 gap-1"
+        >
           <Image src={PhoneSvg} alt="pfp" width={23} />
           <span>Connect With Us</span>
           <Image src={MailIcon} alt="pfp" width={23} />
