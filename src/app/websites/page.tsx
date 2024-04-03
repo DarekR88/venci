@@ -19,10 +19,30 @@ export default function Websites() {
         </p>
       </div>
 
-      <h1 className="text-5xl font-bold">Plans&Pricing</h1>
-      <div className="md:hidden lg:flex flex-row lg:mb-[50px]">
-        <div>
-
+      <h1 className="text-5xl font-bold mb-[20px]">Plans&Pricing</h1>
+      <div className="flex mb-[50px] lg:mb-[100px]">
+        <div className="md:hidden lg:flex flex-row w-full">
+          <div className="w-1/4 text-2xl">
+            <div></div>
+            <div>
+              <p>Down Payment</p>
+            </div>
+            <div>
+              <p>Number of Pages</p>
+            </div>
+            <div>
+              <p>SEO (Search Engine Optimization)</p>
+            </div>
+            <div>
+              <p>Website Email Service</p>
+            </div>
+            <div>
+              <p>Customer Login</p>
+            </div>
+            <div>
+              <p>Appointment Scheduling</p>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -62,18 +82,25 @@ export default function Websites() {
         </p>
         <div className="flex flex-col lg:gap-5 lg:w-1/3 lg:mb-[100px]">
           <div className="overflow-hidden w-full lg:h-[165px] bg-blue-400">
-            <a href="https://nextpt.vercel.app/" target="_blank" className='hover:opacity-50 transition-opacity duration-300'>
+            <a
+              href="https://nextpt.vercel.app/"
+              target="_blank"
+              className="hover:opacity-50 transition-opacity duration-300"
+            >
               <Image src={trainerImg} alt="photo" />
             </a>
           </div>
           <div className="overflow-hidden w-full lg:h-[165px] bg-green-400">
-            <a href="https://nextlandscaping.vercel.app/" target="_blank" className='hover:opacity-50 transition-opacity duration-300'>
+            <a
+              href="https://nextlandscaping.vercel.app/"
+              target="_blank"
+              className="hover:opacity-50 transition-opacity duration-300"
+            >
               <Image src={gardenImg} alt="photo" />
             </a>
           </div>
         </div>
       </div>
-
     </main>
   );
 }
