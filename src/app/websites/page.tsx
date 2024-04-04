@@ -21,25 +21,103 @@ export default function Websites() {
 
       <h1 className="text-5xl font-bold mb-[20px]">Plans&Pricing</h1>
       <div className="flex mb-[50px] lg:mb-[100px]">
-        <div className="md:hidden lg:flex flex-row w-full">
-          <div className="w-1/4 text-2xl">
-            <div></div>
-            <div>
+        <div className="hidden text-xl gap-3 lg:flex flex-col w-full">
+          <div className="flex flex-row">
+            <div className="w-1/4"></div>
+            <div className="w-1/4 flex flex-col">
+              <h1>Basic</h1>
+              <p>$19.99/mo</p>
+            </div>
+            <div className="w-1/4 flex flex-col">
+              <h1>Deluxe</h1>
+              <p>Starts at: $39.99/mo</p>
+            </div>
+            <div className="w-1/4 flex flex-col">
+              <h1>Custom/E-commerce</h1>
+              <p>Starts at: $49.99/mo</p>
+            </div>
+          </div>
+          <div className="flex flex-row">
+            <div className="w-1/4">
               <p>Down Payment</p>
             </div>
-            <div>
+            <div className="w-1/4">
+              <p>$0</p>
+            </div>
+            <div className="w-1/4">
+              <p>Starts at: $300</p>
+            </div>
+            <div className="w-1/4">
+              <p>Starts at: $1500</p>
+            </div>
+          </div>
+          <div className="flex flex-row">
+            <div className="w-1/4">
               <p>Number of Pages</p>
             </div>
-            <div>
+            <div className="w-1/4">
+              <p>2</p>
+            </div>
+            <div className="w-1/4">
+              <p>up to 5</p>
+            </div>
+            <div className="w-1/4">
+              <p>up to 12</p>
+            </div>
+          </div>
+          <div className="flex flex-row">
+            <div className="w-1/4">
               <p>SEO (Search Engine Optimization)</p>
             </div>
-            <div>
-              <p>Website Email Service</p>
+            <div className="w-1/4">
+              <p>Included</p>
             </div>
-            <div>
-              <p>Customer Login</p>
+            <div className="w-1/4">
+              <p>Included</p>
             </div>
-            <div>
+            <div className="w-1/4">
+              <p>Included</p>
+            </div>
+          </div>
+          <div className="flex flex-row">
+            <div className="w-1/4">
+              <p>User Login</p>
+            </div>
+            <div className="w-1/4">
+              <p>Not Available</p>
+            </div>
+            <div className="w-1/4">
+              <p>User Login</p>
+            </div>
+            <div className="w-1/4">
+              <p>User Login</p>
+            </div>
+          </div>
+          <div className="flex flex-row">
+            <div className="w-1/4">
+              <p>Online Payments/ Subscriptions</p>
+            </div>
+            <div className="w-1/4">
+              <p>Not Available</p>
+            </div>
+            <div className="w-1/4">
+              <p>Online Payments/ Subscriptions</p>
+            </div>
+            <div className="w-1/4">
+              <p>Online Payments/ Subscriptions</p>
+            </div>
+          </div>
+          <div className="flex flex-row">
+            <div className="w-1/4">
+              <p>Appointment Scheduling</p>
+            </div>
+            <div className="w-1/4">
+              <p>Not Available</p>
+            </div>
+            <div className="w-1/4">
+              <p>Appointment Scheduling</p>
+            </div>
+            <div className="w-1/4">
               <p>Appointment Scheduling</p>
             </div>
           </div>
