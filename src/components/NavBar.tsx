@@ -65,7 +65,7 @@ export function NavBar() {
           How it Works
         </Link> */}
         <Link onClick={handleClick} className="text-3xl" href="/websites">
-          How it Works
+          Websites
         </Link>
         {/* <Link onClick={handleClick} className="text-3xl" href="/social">
           Social Media
@@ -73,9 +73,9 @@ export function NavBar() {
         {/* <Link onClick={handleClick} className="text-3xl" href="/advertising">
           Advertising
         </Link> */}
-        {/* <Link onClick={handleClick} className="text-3xl" href="/testimonials">
-          Testimonials
-        </Link> */}
+        <Link onClick={handleClick} className="text-3xl" href="/googlebusiness">
+          Google Business
+        </Link>
         <Link onClick={handleClick} className="text-3xl" href="/contact">
           Contact
         </Link>
@@ -127,7 +127,7 @@ export function NavBar() {
             className="text-l relative w-fit block transition-colors duration-300 after:block after:content-[''] after:px-1 after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center"
             href="/websites"
           >
-            How it Works
+            Websites
           </Link>
           {/* <Link
             className="text-l relative w-fit block px-1 focus:bg-red-400 hover:bg-red-400 transition-colors duration-300 after:block after:content-[''] after:px-1 after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center"
@@ -141,6 +141,12 @@ export function NavBar() {
           >
             Advertising
           </Link> */}
+          <Link
+            className="text-l relative w-fit block after:block after:content-[''] after:px-1 after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center"
+            href="/googlebusiness"
+          >
+            Google Business
+          </Link>
           <Link
             className="text-l relative w-fit block after:block after:content-[''] after:px-1 after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center"
             href="/contact"
