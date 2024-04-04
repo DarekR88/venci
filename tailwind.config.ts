@@ -8,6 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        "cOne": "var(--cOne)",
+        "cTwo": "var(--cTwo)",
+        "cThree": "var(--cThree)",
+        "cFour": "var(--cFour)",
+        "cFive": "var(--cFive)",
+      },
       fontFamily: {
         Open: ["Open Sans", "sans-serif"],
         Montserrat: ["Montserrat", "sans-serif"],
