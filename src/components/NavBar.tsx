@@ -84,7 +84,7 @@ export function NavBar() {
         </Link>
       </div>
       <header
-        className={`lg:fixed bg-white flex flex-wrap gap-10 py-4 items-center w-screen lg:flex-row lg:justify-between lg:px-20 lg:h-${
+        className={`bg-opacity-70 backdrop-blur-xl lg:fixed bg-white flex flex-wrap gap-10 py-4 items-center w-screen lg:flex-row lg:justify-between lg:px-20 lg:h-${
           isTop ? "28" : "20"
         } lg:mb-${isTop ? "[75px]" : "[25px]"} ${
           !isTop
@@ -94,7 +94,7 @@ export function NavBar() {
       >
         <Link
           href={"/"}
-          className="font-Playfair flex flex-col lg:flex-row lg:justify-center tracking-widest text-xl z-0 px-3"
+          className="font-Playfair flex flex-col lg:flex-row lg:justify-center tracking-widest text-xl z-0 px-3 bg-gradient-to-r from-cOne to-cFive"
         >
           <p className="text-5xl font-Orbitron">
             <span>V</span>ENCI

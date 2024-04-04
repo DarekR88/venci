@@ -24,15 +24,15 @@ export default function Websites() {
         <div className="hidden text-xl lg:flex flex-col w-full">
           <div className="flex flex-row">
             <div className="w-1/4"></div>
-            <div className="w-1/4 flex flex-col border-b-2 border-l-2 border-black pl-[5px] pb-[5px]">
+            <div className="w-1/4 flex flex-col border-b-2 border-l-2 border-black pl-[5px] pb-[5px] bg-gradient-to-r from-cOne to-cTwo">
               <h1 className="font-bold mb-[5px]">Basic</h1>
               <p>$19.99/mo</p>
             </div>
-            <div className="w-1/4 flex flex-col border-b-2 border-l-2 border-black pl-[5px] pb-[5px]">
+            <div className="w-1/4 flex flex-col border-b-2 border-l-2 border-black pl-[5px] pb-[5px] bg-gradient-to-r from-cTwo to-cThree">
               <h1 className="font-bold mb-[5px]">Premium</h1>
               <p>Starts at: $39.99/mo</p>
             </div>
-            <div className="w-1/4 flex flex-col border-b-2 border-l-2 border-black pl-[5px] pb-[5px]">
+            <div className="w-1/4 flex flex-col border-b-2 border-l-2 border-black pl-[5px] pb-[5px] bg-gradient-to-r from-cThree to-cFour">
               <h1 className="font-bold mb-[5px]">Custom/E-commerce</h1>
               <p>Starts at: $49.99/mo</p>
             </div>
@@ -51,7 +51,7 @@ export default function Websites() {
               <p>Starts at: $1500</p>
             </div>
           </div>
-          <div className="flex flex-row bg-blue-200">
+          <div className="flex flex-row bg-gray-100">
             <div className="w-1/4">
               <p>Number of Pages</p>
             </div>
@@ -79,7 +79,7 @@ export default function Websites() {
               <p>Included</p>
             </div>
           </div>
-          <div className="flex flex-row bg-blue-200">
+          <div className="flex flex-row bg-gray-100">
             <div className="w-1/4">
               <p>Photos and Graphics</p>
             </div>
@@ -107,7 +107,7 @@ export default function Websites() {
               <p>Included</p>
             </div>
           </div>
-          <div className="flex flex-row bg-blue-200">
+          <div className="flex flex-row bg-gray-100">
             <div className="w-1/4">
               <p>User Login</p>
             </div>
@@ -135,7 +135,7 @@ export default function Websites() {
               <p>Options Available</p>
             </div>
           </div>
-          <div className="flex flex-row bg-blue-200">
+          <div className="flex flex-row bg-gray-100">
             <div className="w-1/4">
               <p>Appointment Scheduling</p>
             </div>
