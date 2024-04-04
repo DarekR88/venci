@@ -20,7 +20,7 @@ export default function Websites() {
       </div>
 
       <h1 className="text-5xl font-bold mb-[20px]">Plans&Pricing</h1>
-      <div className="flex mb-[50px] lg:mb-[100px]">
+      <div className="flex mb-[50px] lg:mb-[100px]"> 
         <div className="hidden text-xl gap-3 lg:flex flex-col w-full">
           <div className="flex flex-row">
             <div className="w-1/4"></div>
