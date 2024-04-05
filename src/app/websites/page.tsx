@@ -23,22 +23,25 @@ export default function Websites() {
       <div className="flex mb-[50px] lg:mb-[100px]"> 
         <div className="hidden text-xl lg:flex flex-col w-full">
           <div className="flex flex-row">
-            <div className="w-1/4 border-b-2 border-black"></div>
-            <div className="w-1/4 flex flex-col border-b-2 border-l-2 border-black p-[10px] bg-gradient-to-r from-cOne to-cTwo">
+            <div className="flex flex-col gap-2 w-1/4 border-b-2 border-black">
+              <h1 className="text-3xl w-full text-right pr-[10px]">Plans&#8594;</h1>
+              <h1 className="text-3xl pb-[10px]">Features&#8595;</h1>
+            </div>
+            <div className="w-1/4 justify-center flex flex-col border-b-2 border-l-2 border-black p-[10px] bg-gradient-to-r from-cOne to-cThree">
               <h1 className="font-bold mb-[5px]">Basic</h1>
               <p>$19.99/mo</p>
             </div>
-            <div className="w-1/4 flex flex-col border-b-2 border-l-2 border-black p-[10px] bg-gradient-to-r from-cTwo to-cThree">
+            <div className="w-1/4 justify-center flex flex-col border-b-2 border-l-2 border-black p-[10px] bg-gradient-to-r from-cThree to-cFour">
               <h1 className="font-bold mb-[5px]">Premium</h1>
               <p>Starts at: $39.99/mo</p>
             </div>
-            <div className="w-1/4 flex flex-col border-b-2 border-l-2 border-black p-[10px] bg-gradient-to-r from-cThree to-cFour">
+            <div className="w-1/4 justify-center flex flex-col border-b-2 border-l-2 border-black p-[10px] bg-gradient-to-r from-cFour to-cFive">
               <h1 className="font-bold mb-[5px]">Custom/E-commerce</h1>
               <p>Starts at: $49.99/mo</p>
             </div>
           </div>
           <div className="flex flex-row">
-            <div className="w-1/4 flex items-center h-full">
+            <div className="w-1/4 flex items-center p-[10px] h-full">
               <p>Down Payment</p>
             </div>
             <div className="w-1/4 border-l-2 border-black p-[10px]">
@@ -52,7 +55,7 @@ export default function Websites() {
             </div>
           </div>
           <div className="flex flex-row bg-gray-100">
-            <div className="w-1/4 flex items-center h-full">
+            <div className="w-1/4 flex items-center p-[10px] h-full">
               <p>Number of Pages</p>
             </div>
             <div className="w-1/4 border-l-2 border-black p-[10px]">
@@ -66,7 +69,7 @@ export default function Websites() {
             </div>
           </div>
           <div className="flex flex-row items-center">
-            <div className="w-1/4">
+            <div className="w-1/4 p-[10px]">
               <p>SEO (Search Engine Optimization)</p>
             </div>
             <div className="w-1/4 border-l-2 border-black h-full flex items-center pl-[10px]">
@@ -80,25 +83,25 @@ export default function Websites() {
             </div>
           </div>
           <div className="flex flex-row bg-gray-100">
-            <div className="w-1/4 flex items-center h-full">
+            <div className="w-1/4 p-[10px] flex items-center h-full">
               <p>Photos and Graphics</p>
             </div>
             <div className="w-1/4 border-l-2 border-black p-[10px]">
-              <p>Stock</p>
+              <p>Stock/Provided</p>
             </div>
             <div className="w-1/4 border-l-2 border-black p-[10px]">
-              <p>Professional</p>
+              <p>Professional/Provided</p>
             </div>
             <div className="w-1/4 border-l-2 border-black p-[10px]">
-              <p>Professional</p>
+              <p>Professional/Provided</p>
             </div>
           </div>
           <div className="flex flex-row items-center">
-            <div className="w-1/4">
+            <div className="w-1/4 p-[10px]">
               <p>Premium Website Design Features</p>
             </div>
             <div className="w-1/4 border-l-2 border-black h-full flex items-center pl-[10px]">
-              <p>Add on</p>
+              <p>Not Available</p>
             </div>
             <div className="w-1/4 border-l-2 border-black h-full flex items-center pl-[10px]">
               <p>Included</p>
@@ -108,7 +111,7 @@ export default function Websites() {
             </div>
           </div>
           <div className="flex flex-row bg-gray-100">
-            <div className="w-1/4 flex items-center h-full">
+            <div className="w-1/4 p-[10px] flex items-center h-full">
               <p>User Login</p>
             </div>
             <div className="w-1/4 border-l-2 border-black p-[10px]">
@@ -122,7 +125,7 @@ export default function Websites() {
             </div>
           </div>
           <div className="flex flex-row items-center">
-            <div className="w-1/4">
+            <div className="w-1/4 p-[10px]">
               <p>Online Payments/ Subscriptions</p>
             </div>
             <div className="w-1/4 border-l-2 border-black h-full flex items-center pl-[10px]">
@@ -136,7 +139,7 @@ export default function Websites() {
             </div>
           </div>
           <div className="flex flex-row bg-gray-100">
-            <div className="w-1/4 flex items-center h-full">
+            <div className="w-1/4 p-[10px] flex items-center h-full">
               <p>Appointment Scheduling</p>
             </div>
             <div className="w-1/4 border-l-2 border-black p-[10px]">
