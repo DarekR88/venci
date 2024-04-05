@@ -1,7 +1,11 @@
 import Image from "next/image";
 import { FreeConsult } from "@/components/FreeConsult";
 import trainerImg from "../../../public/images/ptss.png";
+import photoImg from "../../../public/images/photosite.png";
 import gardenImg from "../../../public/images/lsss.png";
+import restaurantImg from "../../../public/images/restaurantss.png";
+import landscapeImg from "../../../public/images/growgreen.png";
+import constructionImg from "../../../public/images/constructionss.png";
 
 export default function Websites() {
   return (
@@ -13,7 +17,7 @@ export default function Websites() {
         <p className="lg:max-w-[850px] pb-[20px] lg:pl-[10px] lg:text-2xl px-2 lg:px-0">
           Say goodbye to large upfront investments with Venci&#39;s website
           design subscription. Venci aims to make high-end website design,
-          hosting, and management accessible to every small business.
+          hosting, and management accessible to any type of small business.
         </p>
         <ul className="flex flex-col gap-[10px] m-auto text-left text-3xl list-disc">
           <li>Professional Design</li>
@@ -21,7 +25,6 @@ export default function Websites() {
           <li>Hosting and Security</li>
           <li>$0 Down, $19.99/month</li>
         </ul>
-
       </div>
 
       <h1 className="text-5xl font-bold mb-[30px]">Plans&Pricing</h1>
@@ -40,7 +43,7 @@ export default function Websites() {
             </div>
             <div className="w-1/4 justify-center flex flex-col border-b-2 border-l-2 border-black p-[10px] bg-gradient-to-r from-cThree to-cFour">
               <h1 className="font-bold mb-[5px]">Premium</h1>
-              <p>Starts at: $39.99/mo</p>
+              <p>Starts at: $19.99/mo</p>
             </div>
             <div className="w-1/4 justify-center flex flex-col border-b-2 border-l-2 border-black p-[10px] bg-gradient-to-r from-cFour to-cFive">
               <h1 className="font-bold mb-[5px]">Custom/E-commerce</h1>
@@ -176,59 +179,64 @@ export default function Websites() {
         </div>
       </div>
 
-      <div className="flex flex-col lg:mb-[100px] mb-[50px]">
-        <h1 className="font-bold text-5xl mb-[10px] px-2 lg:px-0">
-          Professional Design and SEO for $19.99/month
-        </h1>
-        <p className="text-2xl px-2 lg:px-0 pb-5">
-          At Venci, we pride ourselves on offering high-end search engine
-          optimized (SEO) websites at an unbeatable price. For just $19.99 a
-          month, our clients can enjoy the benefits of a professionally designed
-          website that ranks well on search engines, helping them attract more
-          visitors and grow their online presence.
-        </p>
-        <ul className="flex flex-col gap-[10px] m-auto text-left text-3xl list-disc">
-          <li>Professional Design</li>
-          <li>Search Engine Optimization (be Googleable)</li>
-          <li>Top Notch Security</li>
-          <li>$0 Down, $19.99/month</li>
-        </ul>
+      <h1 className="text-5xl mb-[20px] font-bold px-2 lg:px-0">Demo Gallery</h1>
+      <div className="flex flex-col lg:flex-row lg:gap-5 lg:h-[165px] lg:mb-[20px] mb-[0px]">
+        <div className="overflow-hidden w-full lg:w-1/3 bg-[#FFD700]">
+          <a
+            href="https://photographernext.vercel.app/"
+            target="_blank"
+            className="hover:opacity-50 transition-opacity duration-300"
+          >
+            <Image src={photoImg} alt="photo" />
+          </a>
+        </div>
+        <div className="overflow-hidden w-full lg:w-1/3 bg-[#FFD700]">
+          <a
+            href="https://nextpt.vercel.app/"
+            target="_blank"
+            className="hover:opacity-50 transition-opacity duration-300"
+          >
+            <Image src={trainerImg} alt="photo" />
+          </a>
+        </div>
+        <div className="overflow-hidden w-full lg:w-1/3 bg-[#FFD700]">
+          <a
+            href="https://nextlandscaping.vercel.app/"
+            target="_blank"
+            className="hover:opacity-50 transition-opacity duration-300"
+          >
+            <Image src={gardenImg} alt="photo" />
+          </a>
+        </div>
       </div>
 
-      <h1 className="text-5xl mb-[10px] font-bold px-2 lg:px-0">
-        How it Works
-      </h1>
-      <div className="flex flex-col lg:flex-row mb-[50px] lg:mb-0">
-        <p className="lg:max-w-[850px] lg:pl-[10px] lg:text-2xl lg:w-2/3 px-2 lg:pr-[50px]">
-          At Venci, we&#39;ve simplified the website design process for our
-          clients. Upon signing up, you&#39;ll gain access to our team of
-          experienced designers who will craft a beautifully designed website
-          tailored to your brand. With security handled by our experts, your
-          website is safe and protected. Our subscription model ensures
-          affordability and includes one free content update each month, keeping
-          your website fresh. Plus, we offer complimentary SEO services to
-          optimize your website for search engines and boost your online
-          visibility.
-        </p>
-        <div className="flex flex-col lg:gap-5 lg:w-1/3 lg:mb-[100px]">
-          <div className="overflow-hidden w-full lg:h-[165px] bg-blue-400">
-            <a
-              href="https://nextpt.vercel.app/"
-              target="_blank"
-              className="hover:opacity-50 transition-opacity duration-300"
-            >
-              <Image src={trainerImg} alt="photo" />
-            </a>
-          </div>
-          <div className="overflow-hidden w-full lg:h-[165px] bg-green-400">
-            <a
-              href="https://nextlandscaping.vercel.app/"
-              target="_blank"
-              className="hover:opacity-50 transition-opacity duration-300"
-            >
-              <Image src={gardenImg} alt="photo" />
-            </a>
-          </div>
+      <div className="flex flex-col lg:flex-row lg:gap-5 lg:h-[165px] lg:mb-[100px] mb-[50px]">
+        <div className="overflow-hidden w-full lg:w-1/3 bg-[#FFD700]">
+          <a
+            href="https://landscaperdemo.vercel.app/"
+            target="_blank"
+            className="hover:opacity-50 transition-opacity duration-300"
+          >
+            <Image src={landscapeImg} alt="photo" />
+          </a>
+        </div>
+        <div className="overflow-hidden w-full lg:w-1/3 bg-[#FFD700]">
+          <a
+            href="https://painterdemo.vercel.app/"
+            target="_blank"
+            className="hover:opacity-50 transition-opacity duration-300"
+          >
+            <Image src={constructionImg} alt="photo" />
+          </a>
+        </div>
+        <div className="overflow-hidden w-full lg:w-1/3 bg-[#FFD700]">
+          <a
+            href="https://restaurantnext.vercel.app/"
+            target="_blank"
+            className="hover:opacity-50 transition-opacity duration-300"
+          >
+            <Image src={restaurantImg} alt="photo" />
+          </a>
         </div>
       </div>
     </main>

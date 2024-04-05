@@ -77,7 +77,7 @@ export default function GoogleBusiness() {
         </div>
         <div className="w-full lg:w-1/2">
           <h1 className="text-2xl mb-[10px] font-bold">Premium</h1>
-          <p className="text-2xl mb-[10px]">$199/month</p>
+          <p className="text-2xl mb-[10px]">Starts at: $199/month</p>
           <ul className="list-disc list-inside text-xl">
             <li>Premium Review Management</li>
             <li>Analytics Reporting</li>
