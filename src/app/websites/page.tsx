@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Services } from "@/components/Services";
+import { FreeConsult } from "@/components/FreeConsult";
 import trainerImg from "../../../public/images/ptss.png";
 import gardenImg from "../../../public/images/lsss.png";
 
@@ -10,21 +10,28 @@ export default function Websites() {
         <h1 className="font-bold text-5xl mb-[10px] px-2 lg:px-0">
           Website Management
         </h1>
-        <p className="lg:max-w-[850px] lg:pl-[10px] lg:text-2xl px-2 lg:px-0">
+        <p className="lg:max-w-[850px] pb-[20px] lg:pl-[10px] lg:text-2xl px-2 lg:px-0">
           Say goodbye to large upfront investments with Venci&#39;s website
-          design subscription. Our flexible pricing plans allow you to get
-          started with professional website design and free SEO services without
-          breaking the bank, ensuring your online presence remains up-to-date
-          and competitive.
+          design subscription. Venci aims to make high-end website design,
+          hosting, and management accessible to every small business.
         </p>
+        <ul className="flex flex-col gap-[10px] m-auto text-left text-3xl list-disc">
+          <li>Professional Design</li>
+          <li>Search Engine Optimization (be Googleable)</li>
+          <li>Hosting and Security</li>
+          <li>$0 Down, $19.99/month</li>
+        </ul>
+        <FreeConsult />
       </div>
 
       <h1 className="text-5xl font-bold mb-[30px]">Plans&Pricing</h1>
-      <div className="flex mb-[50px] lg:mb-[100px]"> 
+      <div className="flex mb-[50px] lg:mb-[100px]">
         <div className="hidden text-xl lg:flex flex-col w-full">
           <div className="flex flex-row">
             <div className="flex flex-col gap-2 w-1/4 border-b-2 border-black">
-              <h1 className="text-3xl w-full text-right pr-[10px]">Plans&#8594;</h1>
+              <h1 className="text-3xl w-full text-right pr-[10px]">
+                Plans&#8594;
+              </h1>
               <h1 className="text-3xl pb-[10px]">Features&#8595;</h1>
             </div>
             <div className="w-1/4 justify-center flex flex-col border-b-2 border-l-2 border-black p-[10px] bg-gradient-to-r from-cOne to-cThree">
@@ -48,7 +55,7 @@ export default function Websites() {
               <p>$0</p>
             </div>
             <div className="w-1/4 border-l-2 border-black p-[10px]">
-              <p>Starts at: $500</p>
+              <p>Starts at: $300</p>
             </div>
             <div className="w-1/4 border-l-2 border-black p-[10px]">
               <p>Starts at: $1500</p>
