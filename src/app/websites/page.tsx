@@ -23,45 +23,45 @@ export default function Websites() {
       <div className="flex mb-[50px] lg:mb-[100px]"> 
         <div className="hidden text-xl lg:flex flex-col w-full">
           <div className="flex flex-row">
-            <div className="w-1/4"></div>
-            <div className="w-1/4 flex flex-col border-b-2 border-l-2 border-black pl-[5px] pb-[5px] bg-gradient-to-r from-cOne to-cTwo">
+            <div className="w-1/4 border-b-2 border-black"></div>
+            <div className="w-1/4 flex flex-col border-b-2 border-l-2 border-black p-[10px] bg-gradient-to-r from-cOne to-cTwo">
               <h1 className="font-bold mb-[5px]">Basic</h1>
               <p>$19.99/mo</p>
             </div>
-            <div className="w-1/4 flex flex-col border-b-2 border-l-2 border-black pl-[5px] pb-[5px] bg-gradient-to-r from-cTwo to-cThree">
+            <div className="w-1/4 flex flex-col border-b-2 border-l-2 border-black p-[10px] bg-gradient-to-r from-cTwo to-cThree">
               <h1 className="font-bold mb-[5px]">Premium</h1>
               <p>Starts at: $39.99/mo</p>
             </div>
-            <div className="w-1/4 flex flex-col border-b-2 border-l-2 border-black pl-[5px] pb-[5px] bg-gradient-to-r from-cThree to-cFour">
+            <div className="w-1/4 flex flex-col border-b-2 border-l-2 border-black p-[10px] bg-gradient-to-r from-cThree to-cFour">
               <h1 className="font-bold mb-[5px]">Custom/E-commerce</h1>
               <p>Starts at: $49.99/mo</p>
             </div>
           </div>
           <div className="flex flex-row">
-            <div className="w-1/4">
+            <div className="w-1/4 flex items-center h-full">
               <p>Down Payment</p>
             </div>
-            <div className="w-1/4 border-l-2 border-black pl-[5px] py-[5px]">
+            <div className="w-1/4 border-l-2 border-black p-[10px]">
               <p>$0</p>
             </div>
-            <div className="w-1/4 border-l-2 border-black pl-[5px] py-[5px]">
+            <div className="w-1/4 border-l-2 border-black p-[10px]">
               <p>Starts at: $500</p>
             </div>
-            <div className="w-1/4 border-l-2 border-black pl-[5px] py-[5px]">
+            <div className="w-1/4 border-l-2 border-black p-[10px]">
               <p>Starts at: $1500</p>
             </div>
           </div>
           <div className="flex flex-row bg-gray-100">
-            <div className="w-1/4">
+            <div className="w-1/4 flex items-center h-full">
               <p>Number of Pages</p>
             </div>
-            <div className="w-1/4">
+            <div className="w-1/4 border-l-2 border-black p-[10px]">
               <p>2</p>
             </div>
-            <div className="w-1/4">
+            <div className="w-1/4 border-l-2 border-black p-[10px]">
               <p>up to 7</p>
             </div>
-            <div className="w-1/4">
+            <div className="w-1/4 border-l-2 border-black p-[10px]">
               <p>up to 12</p>
             </div>
           </div>
@@ -69,27 +69,27 @@ export default function Websites() {
             <div className="w-1/4">
               <p>SEO (Search Engine Optimization)</p>
             </div>
-            <div className="w-1/4">
+            <div className="w-1/4 border-l-2 border-black h-full flex items-center pl-[10px]">
               <p>Included</p>
             </div>
-            <div className="w-1/4">
+            <div className="w-1/4 border-l-2 border-black h-full flex items-center pl-[10px]">
               <p>Included</p>
             </div>
-            <div className="w-1/4">
+            <div className="w-1/4 border-l-2 border-black h-full flex items-center pl-[10px]">
               <p>Included</p>
             </div>
           </div>
           <div className="flex flex-row bg-gray-100">
-            <div className="w-1/4">
+            <div className="w-1/4 flex items-center h-full">
               <p>Photos and Graphics</p>
             </div>
-            <div className="w-1/4">
+            <div className="w-1/4 border-l-2 border-black p-[10px]">
               <p>Stock</p>
             </div>
-            <div className="w-1/4">
+            <div className="w-1/4 border-l-2 border-black p-[10px]">
               <p>Professional</p>
             </div>
-            <div className="w-1/4">
+            <div className="w-1/4 border-l-2 border-black p-[10px]">
               <p>Professional</p>
             </div>
           </div>
@@ -97,27 +97,27 @@ export default function Websites() {
             <div className="w-1/4">
               <p>Premium Website Design Features</p>
             </div>
-            <div className="w-1/4">
-              <p>Not Available</p>
+            <div className="w-1/4 border-l-2 border-black h-full flex items-center pl-[10px]">
+              <p>Add on</p>
             </div>
-            <div className="w-1/4">
+            <div className="w-1/4 border-l-2 border-black h-full flex items-center pl-[10px]">
               <p>Included</p>
             </div>
-            <div className="w-1/4">
+            <div className="w-1/4 border-l-2 border-black h-full flex items-center pl-[10px]">
               <p>Included</p>
             </div>
           </div>
           <div className="flex flex-row bg-gray-100">
-            <div className="w-1/4">
+            <div className="w-1/4 flex items-center h-full">
               <p>User Login</p>
             </div>
-            <div className="w-1/4">
+            <div className="w-1/4 border-l-2 border-black p-[10px]">
               <p>Not Available</p>
             </div>
-            <div className="w-1/4">
-              <p>Not Available</p>
+            <div className="w-1/4 border-l-2 border-black p-[10px]">
+              <p>Add on</p>
             </div>
-            <div className="w-1/4">
+            <div className="w-1/4 border-l-2 border-black p-[10px]">
               <p>Options Available</p>
             </div>
           </div>
@@ -125,27 +125,27 @@ export default function Websites() {
             <div className="w-1/4">
               <p>Online Payments/ Subscriptions</p>
             </div>
-            <div className="w-1/4">
+            <div className="w-1/4 border-l-2 border-black h-full flex items-center pl-[10px]">
               <p>Not Available</p>
             </div>
-            <div className="w-1/4">
-              <p>Not Available</p>
+            <div className="w-1/4 border-l-2 border-black h-full flex items-center pl-[10px]">
+              <p>Add on</p>
             </div>
-            <div className="w-1/4">
+            <div className="w-1/4 border-l-2 border-black h-full flex items-center pl-[10px]">
               <p>Options Available</p>
             </div>
           </div>
           <div className="flex flex-row bg-gray-100">
-            <div className="w-1/4">
+            <div className="w-1/4 flex items-center h-full">
               <p>Appointment Scheduling</p>
             </div>
-            <div className="w-1/4">
+            <div className="w-1/4 border-l-2 border-black p-[10px]">
               <p>Not Available</p>
             </div>
-            <div className="w-1/4">
-              <p>Not Available</p>
+            <div className="w-1/4 border-l-2 border-black p-[10px]">
+              <p>Add on</p>
             </div>
-            <div className="w-1/4">
+            <div className="w-1/4 border-l-2 border-black p-[10px]">
               <p>Options Available</p>
             </div>
           </div>
