@@ -21,7 +21,7 @@ export default function Websites() {
           <li>Hosting and Security</li>
           <li>$0 Down, $19.99/month</li>
         </ul>
-        <FreeConsult />
+
       </div>
 
       <h1 className="text-5xl font-bold mb-[30px]">Plans&Pricing</h1>
@@ -29,10 +29,10 @@ export default function Websites() {
         <div className="hidden text-xl lg:flex flex-col w-full">
           <div className="flex flex-row">
             <div className="flex flex-col gap-2 w-1/4 border-b-2 border-black">
-              <h1 className="text-3xl w-full text-right pr-[10px]">
+              <h1 className="text-3xl font-bold w-full text-right pr-[10px]">
                 Plans&#8594;
               </h1>
-              <h1 className="text-3xl pb-[10px]">Features&#8595;</h1>
+              <h1 className="text-3xl font-bold pb-[10px]">Features&#8595;</h1>
             </div>
             <div className="w-1/4 justify-center flex flex-col border-b-2 border-l-2 border-black p-[10px] bg-gradient-to-r from-cOne to-cThree">
               <h1 className="font-bold mb-[5px]">Basic</h1>

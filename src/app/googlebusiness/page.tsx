@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 import gbusinessImg from "../../../public/images/googScreenshot.png";
 import businesspImg from "../../../public/images/businessScreenshot.png";
 
@@ -25,6 +26,7 @@ export default function GoogleBusiness() {
         </div>
       </div>
 
+
       <h1 className="text-5xl font-bold mb-[20px]">Plans&Pricing</h1>
       <div className="mb-[50px]">
         <h1 className="text-3xl font-bold mb-[20px]">Setup</h1>
@@ -47,21 +49,22 @@ export default function GoogleBusiness() {
             <h1 className="text-2xl mb-[10px] font-bold">Premium</h1>
             <p className="text-2xl mb-[20px]">Starts at: $400</p>
             <ul className="list-disc list-inside text-xl">
-              <li>Optimized Setup</li>
+              <li>Premium Setup</li>
               <li>Professional Photos</li>
               <li>Professional Graphics</li>
               <li>SEO Copy</li>
             </ul>
           </div>
         </div>
+
       </div>
 
       <h1 className="text-3xl font-bold mb-[20px]">Management</h1>
       <p className="text-xl w-full mb-[20px] lg:w-2/3">
-        Ensure your business always looks it&#39;s best with Venci&#39;s Google Business
-        Management service. Google is the &#35;1 place your business will be seen,
-        allow our talented Google Business experts to curate and manage your
-        business&#39;s best possible image.
+        Ensure your business always looks it&#39;s best with Venci&#39;s Google
+        Business Management service. Google is the &#35;1 place your business
+        will be seen, allow our talented Google Business experts to curate and
+        manage your business&#39;s best possible image.
       </p>
       <div className="flex flex-col lg:flex-row mb-[50px] lg:mb-[100px]">
         <div className="w-full lg:w-1/2">
