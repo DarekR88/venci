@@ -82,7 +82,21 @@ export default function Websites() {
               <p>Included</p>
             </div>
           </div>
-          <div className="flex flex-row bg-gray-100">
+          <div className="flex flex-row items-center bg-gray-100">
+            <div className="w-1/4 p-[10px]">
+              <p>Website Hosting</p>
+            </div>
+            <div className="w-1/4 border-l-2 border-black h-full flex items-center pl-[10px]">
+              <p>Included</p>
+            </div>
+            <div className="w-1/4 border-l-2 border-black h-full flex items-center pl-[10px]">
+              <p>Included</p>
+            </div>
+            <div className="w-1/4 border-l-2 border-black h-full flex items-center pl-[10px]">
+              <p>Included</p>
+            </div>
+          </div>
+          <div className="flex flex-row">
             <div className="w-1/4 p-[10px] flex items-center h-full">
               <p>Photos and Graphics</p>
             </div>
@@ -96,7 +110,7 @@ export default function Websites() {
               <p>Professional/Provided</p>
             </div>
           </div>
-          <div className="flex flex-row items-center">
+          <div className="flex flex-row items-center bg-gray-100">
             <div className="w-1/4 p-[10px]">
               <p>Premium Website Design Features</p>
             </div>
@@ -110,7 +124,7 @@ export default function Websites() {
               <p>Included</p>
             </div>
           </div>
-          <div className="flex flex-row bg-gray-100">
+          <div className="flex flex-row">
             <div className="w-1/4 p-[10px] flex items-center h-full">
               <p>User Login</p>
             </div>
@@ -124,7 +138,7 @@ export default function Websites() {
               <p>Options Available</p>
             </div>
           </div>
-          <div className="flex flex-row items-center">
+          <div className="flex flex-row items-center bg-gray-100">
             <div className="w-1/4 p-[10px]">
               <p>Online Payments/ Subscriptions</p>
             </div>
@@ -138,7 +152,7 @@ export default function Websites() {
               <p>Options Available</p>
             </div>
           </div>
-          <div className="flex flex-row bg-gray-100">
+          <div className="flex flex-row">
             <div className="w-1/4 p-[10px] flex items-center h-full">
               <p>Appointment Scheduling</p>
             </div>

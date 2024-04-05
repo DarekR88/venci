@@ -69,7 +69,7 @@ export default function GoogleBusiness() {
           <p className="text-2xl mb-[10px]">$19.99/month</p>
           <ul className="list-disc list-inside text-xl">
             <li>Review Management</li>
-            <li>1 Copy Update/month</li>
+            <li>Analytics Reporting</li>
           </ul>
         </div>
         <div className="w-full lg:w-1/2">
@@ -77,6 +77,7 @@ export default function GoogleBusiness() {
           <p className="text-2xl mb-[10px]">$199/month</p>
           <ul className="list-disc list-inside text-xl">
             <li>Premium Review Management</li>
+            <li>Analytics Reporting</li>
             <li>1 Professional Content Update/month</li>
           </ul>
         </div>
