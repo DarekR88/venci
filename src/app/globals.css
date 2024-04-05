@@ -6,11 +6,13 @@
 @tailwind utilities;
 
 :root {
-  --cOne: #F08080;
-  --cTwo: #F4978E;
-  --cThree: #F8AD9D;
-  --cFour: #FBC4AB;
-  --cFive: #FFDAB9;
+  --cOne: #F55C7A;
+  --cTwo: #F56C77;
+  --cThree: #F57C73;
+  --cFour: #F68C70;
+  --cFive: #F69C6D;
+  --cSix: #F6AC69;
+  --cSeven: #F6BC66;
 }
 
 body {

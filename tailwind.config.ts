@@ -14,6 +14,8 @@ const config: Config = {
         "cThree": "var(--cThree)",
         "cFour": "var(--cFour)",
         "cFive": "var(--cFive)",
+        "cSix": "var(--cSix)",
+        "cSeven": "var(--cSeven)",
       },
       fontFamily: {
         Open: ["Open Sans", "sans-serif"],

@@ -94,7 +94,7 @@ export function NavBar() {
       >
         <Link
           href={"/"}
-          className="font-Playfair flex flex-col lg:flex-row lg:justify-center tracking-widest text-xl z-0 px-3 bg-gradient-to-r from-cOne to-cFive"
+          className="font-Playfair flex flex-col lg:flex-row lg:justify-center tracking-widest text-xl z-0 px-3 bg-gradient-to-r from-cOne to-cSeven"
         >
           <p className="text-5xl font-Orbitron">
             <span>V</span>ENCI
