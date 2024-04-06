@@ -46,7 +46,7 @@ export default function Home() {
         <Link href={"/websites"}></Link>
 
         <div className="flex flex-col lg:flex-row gap-12 lg:h-[290px] lg:gap-20 w-full m-auto">
-          <div className="w-full lg:w-1/3 rounded-md border-2 border-cOne">
+          <div className="w-full lg:w-1/3 rounded-md shadow-lg border-2 border-cOne">
             <Link href={"/websites"} className="">
               <div className="flex flex-row justify-center mt-[-40px]">
                 <h1 className="text-3xl font-bold bg-white w-[250px]">
@@ -68,12 +68,12 @@ export default function Home() {
             </Link>
             <Link
               href={"/websites"}
-              className="flex w-fit mb-[-10px] font-Montserrat shadow-md italic text-center text-3xl m-auto p-[10px] bg-white border-2 border-cFive rounded-md"
+              className="flex w-fit mb-[-10px] font-Montserrat shadow-lg italic text-center text-3xl m-auto p-[10px] bg-white shadow-lg border-2 border-cFive rounded-md"
             >
               Learn More
             </Link>
           </div>
-          <div className="w-full lg:w-1/3 rounded-md border-2 border-cThree">
+          <div className="w-full lg:w-1/3 rounded-md shadow-lg border-2 border-cThree">
             <div className="flex flex-row justify-center mt-[-40px]">
               <h1 className="text-3xl font-bold bg-white w-[150px]">
                 Google Business
@@ -94,12 +94,12 @@ export default function Home() {
             </p>
             <Link
               href={"/websites"}
-              className="flex w-fit mb-[-10px] font-Montserrat shadow-md italic text-center text-3xl m-auto p-[10px] bg-white border-2 border-cTwo rounded-md"
+              className="flex w-fit mb-[-10px] font-Montserrat shadow-lg italic text-center text-3xl m-auto p-[10px] bg-white shadow-lg border-2 border-cTwo rounded-md"
             >
               Learn More
             </Link>
           </div>
-          <div className="w-full lg:w-1/3 rounded-md border-2 border-cFive">
+          <div className="w-full lg:w-1/3 rounded-md shadow-lg border-2 border-cFive">
             <div className="flex flex-row justify-center mt-[-20px]">
               <h1 className="text-3xl font-bold bg-white">Advertising</h1>
               <Image
@@ -117,7 +117,7 @@ export default function Home() {
             </p>
             <Link
               href={"/websites"}
-              className="flex w-fit mb-[-10px] font-Montserrat shadow-md italic text-center text-3xl m-auto p-[10px] bg-white border-2 border-cThree rounded-md"
+              className="flex w-fit mb-[-10px] font-Montserrat shadow-lg italic text-center text-3xl m-auto p-[10px] bg-white shadow-lg border-2 border-cThree rounded-md"
             >
               Learn More
             </Link>
@@ -129,7 +129,7 @@ export default function Home() {
         Website Demos
       </h1>
       <div className="flex flex-col lg:flex-row lg:gap-5 lg:h-[165px] lg:mb-[20px] mb-[0px]">
-        <div className="relative flex items-center overflow-hidden w-full lg:w-1/3 bg-cOne rounded-md shadow-md">
+        <div className="relative flex items-center overflow-hidden w-full lg:w-1/3 bg-cOne rounded-md shadow-lg">
           <h1 className="absolute z-20 text-3xl ml-[20px]">Sophisticated</h1>
           <a
             href="https://photographernext.vercel.app/"
@@ -139,7 +139,7 @@ export default function Home() {
             <Image src={photoImg} alt="photo" />
           </a>
         </div>
-        <div className="relative flex items-center overflow-hidden w-full lg:w-1/3 bg-cThree rounded-md shadow-md">
+        <div className="relative flex items-center overflow-hidden w-full lg:w-1/3 bg-cThree rounded-md shadow-lg">
           <h1 className="absolute z-20 font-bold text-3xl ml-[20px]">
             Impactful
           </h1>
@@ -151,7 +151,7 @@ export default function Home() {
             <Image src={trainerImg} alt="photo" />
           </a>
         </div>
-        <div className="relative flex items-center overflow-hidden w-full lg:w-1/3 bg-cFive rounded-md shadow-md">
+        <div className="relative flex items-center overflow-hidden w-full lg:w-1/3 bg-cFive rounded-md shadow-lg">
           <h1 className="absolute z-20 text-3xl ml-[20px]">Warm</h1>
           <a
             href="https://nextlandscaping.vercel.app/"

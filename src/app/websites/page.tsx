@@ -26,7 +26,7 @@ export default function Websites() {
           hosting, and management accessible to any type of small business.
         </p>
         <div className="flex flex-col lg:flex-row gap-12 lg:gap-7 w-full m-auto">
-          <div className="w-full lg:w-1/4 shadow-md rounded-md border-2 border-cOne">
+          <div className="w-full lg:w-1/4 shadow-lg rounded-md border-2 border-cOne">
             <div className="flex flex-row justify-center mt-[-40px]">
               <h1 className="text-3xl font-bold pb-[20px] pt-[20px] bg-white pr-[10px]">
                 Free SEO
@@ -40,7 +40,7 @@ export default function Websites() {
               attracting potential customers.
             </p>
           </div>
-          <div className="w-full lg:w-1/4 shadow-md rounded-md border-2 border-cThree">
+          <div className="w-full lg:w-1/4 shadow-lg rounded-md border-2 border-cThree">
             <div className="flex flex-row justify-center mt-[-40px]">
               <h1 className="text-3xl font-bold pb-[20px] pt-[20px] bg-white pr-[10px]">
                 $0 Down
@@ -60,7 +60,7 @@ export default function Websites() {
               impression.
             </p>
           </div>
-          <div className="w-full lg:w-1/4 shadow-md rounded-md border-2 border-cFive">
+          <div className="w-full lg:w-1/4 shadow-lg rounded-md border-2 border-cFive">
             <div className="flex flex-row justify-center mt-[-40px]">
               <h1 className="text-3xl font-bold bg-white w-[150px]">
                 Hosting &Security
@@ -79,7 +79,7 @@ export default function Websites() {
               accessible, and optimized for performance at all times.
             </p>
           </div>
-          <div className="w-full lg:w-1/4 shadow-md rounded-md border-2 border-cSeven">
+          <div className="w-full lg:w-1/4 shadow-lg rounded-md border-2 border-cSeven">
             <div className="flex flex-row justify-center mt-[-40px]">
               <h1 className="text-3xl font-bold bg-white w-[180px]">
                 Mobile Responsive
@@ -102,14 +102,14 @@ export default function Websites() {
         </div>
         <Link
               href={"/contact"}
-              className="flex w-fit font-Montserrat shadow-md italic font-bold text-center text-3xl m-auto p-[10px] bg-white border-2 border-cFive rounded-md mt-[30px]"
+              className="flex w-fit font-Montserrat shadow-lg italic font-bold text-center text-3xl m-auto p-[10px] bg-white border-2 border-cFive rounded-md mt-[30px]"
             >
               Free Consultation
             </Link>
       </div>
 
       <h1 className="text-5xl font-bold mb-[30px]">Plans&Pricing</h1>
-      <div className="flex mb-[50px] lg:mb-[100px] border-2 border-black rounded-md shadow-md">
+      <div className="flex mb-[50px] lg:mb-[100px] border-2 border-black rounded-md shadow-lg">
         <div className="hidden text-xl lg:flex flex-col w-full">
           <div className="flex flex-row">
             <div className="flex flex-col gap-2 w-1/4 border-b-2 border-black bg-cFive">
@@ -266,7 +266,7 @@ export default function Websites() {
         Demo Gallery
       </h1>
       <div className="flex flex-col lg:flex-row lg:gap-5 lg:h-[165px] lg:mb-[20px] mb-[0px]">
-        <div className="relative flex items-center overflow-hidden w-full lg:w-1/3 bg-cOne rounded-md shadow-md">
+        <div className="relative flex items-center overflow-hidden w-full lg:w-1/3 bg-cOne rounded-md shadow-lg">
           <h1 className="absolute z-20 text-3xl ml-[20px]">Sophisticated</h1>
           <a
             href="https://photographernext.vercel.app/"
@@ -276,7 +276,7 @@ export default function Websites() {
             <Image src={photoImg} alt="photo" />
           </a>
         </div>
-        <div className="relative flex items-center overflow-hidden w-full lg:w-1/3 bg-cThree rounded-md shadow-md">
+        <div className="relative flex items-center overflow-hidden w-full lg:w-1/3 bg-cThree rounded-md shadow-lg">
           <h1 className="absolute z-20 font-bold text-3xl ml-[20px]">
             Impactful
           </h1>
@@ -288,7 +288,7 @@ export default function Websites() {
             <Image src={trainerImg} alt="photo" />
           </a>
         </div>
-        <div className="relative flex items-center overflow-hidden w-full lg:w-1/3 bg-cFive rounded-md shadow-md">
+        <div className="relative flex items-center overflow-hidden w-full lg:w-1/3 bg-cFive rounded-md shadow-lg">
           <h1 className="absolute z-20 text-3xl ml-[20px]">Warm</h1>
           <a
             href="https://nextlandscaping.vercel.app/"
@@ -300,7 +300,7 @@ export default function Websites() {
         </div>
       </div>
       <div className="flex flex-col lg:flex-row lg:gap-5 lg:h-[165px] lg:mb-[20px] mb-[0px]">
-        <div className="relative flex items-center overflow-hidden w-full lg:w-1/3 bg-cFive rounded-md shadow-md">
+        <div className="relative flex items-center overflow-hidden w-full lg:w-1/3 bg-cFive rounded-md shadow-lg">
           <h1 className="absolute z-20 text-3xl ml-[20px]">Informative</h1>
           <a
             href="https://photographernext.vercel.app/"
@@ -310,7 +310,7 @@ export default function Websites() {
             <Image src={landscapeImg} alt="photo" />
           </a>
         </div>
-        <div className="relative flex items-center overflow-hidden w-full lg:w-1/3 bg-cFour rounded-md shadow-md">
+        <div className="relative flex items-center overflow-hidden w-full lg:w-1/3 bg-cFour rounded-md shadow-lg">
           <h1 className="absolute z-20 font-bold text-3xl ml-[20px]">
             Professional
           </h1>
@@ -322,7 +322,7 @@ export default function Websites() {
             <Image src={constructionImg} alt="photo" />
           </a>
         </div>
-        <div className="relative flex items-center overflow-hidden w-full lg:w-1/3 bg-cTwo rounded-md shadow-md">
+        <div className="relative flex items-center overflow-hidden w-full lg:w-1/3 bg-cTwo rounded-md shadow-lg">
           <h1 className="absolute z-20 text-3xl ml-[20px]">Elegant</h1>
           <a
             href="https://nextlandscaping.vercel.app/"
