@@ -25,7 +25,7 @@ export default function Websites() {
           design subscription. Venci aims to make high-end website design,
           hosting, and management accessible to any type of small business.
         </p>
-        <div className="flex flex-col lg:flex-row gap-12 lg:gap-7 w-full m-auto">
+        <div className="flex flex-col lg:flex-row gap-20 lg:gap-7 w-full m-auto">
           <div className="w-full lg:w-1/4 shadow-lg rounded-md border-2 border-cOne">
             <div className="flex flex-row justify-center mt-[-40px]">
               <h1 className="text-3xl font-bold pb-[20px] pt-[20px] bg-white pr-[10px]">
@@ -102,7 +102,7 @@ export default function Websites() {
         </div>
         <Link
               href={"/contact"}
-              className="flex w-fit font-Montserrat shadow-lg italic font-bold text-center text-3xl m-auto p-[10px] bg-white border-2 border-cFive rounded-md mt-[30px]"
+              className="flex w-fit font-Montserrat shadow-lg italic font-bold text-center text-3xl m-auto p-[10px] bg-white border-2 border-cFive rounded-md mt-[30px] hover:bg-cFive hover:border-transparent hover:scale-105 transition-all duration-300"
             >
               Free Consultation
             </Link>
