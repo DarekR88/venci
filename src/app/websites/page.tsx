@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import trainerImg from "../../../public/images/ptss.png";
 import photoImg from "../../../public/images/photosite.png";
 import gardenImg from "../../../public/images/lsss.png";
@@ -10,6 +11,7 @@ import SEOIcon from "../../../public/icons/seo-svgrepo-com.svg";
 import pyramidIcon from "../../../public/icons/pyramidA rotated.svg";
 import shieldIcon from "../../../public/icons/shield-alt-svgrepo-com.svg";
 import mobileIcon from "../../../public/icons/mobile-svgrepo-com.svg";
+
 
 export default function Websites() {
   return (
@@ -24,7 +26,7 @@ export default function Websites() {
           hosting, and management accessible to any type of small business.
         </p>
         <div className="flex flex-col lg:flex-row gap-12 lg:gap-7 w-full m-auto">
-          <div className="w-full lg:w-1/4 rounded-md border-2 border-cOne">
+          <div className="w-full lg:w-1/4 shadow-md rounded-md border-2 border-cOne">
             <div className="flex flex-row justify-center mt-[-40px]">
               <h1 className="text-3xl font-bold pb-[20px] pt-[20px] bg-white pr-[10px]">
                 Free SEO
@@ -38,7 +40,7 @@ export default function Websites() {
               attracting potential customers.
             </p>
           </div>
-          <div className="w-full lg:w-1/4 rounded-md border-2 border-cThree">
+          <div className="w-full lg:w-1/4 shadow-md rounded-md border-2 border-cThree">
             <div className="flex flex-row justify-center mt-[-40px]">
               <h1 className="text-3xl font-bold pb-[20px] pt-[20px] bg-white pr-[10px]">
                 $0 Down
@@ -58,7 +60,7 @@ export default function Websites() {
               impression.
             </p>
           </div>
-          <div className="w-full lg:w-1/4 rounded-md border-2 border-cFive">
+          <div className="w-full lg:w-1/4 shadow-md rounded-md border-2 border-cFive">
             <div className="flex flex-row justify-center mt-[-40px]">
               <h1 className="text-3xl font-bold bg-white w-[150px]">
                 Hosting &Security
@@ -77,7 +79,7 @@ export default function Websites() {
               accessible, and optimized for performance at all times.
             </p>
           </div>
-          <div className="w-full lg:w-1/4 rounded-md border-2 border-cSeven">
+          <div className="w-full lg:w-1/4 shadow-md rounded-md border-2 border-cSeven">
             <div className="flex flex-row justify-center mt-[-40px]">
               <h1 className="text-3xl font-bold bg-white w-[180px]">
                 Mobile Responsive
@@ -98,6 +100,12 @@ export default function Websites() {
             </p>
           </div>
         </div>
+        <Link
+              href={"/contact"}
+              className="flex w-fit font-Montserrat shadow-md italic font-bold text-center text-3xl m-auto p-[10px] bg-white border-2 border-cFive rounded-md mt-[30px]"
+            >
+              Free Consultation
+            </Link>
       </div>
 
       <h1 className="text-5xl font-bold mb-[30px]">Plans&Pricing</h1>

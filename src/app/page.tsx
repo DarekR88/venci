@@ -43,29 +43,39 @@ export default function Home() {
           Our Services
         </h1>
 
-        <div className="flex flex-col lg:flex-row gap-12 lg:gap-20 w-full m-auto">
+        <Link href={"/websites"}></Link>
+
+        <div className="flex flex-col lg:flex-row gap-12 lg:h-[290px] lg:gap-20 w-full m-auto">
           <div className="w-full lg:w-1/3 rounded-md border-2 border-cOne">
-            <div className="flex flex-row justify-center mt-[-40px]">
-              <h1 className="text-3xl font-bold bg-white w-[250px]">
-                Website Design &Management
-              </h1>
-              <Image
-                src={logoIcon}
-                alt="tool"
-                width={50}
-                className="bg-white"
-              />
-            </div>
-            <p className="px-5 pt-[10px] pb-[20px]">
-              With Google being the top platform for discovering new businesses,
-              our FREE SEO (Search Engine Optimization) services guarantee your
-              presence in relevant searches, maximizing your visibility and
-              attracting potential customers.
-            </p>
+            <Link href={"/websites"} className="">
+              <div className="flex flex-row justify-center mt-[-40px]">
+                <h1 className="text-3xl font-bold bg-white w-[250px]">
+                  Website Design &Management
+                </h1>
+                <Image
+                  src={logoIcon}
+                  alt="tool"
+                  width={50}
+                  className="bg-white"
+                />
+              </div>
+              <p className="px-5 pt-[10px] pb-[20px] h-[225px]">
+                With Google being the top platform for discovering new
+                businesses, our FREE SEO (Search Engine Optimization) services
+                guarantee your presence in relevant searches, maximizing your
+                visibility and attracting potential customers.
+              </p>
+            </Link>
+            <Link
+              href={"/websites"}
+              className="flex w-fit mb-[-10px] font-Montserrat shadow-md italic text-center text-3xl m-auto p-[10px] bg-white border-2 border-cFive rounded-md"
+            >
+              Learn More
+            </Link>
           </div>
           <div className="w-full lg:w-1/3 rounded-md border-2 border-cThree">
             <div className="flex flex-row justify-center mt-[-40px]">
-            <h1 className="text-3xl font-bold bg-white w-[150px]">
+              <h1 className="text-3xl font-bold bg-white w-[150px]">
                 Google Business
               </h1>
               <Image
@@ -82,12 +92,16 @@ export default function Home() {
               apart from the crowd, ensuring visibility and making a lasting
               impression.
             </p>
+            <Link
+              href={"/websites"}
+              className="flex w-fit mb-[-10px] font-Montserrat shadow-md italic text-center text-3xl m-auto p-[10px] bg-white border-2 border-cTwo rounded-md"
+            >
+              Learn More
+            </Link>
           </div>
           <div className="w-full lg:w-1/3 rounded-md border-2 border-cFive">
             <div className="flex flex-row justify-center mt-[-20px]">
-              <h1 className="text-3xl font-bold bg-white">
-                Advertising
-              </h1>
+              <h1 className="text-3xl font-bold bg-white">Advertising</h1>
               <Image
                 src={adIcon}
                 alt="tool"
@@ -95,12 +109,18 @@ export default function Home() {
                 className="bg-white mt-[-20px]"
               />
             </div>
-            <p className="px-5 pt-[10px] pb-[20px]">
+            <p className="px-5 pt-[10px] pb-[20px] h-[225px]">
               Our comprehensive hosting and security services streamline website
               management. For just $19.99 a month, we handle maintenance,
               monitoring, and analytics, ensuring your site remains secure,
               accessible, and optimized for performance at all times.
             </p>
+            <Link
+              href={"/websites"}
+              className="flex w-fit mb-[-10px] font-Montserrat shadow-md italic text-center text-3xl m-auto p-[10px] bg-white border-2 border-cThree rounded-md"
+            >
+              Learn More
+            </Link>
           </div>
         </div>
       </div>
