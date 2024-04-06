@@ -36,15 +36,15 @@ export default function Websites() {
               </h1>
               <h1 className="text-3xl font-bold pb-[10px]">Features&#8595;</h1>
             </div>
-            <div className="w-1/4 justify-center flex flex-col border-b-2 border-l-2 border-black p-[10px] bg-gradient-to-r from-cOne to-cThree">
+            <div className="w-1/4 justify-center flex flex-col border-b-2 border-l-2 border-black p-[10px] bg-cTwo">
               <h1 className="font-bold mb-[5px]">Basic</h1>
               <p>$19.99/mo</p>
             </div>
-            <div className="w-1/4 justify-center flex flex-col border-b-2 border-l-2 border-black p-[10px] bg-gradient-to-r from-cThree to-cFive">
+            <div className="w-1/4 justify-center flex flex-col border-b-2 border-l-2 border-black p-[10px] bg-cFour">
               <h1 className="font-bold mb-[5px]">Premium</h1>
               <p>Starts at: $19.99/mo</p>
             </div>
-            <div className="w-1/4 justify-center flex flex-col border-b-2 border-l-2 border-black p-[10px] bg-gradient-to-r from-cFive to-cSeven">
+            <div className="w-1/4 justify-center flex flex-col border-b-2 border-l-2 border-black p-[10px] bg-cSeven">
               <h1 className="font-bold mb-[5px]">Custom/E-commerce</h1>
               <p>Starts at: $49.99/mo</p>
             </div>
