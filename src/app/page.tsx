@@ -8,6 +8,8 @@ import restaurantImg from "../../public/images/restaurantss.png";
 import landscapeImg from "../../public/images/growgreen.png";
 import constructionImg from "../../public/images/constructionss.png";
 import logoIcon from "../../public/icons/pyramidA rotated.svg";
+import googleIcon from "../../public/icons/google-chrome-svgrepo-com.svg";
+import adIcon from "../../public/icons/advertising-expense-svgrepo-com.svg";
 
 export default function Home() {
   return (
@@ -26,28 +28,81 @@ export default function Home() {
             audience effectively.
           </p>
           <div className="hidden lg:flex">
-            <Image src={logoIcon} alt="pyramid" height={200} />
+            <Image
+              src={logoIcon}
+              alt="pyramid"
+              height={200}
+              className="mt-[-50px]"
+            />
           </div>
         </div>
       </div>
 
       <div className="flex flex-col lg:mb-[100px] mb-[50px]">
-        <h1 className="font-bold text-5xl mb-[10px] px-2 lg:px-0">
-          Professional Design and SEO for $19.99/month
+        <h1 className="font-bold text-5xl pb-[50px] mb-[20px] px-2 lg:px-0">
+          Our Services
         </h1>
-        <p className="text-2xl px-2 lg:px-0 pb-5">
-          At Venci, we pride ourselves on offering high-end search engine
-          optimized (SEO) websites at an unbeatable price. For just $19.99 a
-          month, our clients can enjoy the benefits of a professionally designed
-          website that ranks well on search engines, helping them attract more
-          visitors and grow their online presence.
-        </p>
-        <ul className="flex flex-col gap-[10px] m-auto text-left text-3xl list-disc">
-          <li>Professional Design</li>
-          <li>Search Engine Optimization (be Googleable)</li>
-          <li>Hosting and Security</li>
-          <li>$0 Down, $19.99/month</li>
-        </ul>
+
+        <div className="flex flex-col lg:flex-row gap-12 lg:gap-20 w-full m-auto">
+          <div className="w-full lg:w-1/3 rounded-md border-2 border-cOne">
+            <div className="flex flex-row justify-center mt-[-40px]">
+              <h1 className="text-3xl font-bold bg-white w-[250px]">
+                Website Design &Management
+              </h1>
+              <Image
+                src={logoIcon}
+                alt="tool"
+                width={50}
+                className="bg-white"
+              />
+            </div>
+            <p className="px-5 pt-[10px] pb-[20px]">
+              With Google being the top platform for discovering new businesses,
+              our FREE SEO (Search Engine Optimization) services guarantee your
+              presence in relevant searches, maximizing your visibility and
+              attracting potential customers.
+            </p>
+          </div>
+          <div className="w-full lg:w-1/3 rounded-md border-2 border-cThree">
+            <div className="flex flex-row justify-center mt-[-40px]">
+            <h1 className="text-3xl font-bold bg-white w-[150px]">
+                Google Business
+              </h1>
+              <Image
+                src={googleIcon}
+                alt="tool"
+                width={60}
+                className="bg-white"
+              />
+            </div>
+            <p className="px-5 pb-[20px] pt-[10px]">
+              Standing out online is key to staying ahead of the competition.
+              With our affordable plan of $0 down and just $19.99 a month,
+              you'll get a uniquely designed website that sets your company
+              apart from the crowd, ensuring visibility and making a lasting
+              impression.
+            </p>
+          </div>
+          <div className="w-full lg:w-1/3 rounded-md border-2 border-cFive">
+            <div className="flex flex-row justify-center mt-[-20px]">
+              <h1 className="text-3xl font-bold bg-white">
+                Advertising
+              </h1>
+              <Image
+                src={adIcon}
+                alt="tool"
+                width={70}
+                className="bg-white mt-[-20px]"
+              />
+            </div>
+            <p className="px-5 pt-[10px] pb-[20px]">
+              Our comprehensive hosting and security services streamline website
+              management. For just $19.99 a month, we handle maintenance,
+              monitoring, and analytics, ensuring your site remains secure,
+              accessible, and optimized for performance at all times.
+            </p>
+          </div>
+        </div>
       </div>
 
       <h1 className="text-5xl mb-[20px] font-bold px-2 lg:px-0">
