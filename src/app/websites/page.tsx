@@ -5,6 +5,11 @@ import gardenImg from "../../../public/images/lsss.png";
 import restaurantImg from "../../../public/images/restaurantss.png";
 import landscapeImg from "../../../public/images/growgreen.png";
 import constructionImg from "../../../public/images/constructionss.png";
+import toolIcon from "../../../public/icons/tool-svgrepo-com.svg";
+import SEOIcon from "../../../public/icons/seo-svgrepo-com.svg";
+import pyramidIcon from "../../../public/icons/pyramidA.svg";
+import shieldIcon from "../../../public/icons/shield-alt-svgrepo-com.svg";
+import mobileIcon from "../../../public/icons/mobile-svgrepo-com.svg";
 
 export default function Websites() {
   return (
@@ -13,17 +18,64 @@ export default function Websites() {
         <h1 className="font-bold text-5xl mb-[10px] px-2 lg:px-0">
           Website Management
         </h1>
-        <p className="lg:max-w-[850px] pb-[20px] lg:pl-[10px] lg:text-2xl px-2 lg:px-0">
+        <p className="lg:max-w-[850px] pb-[50px] lg:pl-[10px] lg:text-2xl px-2 lg:px-0">
           Say goodbye to large upfront investments with Venci&#39;s website
           design subscription. Venci aims to make high-end website design,
           hosting, and management accessible to any type of small business.
         </p>
-        <ul className="flex flex-col gap-[10px] m-auto text-left text-3xl list-disc">
-          <li>Professional Design</li>
-          <li>Search Engine Optimization (be Googleable)</li>
-          <li>Hosting and Security</li>
-          <li>$0 Down, $19.99/month</li>
-        </ul>
+        <div className="flex flex-col lg:flex-row lg:gap-7 w-full m-auto">
+          <div className="w-1/4 rounded-md border-2 border-cOne">
+            <div className="flex flex-row justify-center mt-[-40px]">
+              <h1 className="text-3xl font-bold pb-[20px] pt-[20px] bg-white pr-[10px]">
+                Free SEO
+              </h1>
+              <Image src={SEOIcon} alt="tool" width={50} className="bg-white" />
+            </div>
+            <p className="py-3 text-xl"></p>
+          </div>
+          <div className="w-1/4 rounded-md border-2 border-cThree">
+            <div className="flex flex-row justify-center mt-[-40px]">
+              <h1 className="text-3xl font-bold pb-[20px] pt-[20px] bg-white pr-[10px]">
+                $0 Down
+              </h1>
+              <Image
+                src={pyramidIcon}
+                alt="tool"
+                width={40}
+                className="bg-white transform rotate-180"
+              />
+            </div>
+            <p className="py-3 text-xl"></p>
+          </div>
+          <div className="w-1/4 rounded-md border-2 border-cFive">
+            <div className="flex flex-row justify-center mt-[-40px]">
+              <h1 className="text-3xl font-bold bg-white w-[150px]">
+                Hosting& Security
+              </h1>
+              <Image
+                src={shieldIcon}
+                alt="tool"
+                width={50}
+                className="bg-white"
+              />
+            </div>
+            <p className="py-3 text-xl"></p>
+          </div>
+          <div className="w-1/4 rounded-md border-2 border-cSeven">
+            <div className="flex flex-row justify-center mt-[-40px]">
+              <h1 className="text-3xl font-bold bg-white w-[180px]">
+                Mobile Responsive
+              </h1>
+              <Image
+                src={mobileIcon}
+                alt="tool"
+                width={50}
+                className="bg-white"
+              />
+            </div>
+            <p className="py-3 text-xl"></p>
+          </div>
+        </div>
       </div>
 
       <h1 className="text-5xl font-bold mb-[30px]">Plans&Pricing</h1>
@@ -178,49 +230,77 @@ export default function Websites() {
         </div>
       </div>
 
-      <h1 className="text-5xl mb-[20px] font-bold px-2 lg:px-0">Demo Gallery</h1>
+      <h1 className="text-5xl mb-[20px] font-bold px-2 lg:px-0">
+        Demo Gallery
+      </h1>
       <div className="flex flex-col lg:flex-row lg:gap-5 lg:h-[165px] lg:mb-[20px] mb-[0px]">
         <div className="relative flex items-center overflow-hidden w-full lg:w-1/3 bg-cOne rounded-md shadow-md">
-          <h1 className='absolute z-20 text-3xl ml-[20px]'>Sophisticated</h1>
-          <a href="https://photographernext.vercel.app/" target="_blank" className='relative z-50 hover:opacity-0 transition-opacity duration-300'>
+          <h1 className="absolute z-20 text-3xl ml-[20px]">Sophisticated</h1>
+          <a
+            href="https://photographernext.vercel.app/"
+            target="_blank"
+            className="relative z-50 hover:opacity-0 transition-opacity duration-300"
+          >
             <Image src={photoImg} alt="photo" />
           </a>
         </div>
         <div className="relative flex items-center overflow-hidden w-full lg:w-1/3 bg-cThree rounded-md shadow-md">
-        <h1 className='absolute z-20 font-bold text-3xl ml-[20px]'>Impactful</h1>
-          <a href="https://nextpt.vercel.app/" target="_blank" className='relative z-50 hover:opacity-0 transition-opacity duration-300'>
+          <h1 className="absolute z-20 font-bold text-3xl ml-[20px]">
+            Impactful
+          </h1>
+          <a
+            href="https://nextpt.vercel.app/"
+            target="_blank"
+            className="relative z-50 hover:opacity-0 transition-opacity duration-300"
+          >
             <Image src={trainerImg} alt="photo" />
           </a>
         </div>
         <div className="relative flex items-center overflow-hidden w-full lg:w-1/3 bg-cFive rounded-md shadow-md">
-        <h1 className='absolute z-20 text-3xl ml-[20px]'>Warm</h1>
-          <a href="https://nextlandscaping.vercel.app/" target="_blank" className='relative z-50 hover:opacity-0 transition-opacity duration-300'>
+          <h1 className="absolute z-20 text-3xl ml-[20px]">Warm</h1>
+          <a
+            href="https://nextlandscaping.vercel.app/"
+            target="_blank"
+            className="relative z-50 hover:opacity-0 transition-opacity duration-300"
+          >
             <Image src={gardenImg} alt="photo" />
           </a>
         </div>
       </div>
       <div className="flex flex-col lg:flex-row lg:gap-5 lg:h-[165px] lg:mb-[20px] mb-[0px]">
         <div className="relative flex items-center overflow-hidden w-full lg:w-1/3 bg-cFive rounded-md shadow-md">
-          <h1 className='absolute z-20 text-3xl ml-[20px]'>Informative</h1>
-          <a href="https://photographernext.vercel.app/" target="_blank" className='relative z-50 hover:opacity-0 transition-opacity duration-300'>
+          <h1 className="absolute z-20 text-3xl ml-[20px]">Informative</h1>
+          <a
+            href="https://photographernext.vercel.app/"
+            target="_blank"
+            className="relative z-50 hover:opacity-0 transition-opacity duration-300"
+          >
             <Image src={landscapeImg} alt="photo" />
           </a>
         </div>
         <div className="relative flex items-center overflow-hidden w-full lg:w-1/3 bg-cFour rounded-md shadow-md">
-        <h1 className='absolute z-20 font-bold text-3xl ml-[20px]'>Professional</h1>
-          <a href="https://nextpt.vercel.app/" target="_blank" className='relative z-50 hover:opacity-0 transition-opacity duration-300'>
+          <h1 className="absolute z-20 font-bold text-3xl ml-[20px]">
+            Professional
+          </h1>
+          <a
+            href="https://nextpt.vercel.app/"
+            target="_blank"
+            className="relative z-50 hover:opacity-0 transition-opacity duration-300"
+          >
             <Image src={constructionImg} alt="photo" />
           </a>
         </div>
         <div className="relative flex items-center overflow-hidden w-full lg:w-1/3 bg-cTwo rounded-md shadow-md">
-        <h1 className='absolute z-20 text-3xl ml-[20px]'>Elegant</h1>
-          <a href="https://nextlandscaping.vercel.app/" target="_blank" className='relative z-50 hover:opacity-0 transition-opacity duration-300'>
+          <h1 className="absolute z-20 text-3xl ml-[20px]">Elegant</h1>
+          <a
+            href="https://nextlandscaping.vercel.app/"
+            target="_blank"
+            className="relative z-50 hover:opacity-0 transition-opacity duration-300"
+          >
             <Image src={restaurantImg} alt="photo" />
           </a>
         </div>
       </div>
-
-
     </main>
   );
 }
