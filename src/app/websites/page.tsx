@@ -7,7 +7,7 @@ import landscapeImg from "../../../public/images/growgreen.png";
 import constructionImg from "../../../public/images/constructionss.png";
 import toolIcon from "../../../public/icons/tool-svgrepo-com.svg";
 import SEOIcon from "../../../public/icons/seo-svgrepo-com.svg";
-import pyramidIcon from "../../../public/icons/pyramidA.svg";
+import pyramidIcon from "../../../public/icons/pyramidA rotated.svg";
 import shieldIcon from "../../../public/icons/shield-alt-svgrepo-com.svg";
 import mobileIcon from "../../../public/icons/mobile-svgrepo-com.svg";
 
@@ -31,7 +31,12 @@ export default function Websites() {
               </h1>
               <Image src={SEOIcon} alt="tool" width={50} className="bg-white" />
             </div>
-            <p className="py-3 text-xl"></p>
+            <p className="px-5 pb-[20px]">
+              With Google being the top platform for discovering new businesses,
+              our FREE SEO (Search Engine Optimization) services guarantee your
+              presence in relevant searches, maximizing your visibility and
+              attracting potential customers.
+            </p>
           </div>
           <div className="w-1/4 rounded-md border-2 border-cThree">
             <div className="flex flex-row justify-center mt-[-40px]">
@@ -42,15 +47,21 @@ export default function Websites() {
                 src={pyramidIcon}
                 alt="tool"
                 width={40}
-                className="bg-white transform rotate-180"
+                className="bg-white"
               />
             </div>
-            <p className="py-3 text-xl"></p>
+            <p className="px-5 pb-[20px]">
+              Standing out online is key to staying ahead of the competition.
+              With our affordable plan of $0 down and just $19.99 a month,
+              you'll get a uniquely designed website that sets your company
+              apart from the crowd, ensuring visibility and making a lasting
+              impression.
+            </p>
           </div>
           <div className="w-1/4 rounded-md border-2 border-cFive">
             <div className="flex flex-row justify-center mt-[-40px]">
               <h1 className="text-3xl font-bold bg-white w-[150px]">
-                Hosting& Security
+                Hosting &Security
               </h1>
               <Image
                 src={shieldIcon}
@@ -59,7 +70,12 @@ export default function Websites() {
                 className="bg-white"
               />
             </div>
-            <p className="py-3 text-xl"></p>
+            <p className="px-5 pt-[10px] pb-[20px]">
+              Our comprehensive hosting and security services streamline website
+              management. For just $19.99 a month, we handle maintenance,
+              monitoring, and analytics, ensuring your site remains secure,
+              accessible, and optimized for performance at all times.
+            </p>
           </div>
           <div className="w-1/4 rounded-md border-2 border-cSeven">
             <div className="flex flex-row justify-center mt-[-40px]">
@@ -73,20 +89,28 @@ export default function Websites() {
                 className="bg-white"
               />
             </div>
-            <p className="py-3 text-xl"></p>
+            <p className="px-5 pt-[10px] pb-[20px]">
+              With over 60&#37; of internet traffic originating from mobile
+              devices, it's crucial that your website is optimized for mobile
+              viewing. Our experts specialize in mobile responsiveness,
+              guaranteeing that your site will look exceptional on any device,
+              ensuring a seamless experience for your visitors.
+            </p>
           </div>
         </div>
       </div>
 
       <h1 className="text-5xl font-bold mb-[30px]">Plans&Pricing</h1>
-      <div className="flex mb-[50px] lg:mb-[100px]">
+      <div className="flex mb-[50px] lg:mb-[100px] border-2 border-black rounded-md shadow-md">
         <div className="hidden text-xl lg:flex flex-col w-full">
           <div className="flex flex-row">
-            <div className="flex flex-col gap-2 w-1/4 border-b-2 border-black">
-              <h1 className="text-3xl font-bold w-full text-right pr-[10px]">
+            <div className="flex flex-col gap-2 w-1/4 border-b-2 border-black bg-cFive">
+              <h1 className="text-3xl font-bold w-full text-right pr-[10px] pt-[10px]">
                 Plans&#8594;
               </h1>
-              <h1 className="text-3xl font-bold pb-[10px]">Features&#8595;</h1>
+              <h1 className="text-3xl font-bold pb-[10px] pl-[10px]">
+                Features&#8595;
+              </h1>
             </div>
             <div className="w-1/4 justify-center flex flex-col border-b-2 border-l-2 border-black p-[10px] bg-cTwo">
               <h1 className="font-bold mb-[5px]">Basic</h1>
