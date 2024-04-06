@@ -23,8 +23,8 @@ export default function Websites() {
           design subscription. Venci aims to make high-end website design,
           hosting, and management accessible to any type of small business.
         </p>
-        <div className="flex flex-col lg:flex-row lg:gap-7 w-full m-auto">
-          <div className="w-1/4 rounded-md border-2 border-cOne">
+        <div className="flex flex-col lg:flex-row gap-12 lg:gap-7 w-full m-auto">
+          <div className="w-full lg:w-1/4 rounded-md border-2 border-cOne">
             <div className="flex flex-row justify-center mt-[-40px]">
               <h1 className="text-3xl font-bold pb-[20px] pt-[20px] bg-white pr-[10px]">
                 Free SEO
@@ -38,7 +38,7 @@ export default function Websites() {
               attracting potential customers.
             </p>
           </div>
-          <div className="w-1/4 rounded-md border-2 border-cThree">
+          <div className="w-full lg:w-1/4 rounded-md border-2 border-cThree">
             <div className="flex flex-row justify-center mt-[-40px]">
               <h1 className="text-3xl font-bold pb-[20px] pt-[20px] bg-white pr-[10px]">
                 $0 Down
@@ -58,7 +58,7 @@ export default function Websites() {
               impression.
             </p>
           </div>
-          <div className="w-1/4 rounded-md border-2 border-cFive">
+          <div className="w-full lg:w-1/4 rounded-md border-2 border-cFive">
             <div className="flex flex-row justify-center mt-[-40px]">
               <h1 className="text-3xl font-bold bg-white w-[150px]">
                 Hosting &Security
@@ -77,7 +77,7 @@ export default function Websites() {
               accessible, and optimized for performance at all times.
             </p>
           </div>
-          <div className="w-1/4 rounded-md border-2 border-cSeven">
+          <div className="w-full lg:w-1/4 rounded-md border-2 border-cSeven">
             <div className="flex flex-row justify-center mt-[-40px]">
               <h1 className="text-3xl font-bold bg-white w-[180px]">
                 Mobile Responsive
