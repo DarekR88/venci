@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { FreeConsult } from "@/components/FreeConsult";
 import trainerImg from "../../../public/images/ptss.png";
 import photoImg from "../../../public/images/photosite.png";
 import gardenImg from "../../../public/images/lsss.png";
@@ -41,11 +40,11 @@ export default function Websites() {
               <h1 className="font-bold mb-[5px]">Basic</h1>
               <p>$19.99/mo</p>
             </div>
-            <div className="w-1/4 justify-center flex flex-col border-b-2 border-l-2 border-black p-[10px] bg-gradient-to-r from-cThree to-cFour">
+            <div className="w-1/4 justify-center flex flex-col border-b-2 border-l-2 border-black p-[10px] bg-gradient-to-r from-cThree to-cFive">
               <h1 className="font-bold mb-[5px]">Premium</h1>
               <p>Starts at: $19.99/mo</p>
             </div>
-            <div className="w-1/4 justify-center flex flex-col border-b-2 border-l-2 border-black p-[10px] bg-gradient-to-r from-cFour to-cFive">
+            <div className="w-1/4 justify-center flex flex-col border-b-2 border-l-2 border-black p-[10px] bg-gradient-to-r from-cFive to-cSeven">
               <h1 className="font-bold mb-[5px]">Custom/E-commerce</h1>
               <p>Starts at: $49.99/mo</p>
             </div>
