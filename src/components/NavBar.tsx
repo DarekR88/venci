@@ -10,6 +10,7 @@ import FacebookIcon from "../../public/icons/facebook-svgrepo-com.svg";
 import InstaIcon from "../../public/icons/instagram-svgrepo-com.svg";
 import TiktokIcon from "../../public/icons/tiktok-logo-4512.svg";
 import PhoneSvg from "../../public/icons/phone-svgrepo-com.svg";
+import logoIcon from "../../public/icons/pyramidA rotated.svg";
 
 export function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -96,12 +97,14 @@ export function NavBar() {
           href={"/"}
           className="font-Playfair flex flex-col lg:flex-row lg:justify-center tracking-widest text-xl z-0 px-3 bg-gradient-to-r from-cOne to-cSeven"
         >
-          <p className="text-5xl font-Orbitron">
-            <span>V</span>ENCI
+          <p className="flex flex-row text-5xl py-[3px] font-Orbitron">
+            <span>
+              <Image src={logoIcon} alt="logo" height={35} className="pt-[7px]" />
+              </span>ENCI
           </p>
-          <div className="flex flex-col">
+          <div className="hidden lg:flex flex-col ">
             <p className="text-base lg:mt-auto">Websites</p>
-            <p className="text-base lg:mt-auto">
+            <p className="text-base lg:mb-auto">
               <span>&</span>Advertising
             </p>
           </div>
