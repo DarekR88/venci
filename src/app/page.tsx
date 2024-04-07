@@ -88,7 +88,7 @@ export default function Home() {
             <p className="px-5 pb-[20px] pt-[10px]">
               Standing out online is key to staying ahead of the competition.
               With our affordable plan of $0 down and just $19.99 a month,
-              you'll get a uniquely designed website that sets your company
+              you&#39;ll get a uniquely designed website that sets your company
               apart from the crowd, ensuring visibility and making a lasting
               impression.
             </p>

@@ -12,7 +12,6 @@ import pyramidIcon from "../../../public/icons/pyramidA rotated.svg";
 import shieldIcon from "../../../public/icons/shield-alt-svgrepo-com.svg";
 import mobileIcon from "../../../public/icons/mobile-svgrepo-com.svg";
 
-
 export default function Websites() {
   return (
     <main className="lg:max-w-[1200px] m-auto lg:pt-[162px]">
@@ -55,7 +54,7 @@ export default function Websites() {
             <p className="px-5 pb-[20px]">
               Standing out online is key to staying ahead of the competition.
               With our affordable plan of $0 down and just $19.99 a month,
-              you'll get a uniquely designed website that sets your company
+              you&#39;ll get a uniquely designed website that sets your company
               apart from the crowd, ensuring visibility and making a lasting
               impression.
             </p>
@@ -93,7 +92,7 @@ export default function Websites() {
             </div>
             <p className="px-5 pt-[10px] pb-[20px]">
               With over 60&#37; of internet traffic originating from mobile
-              devices, it's crucial that your website is optimized for mobile
+              devices, it&#39;s crucial that your website is optimized for mobile
               viewing. Our experts specialize in mobile responsiveness,
               guaranteeing that your site will look exceptional on any device,
               ensuring a seamless experience for your visitors.
@@ -101,11 +100,11 @@ export default function Websites() {
           </div>
         </div>
         <Link
-              href={"/contact"}
-              className="flex w-fit font-Montserrat shadow-xl italic font-bold text-center text-3xl m-auto p-[10px] bg-white border-2 border-cFive rounded-md mt-[30px] hover:bg-cFive hover:border-transparent hover:shadow-none hover:scale-105 transition-all duration-300"
-            >
-              Free Consultation
-            </Link>
+          href={"/contact"}
+          className="flex w-fit font-Montserrat shadow-xl italic font-bold text-center text-3xl m-auto p-[10px] bg-white border-2 border-cFive rounded-md mt-[30px] hover:bg-cFive hover:border-transparent hover:shadow-none hover:scale-105 transition-all duration-300"
+        >
+          Free Consultation
+        </Link>
       </div>
 
       <h1 className="text-5xl font-bold mb-[30px]">Plans&Pricing</h1>
