@@ -16,7 +16,7 @@ import toolsIcon from "../../../public/icons/tools-alt-svgrepo-com.svg";
 
 export default function Websites() {
   return (
-    <main className="lg:max-w-[1200px] m-auto lg:pt-[162px]">
+    <main className="lg:max-w-[1200px] m-auto pt-[125px] lg:pt-[162px] px-4">
       <div className="flex flex-col lg:mb-[100px] mb-[50px]">
         <h1 className="font-bold text-5xl mb-[10px] px-2 lg:px-0">
           Website Management
@@ -103,7 +103,7 @@ export default function Websites() {
         </div>
         <Link
           href={"/contact"}
-          className="flex w-fit font-Montserrat shadow-xl text-center text-xl m-auto p-[10px] bg-white border-2 border-cSeven rounded-full mt-[40px] hover:bg-cSeven hover:border-transparent hover:shadow-none hover:scale-105 transition-all duration-300"
+          className="flex w-fit text-l lg:text-xl font-Montserrat shadow-xl text-center m-auto p-[10px] bg-white border-2 border-cSeven rounded-full mt-[40px] hover:bg-cSeven hover:border-transparent hover:shadow-none hover:scale-105 transition-all duration-300"
         >
           Book a Free Consultation Today &#8669;
         </Link>
@@ -198,10 +198,10 @@ export default function Websites() {
           </div>
         </div>
       </div>
-      <div className="hidden lg:flex mb-[50px] lg:mb-[100px] border-2 border-black rounded-md shadow-xl">
+      <div className="hidden lg:flex mb-[50px] lg:mb-[100px] border-2 border-cFive rounded-md shadow-xl">
         <div className="hidden text-xl lg:flex flex-col w-full">
           <div className="flex flex-row">
-            <div className="flex flex-col gap-2 w-1/4 border-b-2 border-black bg-cFive">
+            <div className="flex flex-col gap-2 w-1/4 border-b-2 border-cFive bg-cFive">
               <h1 className="text-3xl font-bold w-full text-right pr-[10px] pt-[10px]">
                 Plans&#8594;
               </h1>
@@ -209,16 +209,31 @@ export default function Websites() {
                 Features&#8595;
               </h1>
             </div>
-            <div className="w-1/4 justify-center flex flex-col border-b-2 border-l-2 border-black p-[10px] bg-cTwo">
-              <h1 className="font-bold mb-[5px]">Basic</h1>
+            <div className="w-1/4 justify-center flex flex-col border-b-2 border-l-2 border-cFive p-[10px] bg-cTwo">
+              <h1 className="flex flex-row text-3xl font-bold mb-[5px]">
+                Basic{" "}
+                <span className="ml-[10px] mt-[3px]">
+                  <Image src={pyramidIcon} height={30} alt="pyramid" />
+                </span>
+              </h1>
               <p>$19.99/mo</p>
             </div>
-            <div className="w-1/4 justify-center flex flex-col border-b-2 border-l-2 border-black p-[10px] bg-cFour">
-              <h1 className="font-bold mb-[5px]">Premium</h1>
+            <div className="w-1/4 justify-center flex flex-col border-b-2 border-l-2 border-cFive p-[10px] bg-cFour">
+              <h1 className="flex flex-row text-3xl font-bold mb-[5px]">
+                Premium{" "}
+                <span className="ml-[10px] mt-[0px]">
+                  <Image src={diamondIcon} height={40} alt="pyramid" />
+                </span>
+              </h1>
               <p>Starts at: $19.99/mo</p>
             </div>
-            <div className="w-1/4 justify-center flex flex-col border-b-2 border-l-2 border-black p-[10px] bg-cSeven">
-              <h1 className="font-bold mb-[5px]">Custom/E-commerce</h1>
+            <div className="w-1/4 justify-center flex flex-col border-b-2 border-l-2 border-cFive p-[10px] bg-cSeven">
+              <h1 className="flex flex-row text-3xl font-bold mb-[5px]">
+                Custom{" "}
+                <span className="ml-[10px] mt-[0px]">
+                  <Image src={toolsIcon} height={40} alt="pyramid" />
+                </span>
+              </h1>
               <p>Starts at: $49.99/mo</p>
             </div>
           </div>
@@ -226,13 +241,13 @@ export default function Websites() {
             <div className="w-1/4 flex items-center p-[10px] h-full">
               <p>Down Payment</p>
             </div>
-            <div className="w-1/4 border-l-2 border-black p-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive p-[10px]">
               <p>$0</p>
             </div>
-            <div className="w-1/4 border-l-2 border-black p-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive p-[10px]">
               <p>Starts at: $300</p>
             </div>
-            <div className="w-1/4 border-l-2 border-black p-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive p-[10px]">
               <p>Starts at: $1500</p>
             </div>
           </div>
@@ -240,13 +255,13 @@ export default function Websites() {
             <div className="w-1/4 flex items-center p-[10px] h-full">
               <p>Number of Pages</p>
             </div>
-            <div className="w-1/4 border-l-2 border-black p-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive p-[10px]">
               <p>2</p>
             </div>
-            <div className="w-1/4 border-l-2 border-black p-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive p-[10px]">
               <p>up to 7</p>
             </div>
-            <div className="w-1/4 border-l-2 border-black p-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive p-[10px]">
               <p>up to 12</p>
             </div>
           </div>
@@ -254,13 +269,13 @@ export default function Websites() {
             <div className="w-1/4 p-[10px]">
               <p>SEO (Search Engine Optimization)</p>
             </div>
-            <div className="w-1/4 border-l-2 border-black h-full flex items-center pl-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive h-full flex items-center pl-[10px]">
               <p>Included</p>
             </div>
-            <div className="w-1/4 border-l-2 border-black h-full flex items-center pl-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive h-full flex items-center pl-[10px]">
               <p>Included</p>
             </div>
-            <div className="w-1/4 border-l-2 border-black h-full flex items-center pl-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive h-full flex items-center pl-[10px]">
               <p>Included</p>
             </div>
           </div>
@@ -268,13 +283,13 @@ export default function Websites() {
             <div className="w-1/4 p-[10px]">
               <p>Website Hosting</p>
             </div>
-            <div className="w-1/4 border-l-2 border-black h-full flex items-center pl-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive h-full flex items-center pl-[10px]">
               <p>Included</p>
             </div>
-            <div className="w-1/4 border-l-2 border-black h-full flex items-center pl-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive h-full flex items-center pl-[10px]">
               <p>Included</p>
             </div>
-            <div className="w-1/4 border-l-2 border-black h-full flex items-center pl-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive h-full flex items-center pl-[10px]">
               <p>Included</p>
             </div>
           </div>
@@ -282,13 +297,13 @@ export default function Websites() {
             <div className="w-1/4 p-[10px] flex items-center h-full">
               <p>Photos and Graphics</p>
             </div>
-            <div className="w-1/4 border-l-2 border-black p-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive p-[10px]">
               <p>Stock/Provided</p>
             </div>
-            <div className="w-1/4 border-l-2 border-black p-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive p-[10px]">
               <p>Professional/Provided</p>
             </div>
-            <div className="w-1/4 border-l-2 border-black p-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive p-[10px]">
               <p>Professional/Provided</p>
             </div>
           </div>
@@ -296,13 +311,13 @@ export default function Websites() {
             <div className="w-1/4 p-[10px]">
               <p>Premium Website Design Features</p>
             </div>
-            <div className="w-1/4 border-l-2 border-black h-full flex items-center pl-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive h-full flex items-center pl-[10px]">
               <p>Not Available</p>
             </div>
-            <div className="w-1/4 border-l-2 border-black h-full flex items-center pl-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive h-full flex items-center pl-[10px]">
               <p>Included</p>
             </div>
-            <div className="w-1/4 border-l-2 border-black h-full flex items-center pl-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive h-full flex items-center pl-[10px]">
               <p>Included</p>
             </div>
           </div>
@@ -310,13 +325,13 @@ export default function Websites() {
             <div className="w-1/4 p-[10px] flex items-center h-full">
               <p>User Login</p>
             </div>
-            <div className="w-1/4 border-l-2 border-black p-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive p-[10px]">
               <p>Not Available</p>
             </div>
-            <div className="w-1/4 border-l-2 border-black p-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive p-[10px]">
               <p>Add on</p>
             </div>
-            <div className="w-1/4 border-l-2 border-black p-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive p-[10px]">
               <p>Options Available</p>
             </div>
           </div>
@@ -324,13 +339,13 @@ export default function Websites() {
             <div className="w-1/4 p-[10px]">
               <p>Online Payments/ Subscriptions</p>
             </div>
-            <div className="w-1/4 border-l-2 border-black h-full flex items-center pl-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive h-full flex items-center pl-[10px]">
               <p>Not Available</p>
             </div>
-            <div className="w-1/4 border-l-2 border-black h-full flex items-center pl-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive h-full flex items-center pl-[10px]">
               <p>Add on</p>
             </div>
-            <div className="w-1/4 border-l-2 border-black h-full flex items-center pl-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive h-full flex items-center pl-[10px]">
               <p>Options Available</p>
             </div>
           </div>
@@ -338,13 +353,13 @@ export default function Websites() {
             <div className="w-1/4 p-[10px] flex items-center h-full">
               <p>Appointment Scheduling</p>
             </div>
-            <div className="w-1/4 border-l-2 border-black p-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive p-[10px]">
               <p>Not Available</p>
             </div>
-            <div className="w-1/4 border-l-2 border-black p-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive p-[10px]">
               <p>Add on</p>
             </div>
-            <div className="w-1/4 border-l-2 border-black p-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive p-[10px]">
               <p>Options Available</p>
             </div>
           </div>
@@ -360,8 +375,8 @@ export default function Websites() {
       <h1 className="text-5xl mb-[20px] font-bold px-2 lg:px-0">
         Demo Gallery
       </h1>
-      <div className="flex flex-col lg:flex-row lg:gap-5 lg:h-[165px] lg:mb-[20px] mb-[0px]">
-        <div className="relative flex items-center overflow-hidden w-full lg:w-1/3 bg-cOne rounded-md shadow-xl">
+      <div className="flex flex-col lg:flex-row gap-5 lg:gap-5 lg:h-[165px] mb-[20px] lg:mb-[20px] mb-[0px]">
+        <div className="relative flex items-center overflow-hidden border-2 border-cThree w-full lg:w-1/3 bg-cOne rounded-md shadow-xl">
           <h1 className="absolute z-20 text-3xl ml-[20px]">Sophisticated</h1>
           <a
             href="https://photographernext.vercel.app/"
@@ -371,7 +386,7 @@ export default function Websites() {
             <Image src={photoImg} alt="photo" />
           </a>
         </div>
-        <div className="relative flex items-center overflow-hidden w-full lg:w-1/3 bg-cThree rounded-md shadow-xl">
+        <div className="relative flex items-center overflow-hidden border-2 border-cThree w-full lg:w-1/3 bg-cThree rounded-md shadow-xl">
           <h1 className="absolute z-20 font-bold text-3xl ml-[20px]">
             Impactful
           </h1>
@@ -383,7 +398,7 @@ export default function Websites() {
             <Image src={trainerImg} alt="photo" />
           </a>
         </div>
-        <div className="relative flex items-center overflow-hidden w-full lg:w-1/3 bg-cFive rounded-md shadow-xl">
+        <div className="relative flex items-center overflow-hidden border-2 border-cThree w-full lg:w-1/3 bg-cFive rounded-md shadow-xl">
           <h1 className="absolute z-20 text-3xl ml-[20px]">Warm</h1>
           <a
             href="https://nextlandscaping.vercel.app/"
@@ -394,8 +409,8 @@ export default function Websites() {
           </a>
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row lg:gap-5 lg:h-[165px] lg:mb-[20px] mb-[0px]">
-        <div className="relative flex items-center overflow-hidden w-full lg:w-1/3 bg-cFive rounded-md shadow-xl">
+      <div className="flex flex-col lg:flex-row gap-5 lg:gap-5 lg:h-[165px] lg:mb-[20px] mb-[0px]">
+        <div className="relative flex items-center overflow-hidden border-2 border-cThree w-full lg:w-1/3 bg-cFive rounded-md shadow-xl">
           <h1 className="absolute z-20 text-3xl ml-[20px]">Informative</h1>
           <a
             href="https://photographernext.vercel.app/"
@@ -405,7 +420,7 @@ export default function Websites() {
             <Image src={landscapeImg} alt="photo" />
           </a>
         </div>
-        <div className="relative flex items-center overflow-hidden w-full lg:w-1/3 bg-cFour rounded-md shadow-xl">
+        <div className="relative flex items-center overflow-hidden border-2 border-cThree w-full lg:w-1/3 bg-cFour rounded-md shadow-xl">
           <h1 className="absolute z-20 font-bold text-3xl ml-[20px]">
             Professional
           </h1>
@@ -417,7 +432,7 @@ export default function Websites() {
             <Image src={constructionImg} alt="photo" />
           </a>
         </div>
-        <div className="relative flex items-center overflow-hidden w-full lg:w-1/3 bg-cTwo rounded-md shadow-xl">
+        <div className="relative flex items-center overflow-hidden border-2 border-cThree w-full lg:w-1/3 bg-cTwo rounded-md shadow-xl">
           <h1 className="absolute z-20 text-3xl ml-[20px]">Elegant</h1>
           <a
             href="https://nextlandscaping.vercel.app/"

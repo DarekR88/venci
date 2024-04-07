@@ -8,9 +8,9 @@ import businesspImg from "../../../public/images/businessScreenshot.png";
 
 export default function GoogleBusiness() {
   return (
-    <main className="lg:max-w-[1200px] m-auto px-2 lg:pt-[162px]">
+    <main className="lg:max-w-[1200px] m-auto px-5 pt-[115px] lg:pt-[162px]">
       <div className="flex flex-col lg:mb-[100px] mb-[50px]">
-        <h1 className="font-bold text-5xl mb-[20px] px-2 lg:px-0">
+        <h1 className="font-bold text-[2.5rem] lg:text-5xl mb-[20px] px-2 lg:px-0">
           Google Business Management
         </h1>
         <div className="flex flex-col lg:flex-row gap-5 lg:gap-10">
@@ -26,7 +26,7 @@ export default function GoogleBusiness() {
         </div>
       </div>
 
-      <h1 className="text-5xl font-bold mb-[20px]">Plans&Pricing</h1>
+      <h1 className="text-[2.5rem]  lg:text-5xl font-bold mb-[20px]">Plans&Pricing</h1>
       <div className="mb-[50px] lg:pl-10">
         <h1 className="text-4xl font-bold mb-[20px]">Setup</h1>
         <p className="text-xl mb-[20px] w-full lg:w-2/3">
@@ -59,7 +59,7 @@ export default function GoogleBusiness() {
         </div>
         <Link
           href={"/contact"}
-          className="flex w-fit font-Montserrat shadow-xl text-center text-xl m-auto lg:ml-[250px] p-[10px] bg-white border-2 border-cFive rounded-full mt-[30px] hover:bg-cFive hover:border-transparent hover:shadow-none hover:scale-105 transition-all duration-300"
+          className="flex w-fit font-Montserrat shadow-xl text-center text-l lg:text-xl m-auto lg:ml-[250px] p-[10px] bg-white border-2 border-cFive rounded-full mt-[30px] hover:bg-cFive hover:border-transparent hover:shadow-none hover:scale-105 transition-all duration-300"
         >
           Book a Free Consultation Today
         </Link>
@@ -96,7 +96,7 @@ export default function GoogleBusiness() {
         </div>
         <Link
           href={"/contact"}
-          className="flex w-fit mb-[50px] lg:mb-[100px] font-Montserrat shadow-xl text-center text-xl lg:ml-[250px] m-auto p-[10px] bg-white border-2 border-cSeven rounded-full mt-[20px] hover:bg-cSeven hover:border-transparent hover:shadow-none hover:scale-105 transition-all duration-300"
+          className="flex w-fit mb-[50px] lg:mb-[100px] font-Montserrat shadow-xl text-center text-l lg:text-xl lg:ml-[250px] m-auto p-[10px] bg-white border-2 border-cSeven rounded-full mt-[20px] hover:bg-cSeven hover:border-transparent hover:shadow-none hover:scale-105 transition-all duration-300"
         >
           Book a Free Consultation Today
         </Link>
