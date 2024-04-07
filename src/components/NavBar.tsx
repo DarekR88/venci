@@ -71,9 +71,9 @@ export function NavBar() {
         {/* <Link onClick={handleClick} className="text-3xl" href="/social">
           Social Media
         </Link> */}
-        {/* <Link onClick={handleClick} className="text-3xl" href="/advertising">
+        <Link onClick={handleClick} className="text-3xl" href="/advertising">
           Advertising
-        </Link> */}
+        </Link>
         <Link onClick={handleClick} className="text-3xl" href="/googlebusiness">
           Google Business
         </Link>
@@ -83,9 +83,32 @@ export function NavBar() {
         <Link onClick={handleClick} className="text-3xl" href="/about">
           About
         </Link>
+        <button
+          onClick={handleClick}
+          className={`inline flex flex-col justify-center items-center z-20 lg:hidden`}
+        >
+          <span
+            className={`bg-black block transition-all duration-300 ease-out 
+                    h-1 w-8 rounded-sm ${
+                      isOpen ? "rotate-45 translate-y-1.5" : "-translate-y-1.5"
+                    }`}
+          ></span>
+          <span
+            className={`bg-black block transition-all duration-300 ease-out 
+                    h-1 w-8 rounded-sm my-0.5 ${
+                      isOpen ? "opacity-0" : "opacity-100"
+                    }`}
+          ></span>
+          <span
+            className={`bg-black block transition-all duration-300 ease-out 
+                    h-1 w-8 rounded-sm ${
+                      isOpen ? "-rotate-45 -translate-y-1.5" : "translate-y-1.5"
+                    }`}
+          ></span>
+        </button>
       </div>
       <header
-        className={`bg-white lg:fixed bg-white flex flex-wrap gap-10 py-4 items-center w-screen lg:flex-row lg:justify-between lg:px-20 lg:h-${
+        className={`bg-white fixed bg-white flex flex-wrap gap-8 py-4 items-center w-screen lg:flex-row lg:justify-between lg:px-20 lg:h-${
           isTop ? "28" : "20"
         } lg:mb-${isTop ? "[75px]" : "[25px]"} ${
           !isTop
@@ -95,7 +118,7 @@ export function NavBar() {
       >
         <Link
           href={"/"}
-          className="font-Playfair flex flex-col rounded-full shadow-lg lg:flex-row lg:justify-center tracking-widest text-xl z-0 px-4 bg-gradient-to-r from-cOne to-cSeven"
+          className="flex flex-col rounded-full ml-[20px] shadow-lg lg:flex-row lg:justify-center tracking-widest text-xl z-0 px-4 bg-gradient-to-r from-cOne to-cSeven"
         >
           <p className="flex flex-row text-5xl py-[3px] font-Orbitron">
             <span>
@@ -138,17 +161,17 @@ export function NavBar() {
           >
             Social Media
           </Link> */}
-          {/* <Link
-            className="text-l relative w-fit block px-1 focus:bg-blue-400 hover:bg-blue-400 transition-colors duration-300 after:block after:content-[''] after:px-1 after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center"
-            href="/advertising"
-          >
-            Advertising
-          </Link> */}
           <Link
             className="text-l relative w-fit block after:block after:content-[''] after:px-1 after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center"
             href="/googlebusiness"
           >
             Google Business
+          </Link>
+          <Link
+            className="text-l relative w-fit block duration-300 after:block after:content-[''] after:px-1 after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center"
+            href="/advertising"
+          >
+            Advertising
           </Link>
           <Link
             className="text-l relative w-fit block after:block after:content-[''] after:px-1 after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center"
@@ -195,7 +218,7 @@ export function NavBar() {
         </div>
         <button
           onClick={handleClick}
-          className="inline flex flex-col justify-center items-center z-20 lg:hidden"
+          className={`inline flex flex-col justify-center items-center z-20 lg:hidden`}
         >
           <span
             className={`bg-black block transition-all duration-300 ease-out 

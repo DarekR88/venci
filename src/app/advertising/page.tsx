@@ -6,14 +6,14 @@ import flyerImg from "../../../public/images/blueflyer.png";
 
 export default function Advertising() {
   return (
-    <main className="lg:max-w-[1200px] m-auto px-2">
+    <main className="lg:max-w-[1200px] lg:pt-[162px] m-auto px-2">
       
         <div className="flex flex-col lg:mb-[100px] mb-[50px]">
           <h1 className="font-bold text-5xl mb-[10px]">
             Be Seen Where it Matters
           </h1>
           <p className="lg:max-w-[850px] lg:pl-[10px] lg:text-2xl">
-            Elevate your offline marketing efforts with Venci&#39;s paper
+            Elevate your offline marketing efforts with Venci&#39;s
             advertising solutions. Our campaigns utilize eye-catching print
             materials strategically distributed to target audiences, ensuring
             maximum exposure and engagement for your business.

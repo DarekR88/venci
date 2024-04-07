@@ -13,10 +13,10 @@ import adIcon from "../../public/icons/advertising-expense-svgrepo-com.svg";
 
 export default function Home() {
   return (
-    <main className="lg:max-w-[1200px] m-auto">
-      <div className="flex flex-col lg:pt-[162px] lg:mb-[100px] mb-[50px]">
+    <main className="lg:max-w-[1200px] m-auto px-4">
+      <div className="flex flex-col lg:pt-[162px] pt-[25px] lg:mb-[100px] mb-[50px]">
         <h1 className="font-bold text-5xl lg:mb-[10px] px-2 lg:px-0">
-          Get More Business Now
+          Get More Business
         </h1>
         <div className="flex lg:flex-row">
           <p className="lg:max-w-[800px] lg:mr-[50px] lg:text-2xl px-3 lg:px-0 lg:pl-[10px]">
@@ -27,12 +27,12 @@ export default function Home() {
             here to help you elevate your online presence and reach your target
             audience effectively.
           </p>
-          <div className="hidden lg:flex">
+          <div className="hidden lg:flex items-center justify-center h-[300px] w-[300px] bg-gradient-to-r from-cOne to-cSeven mt-[-70px] rounded-full">
             <Image
               src={logoIcon}
               alt="pyramid"
               height={200}
-              className="mt-[-50px]"
+              className="mt-[35px]"
             />
           </div>
         </div>

@@ -113,7 +113,7 @@ export default function Websites() {
       <div className="flex lg:hidden mb-[70px]">
         <div className="flex flex-col lg:flex-row gap-20 lg:h-[290px] lg:gap-20 w-full m-auto">
           <div className="w-full lg:w-1/3 rounded-md mt-[30px] shadow-lg border-2 border-cOne">
-            <div className="flex flex-row justify-center mt-[-20px]">
+            <div className="flex flex-row justify-center mt-[-20px] mb-[20px]">
               <h1 className="text-3xl font-bold bg-white">Basic</h1>
               <Image
                 src={pyramidIcon}
@@ -126,6 +126,7 @@ export default function Websites() {
               <p>$0 Down | $19.99/mo</p>
               <ul className="list-inside list-disc">
                 <li>2 pages</li>
+                <li>SEO</li>
                 <li>Website Hosting</li>
                 <li>Stock Photos</li>
               </ul>
