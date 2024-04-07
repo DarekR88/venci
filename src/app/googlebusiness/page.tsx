@@ -7,25 +7,21 @@ export default function GoogleBusiness() {
   return (
     <main className="lg:max-w-[1200px] m-auto px-2 lg:pt-[162px]">
       <div className="flex flex-col lg:mb-[100px] mb-[50px]">
-        <h1 className="font-bold text-5xl mb-[10px] px-2 lg:px-0">
+        <h1 className="font-bold text-5xl mb-[20px] px-2 lg:px-0">
           Google Business Management
         </h1>
-        <p className="lg:max-w-[850px] lg:pl-[10px] mb-[20px] lg:text-2xl px-2 lg:px-0">
-          Increase your visibility on Google with our Business Management
-          service. We ensure your business appears prominently in Google
-          searches and can even manage reviews for you. Our goal is to make your
-          business stand out positively in the Google Business section.
-        </p>
-        <div className="flex flex-col gap-5 lg:flex-row">
-          <div className="overflow-hidden w-full lg:w-1/3 h-[210px] rounded-md">
-            <Image src={gbusinessImg} alt="Google business" />
-          </div>
-          <div className="overflow-hidden w-full lg:w-1/3 h-[210px] rounded-md">
+        <div className="flex flex-col lg:flex-row gap-12 lg:gap-10">
+          <p className="lg:w-1/2 lg:pl-[10px] mb-[20px] lg:text-2xl px-2 lg:px-0">
+            Increase your visibility on Google with our Business Management
+            service. We ensure your business appears prominently in Google
+            searches and can even manage reviews for you. Our goal is to make
+            your business stand out positively in the Google Business section.
+          </p>
+          <div className="overflow-hidden w-full lg:w-1/3 h-[210px] border-2 border-cTwo rounded-lg shadow-lg">
             <Image src={businesspImg} alt="Google business" />
           </div>
         </div>
       </div>
-
 
       <h1 className="text-5xl font-bold mb-[20px]">Plans&Pricing</h1>
       <div className="mb-[50px]">
@@ -56,7 +52,6 @@ export default function GoogleBusiness() {
             </ul>
           </div>
         </div>
-
       </div>
 
       <h1 className="text-3xl font-bold mb-[20px]">Management</h1>
