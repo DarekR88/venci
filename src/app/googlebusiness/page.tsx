@@ -13,7 +13,7 @@ export default function GoogleBusiness() {
         <h1 className="font-bold text-5xl mb-[20px] px-2 lg:px-0">
           Google Business Management
         </h1>
-        <div className="flex flex-col lg:flex-row gap-12 lg:gap-10">
+        <div className="flex flex-col lg:flex-row gap-5 lg:gap-10">
           <p className="lg:w-1/2 lg:pl-[10px] mb-[px] lg:text-2xl px-2 lg:px-0">
             Increase your visibility on Google with our Business Management
             service. We ensure your business appears prominently in Google
