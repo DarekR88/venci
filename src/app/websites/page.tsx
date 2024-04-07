@@ -11,6 +11,9 @@ import SEOIcon from "../../../public/icons/seo-svgrepo-com.svg";
 import pyramidIcon from "../../../public/icons/pyramidA rotated.svg";
 import shieldIcon from "../../../public/icons/shield-alt-svgrepo-com.svg";
 import mobileIcon from "../../../public/icons/mobile-svgrepo-com.svg";
+import diamondIcon from "../../../public/icons/diamondA.svg";
+import toolsIcon from "../../../public/icons/tools-alt-svgrepo-com.svg";
+
 
 export default function Websites() {
   return (
@@ -108,7 +111,86 @@ export default function Websites() {
       </div>
 
       <h1 className="text-5xl font-bold mb-[30px]">Plans&Pricing</h1>
-      <div className="flex mb-[50px] lg:mb-[100px] border-2 border-black rounded-md shadow-xl">
+      <div className="flex lg:hidden mb-[70px]">
+        <div className="flex flex-col lg:flex-row gap-20 lg:h-[290px] lg:gap-20 w-full m-auto">
+          <div className="w-full lg:w-1/3 rounded-md mt-[30px] shadow-lg border-2 border-cOne">
+            <div className="flex flex-row justify-center mt-[-20px]">
+              <h1 className="text-3xl font-bold bg-white">
+                Basic
+              </h1>
+              <Image
+                src={pyramidIcon}
+                alt="tool"
+                width={50}
+                className="bg-white mt-[-10px]"
+              />
+            </div>
+            <p className="px-5 pt-[10px] pb-[20px] h-[225px]">
+              With Google being the top platform for discovering new businesses,
+              our FREE SEO (Search Engine Optimization) services guarantee your
+              presence in relevant searches, maximizing your visibility and
+              attracting potential customers.
+            </p>
+
+            <Link
+              href={"/contact"}
+              className="flex w-fit mb-[-10px] hover:bg-cFive hover:border-transparent hover:scale-105 transition-all duration-300 font-Montserrat shadow-lg italic text-center text-xl m-auto p-[10px] bg-white shadow-lg border-2 border-cFive rounded-full"
+            >
+              Book Free Consultation &#8669;
+            </Link>
+          </div>
+          <div className="w-full lg:w-1/3 rounded-md shadow-lg border-2 border-cThree">
+            <div className="flex flex-row justify-center mt-[-20px]">
+              <h1 className="text-3xl font-bold bg-white">
+                Premium
+              </h1>
+              <Image
+                src={diamondIcon}
+                alt="tool"
+                width={60}
+                className="bg-white mt-[-15px]"
+              />
+            </div>
+            <p className="px-5 pb-[20px] pt-[10px]">
+              Standing out online is key to staying ahead of the competition.
+              With our affordable plan of $0 down and just $19.99 a month,
+              you&#39;ll get a uniquely designed website that sets your company
+              apart from the crowd, ensuring visibility and making a lasting
+              impression.
+            </p>
+            <Link
+              href={"/googlebusiness"}
+              className="flex w-fit mb-[-10px] hover:bg-cTwo hover:border-transparent hover:scale-105 transition-all duration-300 font-Montserrat shadow-lg italic text-center text-xl m-auto p-[10px] bg-white shadow-lg border-2 border-cTwo rounded-full"
+            >
+              Book Free Consultation &#8669;
+            </Link>
+          </div>
+          <div className="w-full lg:w-1/3 rounded-md shadow-lg border-2 border-cFive">
+            <div className="flex flex-row justify-center mt-[-20px]">
+              <h1 className="text-3xl font-bold bg-white">Custom</h1>
+              <Image
+                src={toolsIcon}
+                alt="tool"
+                width={70}
+                className="bg-white mt-[-20px]"
+              />
+            </div>
+            <p className="px-5 pt-[10px] pb-[20px] h-[225px]">
+              Our comprehensive hosting and security services streamline website
+              management. For just $19.99 a month, we handle maintenance,
+              monitoring, and analytics, ensuring your site remains secure,
+              accessible, and optimized for performance at all times.
+            </p>
+            <Link
+              href={"/contact"}
+              className="flex w-fit mb-[-10px] hover:bg-cThree hover:border-transparent hover:scale-105 transition-all duration-300 font-Montserrat shadow-lg italic text-center text-xl m-auto p-[10px] bg-white shadow-lg border-2 border-cThree rounded-full"
+            >
+              Book Free Consultation &#8669;
+            </Link>
+          </div>
+        </div>
+      </div>
+      <div className="hidden lg:flex mb-[50px] lg:mb-[100px] border-2 border-black rounded-md shadow-xl">
         <div className="hidden text-xl lg:flex flex-col w-full">
           <div className="flex flex-row">
             <div className="flex flex-col gap-2 w-1/4 border-b-2 border-black bg-cFive">
@@ -260,6 +342,12 @@ export default function Websites() {
           </div>
         </div>
       </div>
+      <Link
+          href={"/contact"}
+          className="flex w-fit font-Montserrat shadow-xl text-center text-xl m-auto p-[10px] bg-white border-2 border-cOne rounded-full mb-[100px] hover:bg-cOne hover:border-transparent hover:shadow-none hover:scale-105 transition-all duration-300"
+        >
+          Book a Free Consultation Today &#8669;
+        </Link>
 
       <h1 className="text-5xl mb-[20px] font-bold px-2 lg:px-0">
         Demo Gallery

@@ -43,8 +43,6 @@ export default function Home() {
           Our Services
         </h1>
 
-        <Link href={"/websites"}></Link>
-
         <div className="flex flex-col lg:flex-row gap-20 lg:h-[290px] lg:gap-20 w-full m-auto">
           <div className="w-full lg:w-1/3 rounded-md shadow-lg border-2 border-cOne">
            
