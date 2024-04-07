@@ -61,7 +61,7 @@ export default function GoogleBusiness() {
           href={"/contact"}
           className="flex w-fit font-Montserrat shadow-xl text-center text-xl m-auto lg:ml-[250px] p-[10px] bg-white border-2 border-cFive rounded-full mt-[30px] hover:bg-cFive hover:border-transparent hover:shadow-none hover:scale-105 transition-all duration-300"
         >
-          Book a Free Consultation Today &#8669;
+          Book a Free Consultation Today
         </Link>
       </div>
 
@@ -98,7 +98,7 @@ export default function GoogleBusiness() {
           href={"/contact"}
           className="flex w-fit mb-[50px] lg:mb-[100px] font-Montserrat shadow-xl text-center text-xl lg:ml-[250px] m-auto p-[10px] bg-white border-2 border-cSeven rounded-full mt-[20px] hover:bg-cSeven hover:border-transparent hover:shadow-none hover:scale-105 transition-all duration-300"
         >
-          Book a Free Consultation Today &#8669;
+          Book a Free Consultation Today
         </Link>
       </div>
     </main>

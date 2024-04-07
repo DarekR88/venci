@@ -38,7 +38,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col lg:mb-[100px] mb-[50px]">
+      <div className="flex flex-col lg:mb-[100px] mb-[100px]">
         <h1 className="font-bold text-5xl pb-[50px] mb-[20px] px-2 lg:px-0">
           Our Services
         </h1>
@@ -66,7 +66,7 @@ export default function Home() {
             
             <Link
               href={"/websites"}
-              className="flex w-fit mb-[-10px] hover:bg-cFive hover:border-transparent hover:scale-105 transition-all duration-300 font-Montserrat shadow-lg italic text-center text-3xl m-auto p-[10px] bg-white shadow-lg border-2 border-cFive rounded-full"
+              className="flex w-fit mb-[-25px] hover:bg-cFive hover:border-transparent hover:scale-105 transition-all duration-300 font-Montserrat shadow-lg italic text-center text-3xl m-auto p-[10px] bg-white shadow-lg border-2 border-cFive rounded-full"
             >
               Learn More &#8669;
             </Link>
@@ -92,7 +92,7 @@ export default function Home() {
             </p>
             <Link
               href={"/googlebusiness"}
-              className="flex w-fit mb-[-10px] hover:bg-cTwo hover:border-transparent hover:scale-105 transition-all duration-300 font-Montserrat shadow-lg italic text-center text-3xl m-auto p-[10px] bg-white shadow-lg border-2 border-cTwo rounded-full"
+              className="flex w-fit mb-[-25px] hover:bg-cTwo hover:border-transparent hover:scale-105 transition-all duration-300 font-Montserrat shadow-lg italic text-center text-3xl m-auto p-[10px] bg-white shadow-lg border-2 border-cTwo rounded-full"
             >
               Learn More &#8669;
             </Link>
@@ -115,7 +115,7 @@ export default function Home() {
             </p>
             <Link
               href={"/websites"}
-              className="flex w-fit mb-[-10px] hover:bg-cThree hover:border-transparent hover:scale-105 transition-all duration-300 font-Montserrat shadow-lg italic text-center text-3xl m-auto p-[10px] bg-white shadow-lg border-2 border-cThree rounded-full"
+              className="flex w-fit mb-[-25px] hover:bg-cThree hover:border-transparent hover:scale-105 transition-all duration-300 font-Montserrat shadow-lg italic text-center text-3xl m-auto p-[10px] bg-white shadow-lg border-2 border-cThree rounded-full"
             >
               Learn More &#8669;
             </Link>
