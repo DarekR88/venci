@@ -92,8 +92,8 @@ export default function Websites() {
             </div>
             <p className="px-5 pt-[10px] pb-[20px]">
               With over 60&#37; of internet traffic originating from mobile
-              devices, it&#39;s crucial that your website is optimized for mobile
-              viewing. Our experts specialize in mobile responsiveness,
+              devices, it&#39;s crucial that your website is optimized for
+              mobile viewing. Our experts specialize in mobile responsiveness,
               guaranteeing that your site will look exceptional on any device,
               ensuring a seamless experience for your visitors.
             </p>
@@ -101,9 +101,9 @@ export default function Websites() {
         </div>
         <Link
           href={"/contact"}
-          className="flex w-fit font-Montserrat shadow-xl italic font-bold text-center text-3xl m-auto p-[10px] bg-white border-2 border-cFive rounded-md mt-[30px] hover:bg-cFive hover:border-transparent hover:shadow-none hover:scale-105 transition-all duration-300"
+          className="flex w-fit font-Montserrat shadow-xl text-center text-xl m-auto p-[10px] bg-white border-2 border-cSeven rounded-full mt-[40px] hover:bg-cSeven hover:border-transparent hover:shadow-none hover:scale-105 transition-all duration-300"
         >
-          Free Consultation
+          Book a Free Consultation Today &#8669;
         </Link>
       </div>
 

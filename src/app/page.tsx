@@ -47,7 +47,7 @@ export default function Home() {
 
         <div className="flex flex-col lg:flex-row gap-20 lg:h-[290px] lg:gap-20 w-full m-auto">
           <div className="w-full lg:w-1/3 rounded-md shadow-lg border-2 border-cOne">
-            <Link href={"/websites"} className="">
+           
               <div className="flex flex-row justify-center mt-[-40px]">
                 <h1 className="text-3xl font-bold bg-white w-[250px]">
                   Website Design &Management
@@ -65,12 +65,12 @@ export default function Home() {
                 guarantee your presence in relevant searches, maximizing your
                 visibility and attracting potential customers.
               </p>
-            </Link>
+            
             <Link
               href={"/websites"}
-              className="flex w-fit mb-[-10px] hover:bg-cFive hover:border-transparent hover:scale-105 transition-all duration-300 font-Montserrat shadow-lg italic text-center text-3xl m-auto p-[10px] bg-white shadow-lg border-2 border-cFive rounded-md"
+              className="flex w-fit mb-[-10px] hover:bg-cFive hover:border-transparent hover:scale-105 transition-all duration-300 font-Montserrat shadow-lg italic text-center text-3xl m-auto p-[10px] bg-white shadow-lg border-2 border-cFive rounded-full"
             >
-              Learn More
+              Learn More &#8669;
             </Link>
           </div>
           <div className="w-full lg:w-1/3 rounded-md shadow-lg border-2 border-cThree">
@@ -94,9 +94,9 @@ export default function Home() {
             </p>
             <Link
               href={"/googlebusiness"}
-              className="flex w-fit mb-[-10px] hover:bg-cTwo hover:border-transparent hover:scale-105 transition-all duration-300 font-Montserrat shadow-lg italic text-center text-3xl m-auto p-[10px] bg-white shadow-lg border-2 border-cTwo rounded-md"
+              className="flex w-fit mb-[-10px] hover:bg-cTwo hover:border-transparent hover:scale-105 transition-all duration-300 font-Montserrat shadow-lg italic text-center text-3xl m-auto p-[10px] bg-white shadow-lg border-2 border-cTwo rounded-full"
             >
-              Learn More
+              Learn More &#8669;
             </Link>
           </div>
           <div className="w-full lg:w-1/3 rounded-md shadow-lg border-2 border-cFive">
@@ -117,9 +117,9 @@ export default function Home() {
             </p>
             <Link
               href={"/websites"}
-              className="flex w-fit mb-[-10px] hover:bg-cThree hover:border-transparent hover:scale-105 transition-all duration-300 font-Montserrat shadow-lg italic text-center text-3xl m-auto p-[10px] bg-white shadow-lg border-2 border-cThree rounded-md"
+              className="flex w-fit mb-[-10px] hover:bg-cThree hover:border-transparent hover:scale-105 transition-all duration-300 font-Montserrat shadow-lg italic text-center text-3xl m-auto p-[10px] bg-white shadow-lg border-2 border-cThree rounded-full"
             >
-              Learn More
+              Learn More &#8669;
             </Link>
           </div>
         </div>
