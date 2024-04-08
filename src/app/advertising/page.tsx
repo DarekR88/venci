@@ -3,6 +3,9 @@ import Link from "next/link";
 import { Services } from "@/components/Services";
 import pinkcoastImg from "../../../public/images/pinkcoaster.png";
 import breadImg from "../../../public/images/breadflyer.png";
+import doughnutImg from "../../../public/images/doughnutFlyer.png";
+import nailImg from "../../../public/images/nailFlyer.png";
+import hairImg from "../../../public/images/hairFlyer.png";
 import flyerImg from "../../../public/images/blueflyer.png";
 import shareIcon from "../../../public/icons/share-svgrepo-com.svg";
 import pyramidIcon from "../../../public/icons/pyramidA rotated.svg";
@@ -10,22 +13,22 @@ import paperIcon from "../../../public/icons/paper-plane-svgrepo-com.svg";
 
 export default function Advertising() {
   return (
-    <main className="lg:max-w-[1200px] pt-[125px] lg:pt-[162px] m-auto px-2">
+    <main className="lg:max-w-[1200px] pt-[125px] lg:pt-[162px] m-auto px-5">
       <div className="flex flex-col lg:mb-[100px] mb-[50px]">
-        <h1 className="font-bold text-5xl mb-[10px]">Build Your Identity</h1>
+        <h1 className="font-bold text-5xl mb-[10px]">Build Your Brand</h1>
         <p className="lg:max-w-[850px] lg:pl-[10px] lg:text-2xl">
           Venci&#39;s advertising design services provide affordable solutions
-          for your small business. Our experts are here to present designs and
+          for your business. Our experts are here to present designs and
           campaigns that can help take your business to the next level.
         </p>
       </div>
 
       <div className="flex flex-col lg:mb-[100px] mb-[100px]">
         <h1 className="font-bold text-5xl pb-[50px] mb-[20px] px-2 lg:px-0">
-          Our Services
+          Advertising Services
         </h1>
 
-        <div className="flex flex-col lg:flex-row gap-20 lg:h-[290px] lg:gap-20 w-full m-auto">
+        <div className="flex flex-col lg:flex-row gap-24 lg:h-[290px] lg:gap-20 w-full m-auto">
           <div className="w-full lg:w-1/3 rounded-md shadow-lg border-2 border-cOne">
             <div className="flex flex-row justify-center mt-[-40px]">
               <h1 className="text-3xl font-bold bg-white w-[190px]">
@@ -42,7 +45,7 @@ export default function Advertising() {
               When it comes to advertisements for your business, Venci
               understands how important it is to look good. Our experts pull
               from the most successful advertising designs to present you with
-              top notch advertisements.
+              top notch advertisements. Hone your brand identity.
             </p>
 
             <Link
@@ -107,27 +110,22 @@ export default function Advertising() {
 
       <h1 className="text-5xl mb-[10px] font-bold">How it Works</h1>
       <div className="flex flex-col lg:flex-row lg:gap-5 lg:mb-[100px] mb-[50px]">
-        <p className="lg:max-w-[850px] lg:pl-[10px] lg:text-2xl lg:w-2/3 lg:pr-3">
+        <p className="lg:max-w-[850px] lg:pl-[10px] mb-[20px] lg:text-2xl lg:w-1/2 lg:pr-3">
           At Venci, we specialize in placing advertisements for your business in
           strategic locations where they&#39;ll be seen by your target audience.
-          From coasters at local cafes to flyer kiosks in busy complimentary
-          businesses, and targeted mailers delivered directly to potential
-          customers&#39; mailboxes, we ensure that your advertisements reach the
-          right people at the right time. Our approach is tailored to each
-          client&#39;s business, ensuring that every dollar of their valuable
-          advertising budget is maximized and never wasted. With Venci, you can
-          trust that your advertisements will make a significant impact and
-          drive results for your business.
+          Whether it&#39;s targeted mailers delivered directly to potential
+          customers&#39; mailboxes or flyer kiosks in busy complimentary businesses,
+          we ensure your ads reach the right people at the right time.
         </p>
-        <div className="relative lg:w-1/3 h-[350px]">
-          <div className="absolute bottom-0 w-[200px] left-[150px] transform rotate-[0deg]">
-            <Image src={breadImg} alt="photo" />
+        <div className="flex flex-row gap-5 lg:w-1/2 h-[350px]">
+          <div className="w-[200px] left-[200px] transform rotate-[0deg]">
+            <Image src={doughnutImg} alt="photo" />
           </div>
-          <div className="absolute bottom-0 w-[200px] left-[100px]">
-            <Image src={pinkcoastImg} alt="photo" />
+          <div className="w-[200px] left-[100px]">
+            <Image src={hairImg} alt="photo" />
           </div>
-          <div className="absolute bottom-0 w-[200px] transform rotate-[0deg]">
-            <Image src={flyerImg} alt="photo" />
+          <div className="w-[200px] transform rotate-[0deg]">
+            <Image src={nailImg} alt="photo" />
           </div>
         </div>
       </div>
