@@ -198,7 +198,7 @@ export default function Websites() {
           </div>
         </div>
       </div>
-      <div className="hidden lg:flex mb-[50px] lg:mb-[100px] border-2 border-cFive rounded-md shadow-xl">
+      <div className="hidden lg:flex mb-[50px] lg:mb-[70px] border-2 border-cFive rounded-md shadow-xl">
         <div className="hidden text-xl lg:flex flex-col w-full">
           <div className="flex flex-row">
             <div className="flex flex-col gap-2 w-1/4 border-b-2 border-cFive bg-cFive">

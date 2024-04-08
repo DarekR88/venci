@@ -27,7 +27,7 @@ export default function Home() {
             here to help you elevate your online presence and reach your target
             audience effectively.
           </p>
-          <div className="hidden lg:flex items-center justify-center h-[300px] w-[300px] bg-gradient-to-r from-cOne to-cSeven mt-[-70px] rounded-full">
+          <div className="hidden shadow-lg lg:flex items-center justify-center h-[300px] w-[300px] bg-gradient-to-r from-cOne to-cSeven mt-[-70px] rounded-full">
             <Image
               src={logoIcon}
               alt="pyramid"
@@ -114,7 +114,7 @@ export default function Home() {
               accessible, and optimized for performance at all times.
             </p>
             <Link
-              href={"/websites"}
+              href={"/advertising"}
               className="flex w-fit mb-[-25px] hover:bg-cThree hover:border-transparent hover:scale-105 transition-all duration-300 font-Montserrat shadow-lg italic text-center text-3xl m-auto p-[10px] bg-white shadow-lg border-2 border-cThree rounded-full"
             >
               Learn More &#8669;
