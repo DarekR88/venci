@@ -16,7 +16,7 @@ import toolsIcon from "../../../public/icons/tools-alt-svgrepo-com.svg";
 
 export default function Websites() {
   return (
-    <main className="lg:max-w-[1200px] m-auto pt-[125px] lg:pt-[162px] px-4">
+    <main className="lg:max-w-[1200px] m-auto pt-[50px] lg:pt-[162px] px-4">
       <div className="flex flex-col lg:mb-[100px] mb-[50px]">
         <h1 className="font-bold text-5xl mb-[10px] px-2 lg:px-0">
           Website Management
@@ -409,7 +409,7 @@ export default function Websites() {
           </a>
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row gap-5 lg:gap-5 lg:h-[165px] lg:mb-[20px] mb-[0px]">
+      <div className="flex flex-col lg:flex-row gap-5 lg:gap-5 lg:h-[165px] lg:mb-[20px] mb-[50px]">
         <div className="relative flex items-center overflow-hidden border-2 border-cThree w-full lg:w-1/3 bg-cFive rounded-md shadow-xl">
           <h1 className="absolute z-20 text-3xl ml-[20px]">Informative</h1>
           <a

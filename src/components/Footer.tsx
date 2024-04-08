@@ -9,10 +9,10 @@ export function Footer() {
         <p>
           <span>&copy;</span> 2023 Venci
         </p>
-        <Link href={"/"} className="font-Anton text-2xl">
-          <span className="text-button-primary text-4xl font-Orbitron">VENCI</span> Websites&Advertising
+        <Link href={"/"} className="text-2xl text-center">
+          <span className="text-4xl font-Orbitron">VENCI</span> Websites&Advertising
         </Link>
-        <Link href={"/contact"} className="text-xl">
+        <Link href={"/contact"} className="text-xl lg:pb-0 pb-3">
           Reach your Audience
         </Link>
       </div>

@@ -4,7 +4,7 @@ import chartsImg from "../../../public/images/charts.jpg";
 
 export default function Social() {
   return (
-    <main className="lg:max-w-[1200px] m-auto px-5 lg:pt-[162px] pt-[125px]">
+    <main className="lg:max-w-[1200px] m-auto px-5 lg:pt-[162px] pt-[50px]">
       <div className="flex flex-col lg:mb-[100px] mb-[50px]">
         <h1 className="font-bold text-5xl mb-[10px]">About</h1>
         <p className="lg:max-w-[850px] lg:pl-[10px] lg:text-2xl">
@@ -23,7 +23,7 @@ export default function Social() {
 
       <h1 className="text-5xl mb-[10px] font-bold">Our Process</h1>
       <div className="flex flex-col lg:flex-row lg:mb-[100px] mb-[50px]">
-        <p className="lg:max-w-[850px] lg:pl-[10px] lg:pr-[50px] lg:text-2xl lg:w-2/3">
+        <p className="lg:max-w-[850px] lg:pl-[10px] lg:pr-[50px] mb-[20px] lg:text-2xl lg:w-2/3">
           At Venci, we go beyond traditional marketing methods to deliver
           tangible results for our clients. Leveraging the most advanced
           marketing algorithms and cutting-edge analytical tools, we employ a
@@ -36,7 +36,7 @@ export default function Social() {
           value to our clients.
         </p>
         <div className="flex flex-col lg:gap-5 lg:w-1/3">
-          <div className="overflow-hidden w-full">
+          <div className="overflow-hidden w-full rounded-md border-2 border-cFour">
             <Image src={chartsImg} alt="photo" />
           </div>
         </div>

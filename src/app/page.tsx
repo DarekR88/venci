@@ -14,7 +14,7 @@ import adIcon from "../../public/icons/advertising-expense-svgrepo-com.svg";
 export default function Home() {
   return (
     <main className="lg:max-w-[1200px] m-auto px-4">
-      <div className="flex flex-col lg:pt-[162px] pt-[125px] lg:mb-[100px] mb-[50px]">
+      <div className="flex flex-col lg:pt-[162px] pt-[50px] lg:mb-[100px] mb-[50px]">
         <h1 className="font-bold text-5xl lg:mb-[10px] px-2 lg:px-0">
           Get More Business
         </h1>
@@ -126,7 +126,7 @@ export default function Home() {
       <h1 className="text-5xl mb-[20px] font-bold px-2 lg:px-0">
         Website Demos
       </h1>
-      <div className="flex flex-col lg:flex-row gap-5 lg:gap-5 lg:h-[165px] lg:mb-[20px] mb-[0px]">
+      <div className="flex flex-col lg:flex-row gap-5 lg:gap-5 lg:h-[165px] lg:mb-[20px] mb-[50px]">
         <div className="relative flex items-center overflow-hidden w-full lg:w-1/3 bg-cOne rounded-md border-2 border-cOne shadow-lg">
           <h1 className="absolute z-20 text-3xl ml-[20px]">Sophisticated</h1>
           <a

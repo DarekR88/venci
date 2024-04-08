@@ -85,7 +85,7 @@ export function NavBar() {
         </Link>
         <button
           onClick={handleClick}
-          className={`inline flex flex-col justify-center items-center z-20 lg:hidden`}
+          className={`mt-[20px] inline flex flex-col justify-center items-center z-20 lg:hidden`}
         >
           <span
             className={`bg-black block transition-all duration-300 ease-out 
@@ -108,7 +108,7 @@ export function NavBar() {
         </button>
       </div>
       <header
-        className={`bg-white fixed bg-white flex flex-wrap gap-8 py-4 items-center w-screen lg:flex-row lg:justify-between lg:px-20 lg:h-${
+        className={`bg-white lg:fixed bg-white flex flex-wrap gap-8 py-4 items-center w-screen lg:flex-row lg:justify-between lg:px-20 lg:h-${
           isTop ? "28" : "20"
         } lg:mb-${isTop ? "[75px]" : "[25px]"} ${
           !isTop

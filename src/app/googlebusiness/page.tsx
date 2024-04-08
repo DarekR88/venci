@@ -8,7 +8,7 @@ import businesspImg from "../../../public/images/businessScreenshot.png";
 
 export default function GoogleBusiness() {
   return (
-    <main className="lg:max-w-[1200px] m-auto px-5 pt-[115px] lg:pt-[162px]">
+    <main className="lg:max-w-[1200px] m-auto px-5 pt-[50px] lg:pt-[162px]">
       <div className="flex flex-col lg:mb-[100px] mb-[50px]">
         <h1 className="font-bold text-[2.5rem] lg:text-5xl mb-[20px] px-2 lg:px-0">
           Google Business Management
