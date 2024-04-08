@@ -71,11 +71,11 @@ export function NavBar() {
         {/* <Link onClick={handleClick} className="text-3xl" href="/social">
           Social Media
         </Link> */}
-        <Link onClick={handleClick} className="text-3xl" href="/advertising">
-          Advertising
-        </Link>
         <Link onClick={handleClick} className="text-3xl" href="/googlebusiness">
           Google Business
+        </Link>
+        <Link onClick={handleClick} className="text-3xl" href="/advertising">
+          Advertising
         </Link>
         <Link onClick={handleClick} className="text-3xl" href="/contact">
           Contact

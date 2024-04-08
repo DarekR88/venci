@@ -35,7 +35,7 @@ export default function Contact() {
   };
 
   return (
-    <main className="lg:pt-[162px]">
+    <main className="lg:pt-[162px] pt-[125px] px-5">
       <div className="flex flex-col lg:flex-row lg:gap-10 max-w-[1200px] m-auto lg:mb-[80px] mb-[50px]">
         <div className="lg:w-[750px] lg:h-[350px] overflow-hidden mb-[20px] rounded-md shadow-md border-2 border-cOne">
           <Image src={contactImg} alt="weights" />
@@ -107,7 +107,7 @@ export default function Contact() {
 
       <div>
         <h1 className="text-center text-3xl mb-[20px]">Send us a message anytime!</h1>
-        <form ref={form} className="flex flex-col w-[350px] m-auto gap-3 mb-[100px]" onSubmit={sendEmail}>
+        <form ref={form} className="flex flex-col max-w-[350px] m-auto gap-3 mb-[100px]" onSubmit={sendEmail}>
           <label>Name</label>
           <input className="border-2 border-black" type="text" name="user_name" />
           <label>Email</label>

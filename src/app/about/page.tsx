@@ -4,7 +4,7 @@ import chartsImg from "../../../public/images/charts.jpg";
 
 export default function Social() {
   return (
-    <main className="lg:max-w-[1200px] m-auto px-2 lg:pt-[162px]">
+    <main className="lg:max-w-[1200px] m-auto px-5 lg:pt-[162px] pt-[125px]">
       <div className="flex flex-col lg:mb-[100px] mb-[50px]">
         <h1 className="font-bold text-5xl mb-[10px]">About</h1>
         <p className="lg:max-w-[850px] lg:pl-[10px] lg:text-2xl">
