@@ -6,6 +6,7 @@ import Image from "next/image";
 import contactImg from "../../../public/images/darkphone.jpg";
 import phoneSVG from "../../../public/icons/phone-svgrepo-com.svg";
 import emailSVG from "../../../public/icons/mail_icon.svg";
+import helloImg from "../../../public/images/helloA.jpg";
 
 export default function Contact() {
   const form = useRef<HTMLFormElement>(null);
@@ -37,8 +38,8 @@ export default function Contact() {
   return (
     <main className="lg:pt-[162px] pt-[50px] px-5">
       <div className="flex flex-col lg:flex-row lg:gap-10 max-w-[1200px] m-auto lg:mb-[80px] mb-[50px]">
-        <div className="lg:w-[750px] lg:h-[350px] overflow-hidden mb-[20px] rounded-md shadow-md border-2 border-cOne">
-          <Image src={contactImg} alt="weights" />
+        <div className="flex items-center lg:w-[750px] lg:h-[350px] overflow-hidden mb-[20px] rounded-md shadow-md border-2 border-cOne">
+          <Image src={helloImg} alt="weights" />
         </div>
         <div className="flex flex-col max-w-[400px] m-auto lg:max-w-[500px] px-[20px]">
           <h2 className="mb-4 text-5xl font-Anton text-center">
