@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <main className="lg:max-w-[1200px] m-auto px-4">
       <div className="flex flex-col lg:pt-[162px] pt-[50px] lg:mb-[100px] mb-[50px]">
-        <h1 className="font-bold text-5xl lg:mb-[10px] px-2 lg:px-0">
+        <h1 className="font-bold text-5xl lg:mb-[20px] px-2 lg:px-0">
           Get More Business
         </h1>
         <div className="flex lg:flex-row">
@@ -39,11 +39,11 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col lg:mb-[100px] mb-[100px]">
-        <h1 className="font-bold text-5xl pb-[50px] mb-[20px] px-2 lg:px-0">
+        <h1 className="font-bold text-5xl mb-[75px] lg:mb-[80px] px-2 lg:px-0">
           Our Services
         </h1>
 
-        <div className="flex flex-col lg:flex-row gap-20 lg:h-[290px] lg:gap-20 w-full m-auto">
+        <div className="flex flex-col lg:flex-row gap-24 lg:h-[290px] lg:gap-20 w-full m-auto">
           <div className="w-full lg:w-1/3 rounded-md shadow-lg border-2 border-cOne">
            
               <div className="flex flex-row justify-center mt-[-40px]">
@@ -126,7 +126,7 @@ export default function Home() {
       <h1 className="text-5xl mb-[20px] font-bold px-2 lg:px-0">
         Website Demos
       </h1>
-      <div className="flex flex-col lg:flex-row gap-5 lg:gap-5 lg:h-[165px] lg:mb-[20px] mb-[50px]">
+      <div className="flex flex-col lg:flex-row gap-5 lg:gap-5 lg:h-[165px] lg:mb-[100px] mb-[50px]">
         <div className="relative flex items-center overflow-hidden w-full lg:w-1/3 bg-cOne rounded-md border-2 border-cOne shadow-lg">
           <h1 className="absolute z-20 text-3xl ml-[20px]">Sophisticated</h1>
           <a

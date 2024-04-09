@@ -26,7 +26,7 @@ export default function Websites() {
           design subscription. Venci aims to make high-end website design,
           hosting, and management accessible to any type of small business.
         </p>
-        <div className="flex flex-col lg:flex-row gap-20 lg:gap-7 w-full m-auto">
+        <div className="flex flex-col mb-[50px] lg:flex-row gap-24 lg:gap-20 lg:gap-7 w-full m-auto">
           <div className="w-full lg:w-1/4 shadow-xl rounded-md border-2 border-cOne">
             <div className="flex flex-row justify-center mt-[-40px]">
               <h1 className="text-3xl font-bold pb-[20px] pt-[20px] bg-white pr-[10px]">
@@ -123,9 +123,9 @@ export default function Websites() {
               />
             </div>
             <div className="flex flex-col text-xl mb-[20px] font-bold w-fit m-auto">
-              <p>$0 Down | $19.99/mo</p>
+              <p className="mb-[7px]">$0 Down | $19.99/mo</p>
               <ul className="list-inside list-disc">
-                <li>2 pages</li>
+                <li>3 pages</li>
                 <li>SEO</li>
                 <li>Website Hosting</li>
                 <li>Stock Photos</li>
@@ -151,9 +151,10 @@ export default function Websites() {
             </div>
             <div className="flex flex-col text-xl mb-[20px] font-bold w-fit m-auto">
               <p>Starts at:</p>
-              <p>$300 Down | $19.99/mo</p>
+              <p className="mb-[7px]">$300 Down | $19.99/mo</p>
               <ul className="list-inside list-disc">
                 <li>7 pages</li>
+                <li>SEO</li>
                 <li>Website Hosting</li>
                 <li>Professional Photos</li>
                 <li>Premium Features</li>
@@ -178,9 +179,10 @@ export default function Websites() {
             </div>
             <div className="flex flex-col text-xl mb-[20px] font-bold w-fit m-auto">
               <p>Starts at:</p>
-              <p>$1500 Down | $49.99/mo</p>
+              <p className="mb-[7px]">$1500 Down | $49.99/mo</p>
               <ul className="list-inside list-disc">
                 <li>12 pages</li>
+                <li>SEO</li>
                 <li>Website Hosting</li>
                 <li>Professional Photos</li>
                 <li>Premium Features</li>
@@ -216,7 +218,7 @@ export default function Websites() {
                   <Image src={pyramidIcon} height={30} alt="pyramid" />
                 </span>
               </h1>
-              <p>$19.99/mo</p>
+              <p className="text-2xl font-semibold">$19.99/mo</p>
             </div>
             <div className="w-1/4 justify-center flex flex-col border-b-2 border-l-2 border-cFive p-[10px] bg-cFour">
               <h1 className="flex flex-row text-3xl font-bold mb-[5px]">
@@ -225,7 +227,7 @@ export default function Websites() {
                   <Image src={diamondIcon} height={40} alt="pyramid" />
                 </span>
               </h1>
-              <p>Starts at: $19.99/mo</p>
+              <p className="text-2xl font-semibold">Starts at: $19.99/mo</p>
             </div>
             <div className="w-1/4 justify-center flex flex-col border-b-2 border-l-2 border-cFive p-[10px] bg-cSeven">
               <h1 className="flex flex-row text-3xl font-bold mb-[5px]">
@@ -234,7 +236,7 @@ export default function Websites() {
                   <Image src={toolsIcon} height={40} alt="pyramid" />
                 </span>
               </h1>
-              <p>Starts at: $49.99/mo</p>
+              <p className="text-2xl font-semibold">Starts at: $49.99/mo</p>
             </div>
           </div>
           <div className="flex flex-row">
@@ -256,7 +258,7 @@ export default function Websites() {
               <p>Number of Pages</p>
             </div>
             <div className="w-1/4 border-l-2 border-cFive p-[10px]">
-              <p>2</p>
+              <p>3</p>
             </div>
             <div className="w-1/4 border-l-2 border-cFive p-[10px]">
               <p>up to 7</p>
@@ -409,7 +411,7 @@ export default function Websites() {
           </a>
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row gap-5 lg:gap-5 lg:h-[165px] lg:mb-[20px] mb-[50px]">
+      <div className="flex flex-col lg:flex-row gap-5 lg:gap-5 lg:h-[165px] lg:mb-[100px] mb-[50px]">
         <div className="relative flex items-center overflow-hidden border-2 border-cThree w-full lg:w-1/3 bg-cFive rounded-md shadow-xl">
           <h1 className="absolute z-20 text-3xl ml-[20px]">Informative</h1>
           <a

@@ -28,7 +28,7 @@ export default function Advertising() {
           Advertising Services
         </h1>
 
-        <div className="flex flex-col lg:flex-row gap-24 lg:h-[290px] lg:gap-20 w-full m-auto">
+        <div className="flex flex-col lg:flex-row gap-28 lg:h-[290px] lg:gap-20 w-full m-auto">
           <div className="w-full lg:w-1/3 rounded-md shadow-lg border-2 border-cOne">
             <div className="flex flex-row justify-center mt-[-40px]">
               <h1 className="text-3xl font-bold bg-white w-[190px]">
