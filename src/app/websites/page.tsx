@@ -18,10 +18,10 @@ export default function Websites() {
   return (
     <main className="lg:max-w-[1200px] m-auto pt-[50px] lg:pt-[162px] px-4">
       <div className="flex flex-col lg:mb-[100px] mb-[50px]">
-        <h1 className="font-bold text-5xl mb-[10px] px-2 lg:px-0">
+        <h1 className="font-bold text-5xl mb-[15px] px-2 lg:px-0">
           Website Management
         </h1>
-        <p className="lg:max-w-[850px] pb-[50px] lg:pl-[10px] lg:text-2xl px-2 lg:px-0">
+        <p className="lg:max-w-[850px] mb-[75px] lg:mb-[100px] lg:pl-[10px] lg:text-2xl px-2 lg:px-0">
           Say goodbye to large upfront investments with Venci&#39;s website
           design subscription. Venci aims to make high-end website design,
           hosting, and management accessible to any type of small business.
@@ -103,7 +103,7 @@ export default function Websites() {
         </div>
         <Link
           href={"/contact"}
-          className="flex w-fit text-l lg:text-xl font-Montserrat shadow-xl text-center m-auto p-[10px] bg-white border-2 border-cSeven rounded-full mt-[40px] hover:bg-cSeven hover:border-transparent hover:shadow-none hover:scale-105 transition-all duration-300"
+          className="flex w-fit text-l lg:text-xl font-Montserrat shadow-xl text-center m-auto p-[10px] bg-white border-2 border-cSeven rounded-full lg:mt-[30px] hover:bg-cSeven hover:border-transparent hover:shadow-none hover:scale-105 transition-all duration-300"
         >
           Book a Free Consultation Today &#8669;
         </Link>
@@ -201,7 +201,7 @@ export default function Websites() {
         </div>
       </div>
       <div className="hidden lg:flex mb-[50px] lg:mb-[70px] border-2 border-cFive rounded-md shadow-xl">
-        <div className="hidden text-xl lg:flex flex-col w-full">
+        <div className="hidden text-2xl lg:flex flex-col w-full">
           <div className="flex flex-row">
             <div className="flex flex-col gap-2 w-1/4 border-b-2 border-cFive bg-cFive">
               <h1 className="text-3xl font-bold w-full text-right pr-[10px] pt-[10px]">
@@ -351,17 +351,17 @@ export default function Websites() {
               <p>Options Available</p>
             </div>
           </div>
-          <div className="flex flex-row">
-            <div className="w-1/4 p-[10px] flex items-center h-full">
+          <div className="flex flex-row items-center">
+            <div className="w-1/4 p-[10px] flex items-center">
               <p>Appointment Scheduling</p>
             </div>
-            <div className="w-1/4 border-l-2 border-cFive p-[10px]">
+            <div className="flex w-1/4 border-l-2 border-cFive p-[10px] h-full items-center">
               <p>Not Available</p>
             </div>
-            <div className="w-1/4 border-l-2 border-cFive p-[10px]">
+            <div className="flex w-1/4 border-l-2 border-cFive p-[10px] h-full items-center">
               <p>Add on</p>
             </div>
-            <div className="w-1/4 border-l-2 border-cFive p-[10px]">
+            <div className="flex w-1/4 border-l-2 border-cFive p-[10px] h-full items-center">
               <p>Options Available</p>
             </div>
           </div>
