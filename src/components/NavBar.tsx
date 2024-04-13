@@ -118,19 +118,15 @@ export function NavBar() {
       >
         <Link
           href={"/"}
-          className="flex flex-col rounded-full ml-[20px] shadow-lg lg:flex-row lg:justify-center tracking-widest text-xl z-0 px-4 bg-gradient-to-r from-cOne to-cSeven"
+          className="rounded-full bg-gradient-to-r from-cOne to-cSeven flex justify-center items-center text-5xl h-[100px] w-[100px] ml-[20px]"
         >
-          <p className="flex flex-row text-5xl py-[3px] font-Orbitron">
-            <span>
-              <Image src={logoIcon} alt="logo" height={35} className="pt-[7px]" />
-              </span>ENCI
-          </p>
-          <div className="hidden lg:flex flex-col ">
-            <p className="text-base lg:mt-auto">Websites</p>
-            <p className="text-base lg:mb-auto">
-              <span>&</span>Advertising
-            </p>
-          </div>
+          <Image
+            src={logoIcon}
+            alt="logo"
+            height={65}
+            width={65}
+            className="mt-[10px]"
+          />
         </Link>
 
         <Link
@@ -218,7 +214,9 @@ export function NavBar() {
         </div>
         <button
           onClick={handleClick}
-          className={`inline flex flex-col justify-center items-center z-20 lg:hidden`}
+          className={`flex flex-col justify-center items-center z-20 lg:hidden ml-auto mr-[30px] ${
+            isOpen ? "fixed right-0" : "inline"
+          }`}
         >
           <span
             className={`bg-black block transition-all duration-300 ease-out 
