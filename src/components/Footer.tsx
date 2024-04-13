@@ -9,8 +9,8 @@ export function Footer() {
         <p>
           <span>&copy;</span> 2023 Venci
         </p>
-        <Link href={"/"} className="text-2xl text-center">
-          <span className="text-4xl font-Orbitron">VENCI</span> Websites&Advertising
+        <Link href={"/"} className="text-4xl font-Orbitron text-center">
+          VENCI
         </Link>
         <Link href={"/contact"} className="text-xl lg:pb-0 pb-3">
           Reach your Audience

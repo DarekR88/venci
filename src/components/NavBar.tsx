@@ -83,60 +83,33 @@ export function NavBar() {
         <Link onClick={handleClick} className="text-3xl" href="/about">
           About
         </Link>
-        <button
-          onClick={handleClick}
-          className={`mt-[20px] inline flex flex-col justify-center items-center z-20 lg:hidden`}
-        >
-          <span
-            className={`bg-black block transition-all duration-300 ease-out 
-                    h-1 w-8 rounded-sm ${
-                      isOpen ? "rotate-45 translate-y-1.5" : "-translate-y-1.5"
-                    }`}
-          ></span>
-          <span
-            className={`bg-black block transition-all duration-300 ease-out 
-                    h-1 w-8 rounded-sm my-0.5 ${
-                      isOpen ? "opacity-0" : "opacity-100"
-                    }`}
-          ></span>
-          <span
-            className={`bg-black block transition-all duration-300 ease-out 
-                    h-1 w-8 rounded-sm ${
-                      isOpen ? "-rotate-45 -translate-y-1.5" : "translate-y-1.5"
-                    }`}
-          ></span>
-        </button>
       </div>
       <header
         className={`bg-white lg:fixed bg-white flex flex-wrap gap-8 py-4 items-center w-screen lg:flex-row lg:justify-between lg:px-20 lg:h-${
           isTop ? "28" : "20"
         } lg:mb-${isTop ? "[75px]" : "[25px]"} ${
           !isTop
-            ? "shadow-md transition-all duration-300 lg:transition-height"
+            ? "lg:shadow-md transition-all duration-300 lg:transition-height"
             : "transition-all duration-300"
         }`}
       >
         <Link
           href={"/"}
-          className="rounded-full bg-gradient-to-r from-cOne to-cSeven flex justify-center items-center text-5xl h-[100px] w-[100px] ml-[20px]"
-        >
+          className={`rounded-full flex justify-center items-center text-5xl ml-[20px] bg-gradient-to-r from-cOne to-cSeven ${
+            isTop
+              ? 'h-[100px] w-[100px] transition-all duration-300'
+              : 'h-[50px] w-[50px] transition-all duration-300'
+          }`}        >
           <Image
             src={logoIcon}
             alt="logo"
-            height={65}
-            width={65}
-            className="mt-[10px]"
+            height={isTop ? 65 : 35}
+            width={isTop ? 65 : 35}
+            className={`mt-[10px] ${isTop ? 'transition-all duration-300' : 'transition-all duration-300'}`}
           />
         </Link>
 
-        <Link
-          href={"/contact"}
-          className="hidden lg:inline lg:flex lg:p-1 gap-1"
-        >
-          <Image src={PhoneSvg} alt="pfp" width={23} />
-          <span>Connect With Us</span>
-          <Image src={MailIcon} alt="pfp" width={23} />
-        </Link>
+        <h1 className={`font-Orbitron ${isTop ? 'text-5xl transition-all duration-300' : 'text-3xl transition-all duration-300'}`}>VENCI</h1>
 
         <div className="hidden lg:flex gap-6">
           <Link
