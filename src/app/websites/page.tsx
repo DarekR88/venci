@@ -13,6 +13,7 @@ import shieldIcon from "../../../public/icons/shield-alt-svgrepo-com.svg";
 import mobileIcon from "../../../public/icons/mobile-svgrepo-com.svg";
 import diamondIcon from "../../../public/icons/diamondA.svg";
 import toolsIcon from "../../../public/icons/tools-alt-svgrepo-com.svg";
+import checkIcon from "../../../public/icons/check-box-svgrepo-com.svg";
 
 export default function Websites() {
   return (
@@ -82,7 +83,6 @@ export default function Websites() {
           </div>
           <div className="w-full lg:w-1/4 shadow-xl rounded-md border-2 border-cSeven">
             <div className="flex flex-row justify-center mt-[-40px]">
-
               <Image
                 src={mobileIcon}
                 alt="tool"
@@ -91,8 +91,8 @@ export default function Websites() {
               />
             </div>
             <h1 className="text-3xl font-bold bg-white text-center m-auto w-[180px]">
-                Mobile Responsive
-              </h1>
+              Mobile Responsive
+            </h1>
             <p className="px-5 pt-[10px] pb-[20px]">
               With over 60&#37; of internet traffic originating from mobile
               devices, it&#39;s crucial that your website is optimized for
@@ -203,14 +203,13 @@ export default function Websites() {
       </div>
       <div className="hidden lg:flex mb-[50px] lg:mb-[70px] border-2 border-cFive rounded-md shadow-xl">
         <div className="hidden text-2xl lg:flex flex-col w-full">
-          <div className="flex flex-row">
-            <div className="flex flex-col gap-2 w-1/4 border-b-2 border-cFive bg-cFive">
-
-              <h1 className="text-3xl font-bold mt-auto pb-[10px] pl-[10px]">
+          <div className="flex flex-row h-[100px]">
+            <div className="flex flex-col items-center justify-center gap-2 w-1/4 border-b-2 border-cFive bg-cFive">
+              <h1 className="text-3xl font-bold p-[10px]">
                 Features&#8595;
               </h1>
             </div>
-            <div className="w-1/4 justify-center flex flex-col border-b-2 border-l-2 border-cFive p-[10px] bg-cSeven">
+            <div className="w-1/4 flex justify-center items-center flex-col border-b-2 border-l-2 border-cFive p-[10px] bg-cSeven">
               <h1 className="flex flex-row text-3xl font-bold mb-[5px]">
                 Basic{" "}
                 <span className="ml-[10px] mt-[3px]">
@@ -218,36 +217,34 @@ export default function Websites() {
                 </span>
               </h1>
             </div>
-            <div className="w-1/4 justify-center flex flex-col border-b-2 border-l-2 border-cFive p-[10px] bg-cFour">
+            <div className="w-1/4 flex justify-center items-center flex-col border-b-2 border-l-2 border-cFive p-[10px] bg-cFour">
               <h1 className="flex flex-row text-3xl font-bold mb-[5px]">
                 Premium{" "}
                 <span className="ml-[10px] mt-[0px]">
                   <Image src={diamondIcon} height={40} alt="pyramid" />
                 </span>
               </h1>
-           
             </div>
-            <div className="w-1/4 justify-center flex flex-col border-b-2 border-l-2 border-cFive p-[10px] bg-cTwo">
+            <div className="w-1/4 flex justify-center items-center flex-col border-b-2 border-l-2 border-cFive p-[10px] bg-cTwo">
               <h1 className="flex flex-row text-3xl font-bold mb-[5px]">
                 Custom{" "}
                 <span className="ml-[10px] mt-[0px]">
                   <Image src={toolsIcon} height={40} alt="pyramid" />
                 </span>
               </h1>
-              
             </div>
           </div>
           <div className="flex flex-row  bg-gray-100">
             <div className="w-1/4 flex items-center p-[10px] h-full">
               <p>Monthly Payment</p>
             </div>
-            <div className="w-1/4 border-l-2 border-cFive p-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive p-[10px] flex items-center justify-center">
               <p>$19.99</p>
             </div>
-            <div className="w-1/4 border-l-2 border-cFive p-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive p-[10px] flex items-center justify-center">
               <p>Starts at: $19.99</p>
             </div>
-            <div className="w-1/4 border-l-2 border-cFive p-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive p-[10px] flex items-center justify-center">
               <p>Starts at: $49.99</p>
             </div>
           </div>
@@ -255,13 +252,13 @@ export default function Websites() {
             <div className="w-1/4 flex items-center p-[10px] h-full">
               <p>Down Payment</p>
             </div>
-            <div className="w-1/4 border-l-2 border-cFive p-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive p-[10px] flex items-center justify-center">
               <p>$0</p>
             </div>
-            <div className="w-1/4 border-l-2 border-cFive p-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive p-[10px] flex items-center justify-center">
               <p>Starts at: $300</p>
             </div>
-            <div className="w-1/4 border-l-2 border-cFive p-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive p-[10px] flex items-center justify-center">
               <p>Starts at: $1500</p>
             </div>
           </div>
@@ -269,13 +266,13 @@ export default function Websites() {
             <div className="w-1/4 flex items-center p-[10px] h-full">
               <p>Number of Pages</p>
             </div>
-            <div className="w-1/4 border-l-2 border-cFive p-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive p-[10px] flex items-center justify-center">
               <p>3</p>
             </div>
-            <div className="w-1/4 border-l-2 border-cFive p-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive p-[10px] flex items-center justify-center">
               <p>up to 7</p>
             </div>
-            <div className="w-1/4 border-l-2 border-cFive p-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive p-[10px] flex items-center justify-center">
               <p>up to 12</p>
             </div>
           </div>
@@ -283,41 +280,41 @@ export default function Websites() {
             <div className="w-1/4 p-[10px]">
               <p>SEO (Search Engine Optimization)</p>
             </div>
-            <div className="w-1/4 border-l-2 border-cFive h-full flex items-center pl-[10px]">
-              <p>Included</p>
+            <div className="w-1/4 border-l-2 border-cFive h-full flex items-center justify-center">
+              <Image src={checkIcon} alt="x" height={30} width={30} />
             </div>
-            <div className="w-1/4 border-l-2 border-cFive h-full flex items-center pl-[10px]">
-              <p>Included</p>
+            <div className="w-1/4 border-l-2 border-cFive h-full flex items-center justify-center">
+              <Image src={checkIcon} alt="x" height={30} width={30} />
             </div>
-            <div className="w-1/4 border-l-2 border-cFive h-full flex items-center pl-[10px]">
-              <p>Included</p>
+            <div className="w-1/4 border-l-2 border-cFive h-full flex items-center justify-center">
+              <Image src={checkIcon} alt="x" height={30} width={30} />
             </div>
           </div>
           <div className="flex flex-row items-center bg-gray-100">
             <div className="w-1/4 p-[10px]">
               <p>Website Hosting</p>
             </div>
-            <div className="w-1/4 border-l-2 border-cFive h-full flex items-center pl-[10px]">
-              <p>Included</p>
+            <div className="w-1/4 border-l-2 border-cFive h-full flex items-center justify-center">
+              <Image src={checkIcon} alt="x" height={30} width={30} />
             </div>
-            <div className="w-1/4 border-l-2 border-cFive h-full flex items-center pl-[10px]">
-              <p>Included</p>
+            <div className="w-1/4 border-l-2 border-cFive h-full flex items-center justify-center">
+              <Image src={checkIcon} alt="x" height={30} width={30} />
             </div>
-            <div className="w-1/4 border-l-2 border-cFive h-full flex items-center pl-[10px]">
-              <p>Included</p>
+            <div className="w-1/4 border-l-2 border-cFive h-full flex items-center justify-center">
+              <Image src={checkIcon} alt="x" height={30} width={30} />
             </div>
           </div>
           <div className="flex flex-row">
             <div className="w-1/4 p-[10px] flex items-center h-full">
               <p>Photos and Graphics</p>
             </div>
-            <div className="w-1/4 border-l-2 border-cFive p-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive p-[10px] flex items-center justify-center">
               <p>Stock/Provided</p>
             </div>
-            <div className="w-1/4 border-l-2 border-cFive p-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive p-[10px] flex items-center justify-center">
               <p>Professional/Provided</p>
             </div>
-            <div className="w-1/4 border-l-2 border-cFive p-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive p-[10px] flex items-center justify-center">
               <p>Professional/Provided</p>
             </div>
           </div>
@@ -325,27 +322,27 @@ export default function Websites() {
             <div className="w-1/4 p-[10px]">
               <p>Premium Website Design Features</p>
             </div>
-            <div className="w-1/4 border-l-2 border-cFive h-full flex items-center pl-[10px]">
-              <p>Not Available</p>
+            <div className="w-1/4 border-l-2 border-cFive h-full flex items-center">
+              <p className="text-red-500 text-2xl font-bold m-auto">X</p>{" "}
             </div>
-            <div className="w-1/4 border-l-2 border-cFive h-full flex items-center pl-[10px]">
-              <p>Included</p>
+            <div className="w-1/4 border-l-2 border-cFive h-full flex items-center justify-center">
+              <Image src={checkIcon} alt="x" height={30} width={30} />
             </div>
-            <div className="w-1/4 border-l-2 border-cFive h-full flex items-center pl-[10px]">
-              <p>Included</p>
+            <div className="w-1/4 border-l-2 border-cFive h-full flex items-center justify-center">
+              <Image src={checkIcon} alt="x" height={30} width={30} />
             </div>
           </div>
           <div className="flex flex-row">
             <div className="w-1/4 p-[10px] flex items-center h-full">
               <p>User Login</p>
             </div>
-            <div className="w-1/4 border-l-2 border-cFive p-[10px]">
-              <p>Not Available</p>
+            <div className="w-1/4 border-l-2 border-cFive flex items-center p-[10px]">
+              <p className="text-red-500 text-2xl font-bold m-auto">X</p>{" "}
             </div>
-            <div className="w-1/4 border-l-2 border-cFive p-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive p-[10px] flex items-center justify-center">
               <p>Add on</p>
             </div>
-            <div className="w-1/4 border-l-2 border-cFive p-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive p-[10px] flex items-center justify-center">
               <p>Options Available</p>
             </div>
           </div>
@@ -353,13 +350,13 @@ export default function Websites() {
             <div className="w-1/4 p-[10px]">
               <p>Online Payments/ Subscriptions</p>
             </div>
-            <div className="w-1/4 border-l-2 border-cFive h-full flex items-center pl-[10px]">
-              <p>Not Available</p>
+            <div className="w-1/4 border-l-2 border-cFive h-full flex items-center">
+              <p className="text-red-500 text-2xl font-bold m-auto">X</p>{" "}
             </div>
-            <div className="w-1/4 border-l-2 border-cFive h-full flex items-center pl-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive h-full flex items-center flex items-center justify-center">
               <p>Add on</p>
             </div>
-            <div className="w-1/4 border-l-2 border-cFive h-full flex items-center pl-[10px]">
+            <div className="w-1/4 border-l-2 border-cFive h-full flex items-center flex items-center justify-center">
               <p>Options Available</p>
             </div>
           </div>
@@ -368,12 +365,12 @@ export default function Websites() {
               <p>Appointment Scheduling</p>
             </div>
             <div className="flex w-1/4 border-l-2 border-cFive p-[10px] h-full items-center">
-              <p>Not Available</p>
+              <p className="text-red-500 text-2xl font-bold m-auto">X</p>{" "}
             </div>
-            <div className="flex w-1/4 border-l-2 border-cFive p-[10px] h-full items-center">
+            <div className="flex w-1/4 border-l-2 border-cFive p-[10px] h-full items-center justify-center">
               <p>Add on</p>
             </div>
-            <div className="flex w-1/4 border-l-2 border-cFive p-[10px] h-full items-center">
+            <div className="flex w-1/4 border-l-2 border-cFive p-[10px] h-full items-center justify-center">
               <p>Options Available</p>
             </div>
           </div>
