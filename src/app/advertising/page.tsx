@@ -28,12 +28,10 @@ export default function Advertising() {
           Advertising Services
         </h1>
 
-        <div className="flex flex-col lg:flex-row gap-28 lg:h-[290px] lg:gap-20 w-full m-auto">
+        <div className="flex flex-col lg:flex-row gap-28 lg:h-[350px] lg:gap-20 w-full m-auto">
           <div className="w-full lg:w-1/3 rounded-md shadow-lg border-2 border-cOne">
             <div className="flex flex-row justify-center mt-[-40px]">
-              <h1 className="text-3xl font-bold bg-white w-[190px]">
-                Advertising Design
-              </h1>
+
               <Image
                 src={pyramidIcon}
                 alt="tool"
@@ -41,6 +39,9 @@ export default function Advertising() {
                 className="bg-white"
               />
             </div>
+            <h1 className="text-3xl font-bold bg-white w-[190px] text-center m-auto pt-[10px]">
+                Advertising Design
+              </h1>
             <p className="px-5 pt-[10px] pb-[20px] h-[225px]">
               When it comes to advertisements for your business, Venci
               understands how important it is to look good. Our experts pull
@@ -50,16 +51,14 @@ export default function Advertising() {
 
             <Link
               href={"/contact"}
-              className="flex w-fit mb-[-25px] hover:bg-cFive hover:border-transparent hover:scale-105 transition-all duration-300 font-Montserrat shadow-lg italic text-center text-3xl m-auto p-[10px] bg-white shadow-lg border-2 border-cFive rounded-full"
+              className="flex w-fit mb-[-25px] hover:bg-cFive hover:border-transparent hover:scale-105 transition-all duration-300 font-Montserrat shadow-lg text-center text-3xl m-auto p-[10px] bg-white shadow-lg border-2 border-cFive rounded-md"
             >
               Free Consultation
             </Link>
           </div>
           <div className="w-full lg:w-1/3 rounded-md shadow-lg border-2 border-cThree">
-            <div className="flex flex-row justify-center mt-[-40px]">
-              <h1 className="text-3xl font-bold bg-white w-[100px]">
-                Social Media
-              </h1>
+            <div className="flex flex-row justify-center mt-[-50px]">
+
               <Image
                 src={shareIcon}
                 alt="tool"
@@ -67,6 +66,9 @@ export default function Advertising() {
                 className="bg-white"
               />
             </div>
+            <h1 className="text-3xl font-bold bg-white w-[100px] text-center m-auto pt-[10px]">
+                Social Media
+              </h1>
             <p className="px-5 pb-[20px] pt-[10px] h-[225px]">
               Social Media can be an extremely powerful tool for your business.
               At Venci we specialize in the creation of unique content aimed at
@@ -75,16 +77,14 @@ export default function Advertising() {
             </p>
             <Link
               href={"/contact"}
-              className="flex w-fit mb-[-25px] hover:bg-cTwo hover:border-transparent hover:scale-105 transition-all duration-300 font-Montserrat shadow-lg italic text-center text-3xl m-auto p-[10px] bg-white shadow-lg border-2 border-cTwo rounded-full"
+              className="flex w-fit mb-[-25px] hover:bg-cTwo hover:border-transparent hover:scale-105 transition-all duration-300 font-Montserrat shadow-lg text-center text-3xl m-auto p-[10px] bg-white shadow-lg border-2 border-cTwo rounded-md"
             >
               Free Consultation
             </Link>
           </div>
           <div className="w-full lg:w-1/3 rounded-md shadow-lg border-2 border-cFive">
             <div className="flex flex-row justify-center mt-[-40px]">
-              <h1 className="text-3xl font-bold bg-white w-[190px]">
-                Advertising Strategy
-              </h1>{" "}
+ 
               <Image
                 src={paperIcon}
                 alt="tool"
@@ -92,6 +92,9 @@ export default function Advertising() {
                 className="bg-white mt-[-20px]"
               />
             </div>
+            <h1 className="text-3xl font-bold bg-white text-center m-auto w-[190px] pt-[10px]">
+                Advertising Strategy
+              </h1>
             <p className="px-5 pt-[10px] pb-[20px] h-[225px]">
               Advertising campaigns can be expensive and complicated. At Venci,
               we simplify the process. Tell us where you are struggling and that
@@ -100,7 +103,7 @@ export default function Advertising() {
             </p>
             <Link
               href={"/contact"}
-              className="flex w-fit mb-[-25px] hover:bg-cThree hover:border-transparent hover:scale-105 transition-all duration-300 font-Montserrat shadow-lg italic text-center text-3xl m-auto p-[10px] bg-white shadow-lg border-2 border-cThree rounded-full"
+              className="flex w-fit mb-[-25px] hover:bg-cThree hover:border-transparent hover:scale-105 transition-all duration-300 font-Montserrat shadow-lg text-center text-3xl m-auto p-[10px] bg-white shadow-lg border-2 border-cThree rounded-md"
             >
               Free Consultation
             </Link>
