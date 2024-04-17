@@ -52,10 +52,33 @@ export function NavBar() {
 
   return (
     <main>
+      <button
+        onClick={handleClick}
+        className={`fixed right-0 z-40 top-[40px] flex flex-col justify-center items-center z-30 lg:hidden ml-auto mr-[30px]`}
+      >
+        <span
+          className={`z-40 bg-black block transition-all duration-300 ease-out 
+                    h-1 w-8 rounded-sm ${
+                      isOpen ? "rotate-45 translate-y-1.5" : "-translate-y-1.5"
+                    }`}
+        ></span>
+        <span
+          className={`z-40 bg-black block transition-all duration-300 ease-out 
+                    h-1 w-8 rounded-sm my-0.5 ${
+                      isOpen ? "opacity-0" : "opacity-100"
+                    }`}
+        ></span>
+        <span
+          className={`z-40 bg-black block transition-all duration-300 ease-out 
+                    h-1 w-8 rounded-sm ${
+                      isOpen ? "-rotate-45 -translate-y-1.5" : "translate-y-1.5"
+                    }`}
+        ></span>
+      </button>
       <div
-        className={`fixed flex flex-col w-screen h-screen z-10 bg-white text-center pt-20 gap-8 ${
+        className={`fixed flex flex-col w-screen h-screen z-30 bg-white text-center pt-20 gap-8 ${
           isOpen
-            ? "transition ease-in-out translate-y-0 duration-500"
+            ? "transition ease-in-out translate-y-0 duration-500 z-10"
             : "transition ease-in-out -translate-y-full duration-500"
         }`}
       >
@@ -85,31 +108,64 @@ export function NavBar() {
         </Link>
       </div>
       <header
-        className={`bg-white lg:fixed bg-white flex flex-wrap gap-8 py-4 items-center w-screen lg:flex-row lg:justify-between lg:px-20 lg:h-${
+        className={`bg-white fixed bg-white flex flex-wrap gap-5 py-4 items-center w-screen lg:flex-row lg:justify-between lg:px-20 lg:h-${
           isTop ? "28" : "20"
         } lg:mb-${isTop ? "[75px]" : "[25px]"} ${
           !isTop
-            ? "lg:shadow-md transition-all duration-300 lg:transition-height"
+            ? "shadow-md transition-all duration-300 lg:transition-height"
             : "transition-all duration-300"
         }`}
       >
         <Link
           href={"/"}
-          className={`rounded-full flex justify-center items-center text-5xl ml-[20px] bg-gradient-to-r from-cOne to-cSeven ${
+          className={`rounded-full hidden lg:flex justify-center items-center text-5xl ml-[20px] bg-gradient-to-r from-cOne to-cSeven ${
             isTop
-              ? 'h-[100px] w-[100px] transition-all duration-300'
-              : 'h-[50px] w-[50px] transition-all duration-300'
-          }`}        >
+              ? "h-[100px] w-[100px] transition-all duration-300"
+              : "h-[50px] w-[50px] transition-all duration-300"
+          }`}
+        >
           <Image
             src={logoIcon}
             alt="logo"
             height={isTop ? 65 : 35}
             width={isTop ? 65 : 35}
-            className={`mt-[10px] ${isTop ? 'transition-all duration-300' : 'transition-all duration-300'}`}
+            className={`mt-[10px] ${
+              isTop
+                ? "transition-all duration-300"
+                : "transition-all duration-300"
+            }`}
+          />
+        </Link>
+        <Link
+          href={"/"}
+          className={`rounded-full flex lg:hidden justify-center items-center text-5xl ml-[20px] bg-gradient-to-r from-cOne to-cSeven ${
+            isTop
+              ? "h-[70px] w-[70px] transition-all duration-300"
+              : "h-[50px] w-[50px] transition-all duration-300"
+          }`}
+        >
+          <Image
+            src={logoIcon}
+            alt="logo"
+            height={isTop ? 50 : 35}
+            width={isTop ? 50 : 35}
+            className={`mt-[10px] ${
+              isTop
+                ? "transition-all duration-300"
+                : "transition-all duration-300"
+            }`}
           />
         </Link>
 
-        <h1 className={`font-Orbitron ${isTop ? 'text-5xl transition-all duration-300' : 'text-3xl transition-all duration-300'}`}>VENCI</h1>
+        <h1
+          className={`font-Orbitron ${
+            isTop
+              ? "text-4xl lg:text-5xl transition-all duration-300"
+              : "text-3xl transition-all duration-300"
+          }`}
+        >
+          VENCI
+        </h1>
 
         <div className="hidden lg:flex gap-6">
           <Link
@@ -185,31 +241,6 @@ export function NavBar() {
             <Image src={TiktokIcon} alt="pfp" width={25} />
           </a> */}
         </div>
-        <button
-          onClick={handleClick}
-          className={`flex flex-col justify-center items-center z-20 lg:hidden ml-auto mr-[30px] ${
-            isOpen ? "fixed right-0" : "inline"
-          }`}
-        >
-          <span
-            className={`bg-black block transition-all duration-300 ease-out 
-                    h-1 w-8 rounded-sm ${
-                      isOpen ? "rotate-45 translate-y-1.5" : "-translate-y-1.5"
-                    }`}
-          ></span>
-          <span
-            className={`bg-black block transition-all duration-300 ease-out 
-                    h-1 w-8 rounded-sm my-0.5 ${
-                      isOpen ? "opacity-0" : "opacity-100"
-                    }`}
-          ></span>
-          <span
-            className={`bg-black block transition-all duration-300 ease-out 
-                    h-1 w-8 rounded-sm ${
-                      isOpen ? "-rotate-45 -translate-y-1.5" : "translate-y-1.5"
-                    }`}
-          ></span>
-        </button>
       </header>
     </main>
   );
