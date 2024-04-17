@@ -21,6 +21,7 @@ const config: Config = {
         Open: ["Open Sans", "sans-serif"],
         Montserrat: ["Montserrat", "sans-serif"],
         Orbitron: ["Orbitron", "sans-serif"],
+        Poppins: ["Poppins", "sans-serif"],
       },
     },
   },

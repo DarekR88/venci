@@ -162,8 +162,8 @@ export function NavBar() {
         <h1
           className={`font-Orbitron ${
             isTop
-              ? "text-4xl lg:text-5xl transition-all duration-300"
-              : "text-3xl transition-all duration-300"
+              ? "ml-[20px] text-4xl lg:text-5xl transition-all duration-300"
+              : "ml-[40px] text-3xl transition-all duration-300"
           }`}
         >
           VENCI
