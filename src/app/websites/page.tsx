@@ -205,21 +205,18 @@ export default function Websites() {
         <div className="hidden text-2xl lg:flex flex-col w-full">
           <div className="flex flex-row">
             <div className="flex flex-col gap-2 w-1/4 border-b-2 border-cFive bg-cFive">
-              <h1 className="text-3xl font-bold w-full text-right pr-[10px] pt-[10px]">
-                Plans&#8594;
-              </h1>
-              <h1 className="text-3xl font-bold pb-[10px] pl-[10px]">
+
+              <h1 className="text-3xl font-bold mt-auto pb-[10px] pl-[10px]">
                 Features&#8595;
               </h1>
             </div>
-            <div className="w-1/4 justify-center flex flex-col border-b-2 border-l-2 border-cFive p-[10px] bg-cTwo">
+            <div className="w-1/4 justify-center flex flex-col border-b-2 border-l-2 border-cFive p-[10px] bg-cSeven">
               <h1 className="flex flex-row text-3xl font-bold mb-[5px]">
                 Basic{" "}
                 <span className="ml-[10px] mt-[3px]">
                   <Image src={pyramidIcon} height={30} alt="pyramid" />
                 </span>
               </h1>
-              <p className="text-2xl font-semibold">$19.99/mo</p>
             </div>
             <div className="w-1/4 justify-center flex flex-col border-b-2 border-l-2 border-cFive p-[10px] bg-cFour">
               <h1 className="flex flex-row text-3xl font-bold mb-[5px]">
@@ -228,16 +225,30 @@ export default function Websites() {
                   <Image src={diamondIcon} height={40} alt="pyramid" />
                 </span>
               </h1>
-              <p className="text-2xl font-semibold">Starts at: $19.99/mo</p>
+           
             </div>
-            <div className="w-1/4 justify-center flex flex-col border-b-2 border-l-2 border-cFive p-[10px] bg-cSeven">
+            <div className="w-1/4 justify-center flex flex-col border-b-2 border-l-2 border-cFive p-[10px] bg-cTwo">
               <h1 className="flex flex-row text-3xl font-bold mb-[5px]">
                 Custom{" "}
                 <span className="ml-[10px] mt-[0px]">
                   <Image src={toolsIcon} height={40} alt="pyramid" />
                 </span>
               </h1>
-              <p className="text-2xl font-semibold">Starts at: $49.99/mo</p>
+              
+            </div>
+          </div>
+          <div className="flex flex-row  bg-gray-100">
+            <div className="w-1/4 flex items-center p-[10px] h-full">
+              <p>Monthly Payment</p>
+            </div>
+            <div className="w-1/4 border-l-2 border-cFive p-[10px]">
+              <p>$19.99</p>
+            </div>
+            <div className="w-1/4 border-l-2 border-cFive p-[10px]">
+              <p>Starts at: $19.99</p>
+            </div>
+            <div className="w-1/4 border-l-2 border-cFive p-[10px]">
+              <p>Starts at: $49.99</p>
             </div>
           </div>
           <div className="flex flex-row">
