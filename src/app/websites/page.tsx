@@ -29,11 +29,11 @@ export default function Websites() {
         <div className="flex flex-col mb-[50px] lg:flex-row gap-24 lg:gap-20 lg:gap-7 w-full m-auto">
           <div className="w-full lg:w-1/4 shadow-xl rounded-md border-2 border-cOne">
             <div className="flex flex-row justify-center mt-[-40px]">
-              <h1 className="text-3xl font-bold pb-[20px] pt-[20px] bg-white pr-[10px]">
-                Free SEO
-              </h1>
               <Image src={SEOIcon} alt="tool" width={50} className="bg-white" />
             </div>
+            <h1 className="text-3xl font-bold pb-[20px] w-[200px] text-center m-auto pt-[20px] bg-white pr-[10px]">
+              Free SEO
+            </h1>
             <p className="px-5 pb-[20px]">
               With Google being the top platform for discovering new businesses,
               our FREE SEO (Search Engine Optimization) services guarantee your
@@ -42,10 +42,7 @@ export default function Websites() {
             </p>
           </div>
           <div className="w-full lg:w-1/4 shadow-xl rounded-md border-2 border-cThree">
-            <div className="flex flex-row justify-center mt-[-40px]">
-              <h1 className="text-3xl font-bold pb-[20px] pt-[20px] bg-white pr-[10px]">
-                $0 Down
-              </h1>
+            <div className="flex flex-row justify-center mt-[-30px]">
               <Image
                 src={pyramidIcon}
                 alt="tool"
@@ -53,6 +50,9 @@ export default function Websites() {
                 className="bg-white"
               />
             </div>
+            <h1 className="text-3xl font-bold pb-[20px] pt-[20px] w-[200] text-center">
+              $0 Down
+            </h1>
             <p className="px-5 pb-[20px]">
               Standing out online is key to staying ahead of the competition.
               With our affordable plan of $0 down and just $19.99 a month,
@@ -63,9 +63,6 @@ export default function Websites() {
           </div>
           <div className="w-full lg:w-1/4 shadow-xl rounded-md border-2 border-cFive">
             <div className="flex flex-row justify-center mt-[-40px]">
-              <h1 className="text-3xl font-bold bg-white w-[150px]">
-                Hosting &Security
-              </h1>
               <Image
                 src={shieldIcon}
                 alt="tool"
@@ -73,6 +70,9 @@ export default function Websites() {
                 className="bg-white"
               />
             </div>
+            <h1 className="text-3xl font-bold text-center m-auto bg-white w-[150px]">
+              Hosting &Security
+            </h1>
             <p className="px-5 pt-[10px] pb-[20px]">
               Our comprehensive hosting and security services streamline website
               management. For just $19.99 a month, we handle maintenance,
@@ -82,9 +82,7 @@ export default function Websites() {
           </div>
           <div className="w-full lg:w-1/4 shadow-xl rounded-md border-2 border-cSeven">
             <div className="flex flex-row justify-center mt-[-40px]">
-              <h1 className="text-3xl font-bold bg-white w-[180px]">
-                Mobile Responsive
-              </h1>
+
               <Image
                 src={mobileIcon}
                 alt="tool"
@@ -92,6 +90,9 @@ export default function Websites() {
                 className="bg-white"
               />
             </div>
+            <h1 className="text-3xl font-bold bg-white text-center m-auto w-[180px]">
+                Mobile Responsive
+              </h1>
             <p className="px-5 pt-[10px] pb-[20px]">
               With over 60&#37; of internet traffic originating from mobile
               devices, it&#39;s crucial that your website is optimized for
@@ -105,7 +106,7 @@ export default function Websites() {
           href={"/contact"}
           className="flex w-fit text-l lg:text-xl font-Montserrat shadow-xl text-center m-auto p-[10px] bg-white border-2 border-cSeven rounded-full lg:mt-[30px] hover:bg-cSeven hover:border-transparent hover:shadow-none hover:scale-105 transition-all duration-300"
         >
-          Book a Free Consultation Today &#8669;
+          Book a Free Consultation Today
         </Link>
       </div>
 
@@ -136,7 +137,7 @@ export default function Websites() {
               href={"/contact"}
               className="flex w-fit mb-[-20px] hover:bg-cFive hover:border-transparent hover:scale-105 transition-all duration-300 font-Montserrat shadow-lg italic text-center text-xl m-auto p-[10px] bg-white shadow-lg border-2 border-cFive rounded-full"
             >
-              Book Free Consultation &#8669;
+              Book Free Consultation
             </Link>
           </div>
           <div className="w-full lg:w-1/3 rounded-md shadow-lg border-2 border-cThree">
@@ -164,7 +165,7 @@ export default function Websites() {
               href={"/googlebusiness"}
               className="flex w-fit mb-[-20px] hover:bg-cTwo hover:border-transparent hover:scale-105 transition-all duration-300 font-Montserrat shadow-lg italic text-center text-xl m-auto p-[10px] bg-white shadow-lg border-2 border-cTwo rounded-full"
             >
-              Book Free Consultation &#8669;
+              Book Free Consultation
             </Link>
           </div>
           <div className="w-full lg:w-1/3 rounded-md shadow-lg border-2 border-cFive">
@@ -195,7 +196,7 @@ export default function Websites() {
               href={"/contact"}
               className="flex w-fit mb-[-20px] hover:bg-cThree hover:border-transparent hover:scale-105 transition-all duration-300 font-Montserrat shadow-lg italic text-center text-xl m-auto p-[10px] bg-white shadow-lg border-2 border-cThree rounded-full"
             >
-              Book Free Consultation &#8669;
+              Book Free Consultation
             </Link>
           </div>
         </div>
@@ -371,7 +372,7 @@ export default function Websites() {
         href={"/contact"}
         className="hidden lg:flex w-fit font-Montserrat shadow-xl text-center text-xl m-auto p-[10px] bg-white border-2 border-cOne rounded-full mb-[100px] hover:bg-cOne hover:border-transparent hover:shadow-none hover:scale-105 transition-all duration-300"
       >
-        Book a Free Consultation Today &#8669;
+        Book a Free Consultation Today
       </Link>
 
       <h1 className="text-5xl mb-[20px] font-bold px-2 lg:px-0">

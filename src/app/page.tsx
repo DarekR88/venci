@@ -43,7 +43,7 @@ export default function Home() {
           Our Services
         </h1>
 
-        <div className="flex flex-col lg:flex-row gap-24 lg:h-[290px] lg:gap-20 w-full m-auto">
+        <div className="flex flex-col lg:flex-row gap-24 lg:h-[350px] lg:gap-20 w-full m-auto">
           <div className="w-full lg:w-1/3 rounded-md shadow-lg border-2 border-cOne">
             <div className="flex flex-row justify-center mt-[-40px]">
               <Image
@@ -56,7 +56,7 @@ export default function Home() {
             <h1 className="text-3xl text-center m-auto mt-[20px] font-bold bg-white w-[250px]">
               Website Design &Management
             </h1>
-            <p className="px-5 pt-[10px] pb-[20px] h-[225px]">
+            <p className="px-5 h-[222px] pt-[10px] pb-[20px] h-[225px]">
               With Google being the top platform for discovering new businesses,
               our FREE SEO (Search Engine Optimization) services guarantee your
               presence in relevant searches, maximizing your visibility and
@@ -79,10 +79,10 @@ export default function Home() {
                 className="bg-white"
               />
             </div>
-            <h1 className="text-3xl m-auto mt-[20px] font-bold bg-white w-[150px]">
+            <h1 className="text-3xl m-auto mt-[10px] font-bold bg-white w-[150px]">
                 Google Business
               </h1>
-            <p className="px-5 pb-[20px] pt-[10px]">
+            <p className="px-5 h-[222px] pb-[20px] pt-[10px]">
               Standing out online is key to staying ahead of the competition.
               With our affordable plan of $0 down and just $19.99 a month,
               you&#39;ll get a uniquely designed website that sets your company
@@ -107,7 +107,7 @@ export default function Home() {
             </div>
             <h1 className="text-3xl font-bold bg-white m-auto mt-[20px] w-[200px] text-center">Advertising</h1>
 
-            <p className="px-5 pt-[10px] pb-[20px] h-[225px]">
+            <p className="px-5 h-[222px] pt-[10px] pb-[20px] h-[225px]">
               Our comprehensive hosting and security services streamline website
               management. For just $19.99 a month, we handle maintenance,
               monitoring, and analytics, ensuring your site remains secure,
