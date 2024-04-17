@@ -54,7 +54,9 @@ export function NavBar() {
     <main>
       <button
         onClick={handleClick}
-        className={`fixed right-0 z-40 top-[40px] flex flex-col justify-center items-center z-30 lg:hidden ml-auto mr-[30px]`}
+        className={`fixed right-0 z-40 flex flex-col justify-center items-center z-30 lg:hidden ml-auto mr-[30px] transition-all duration-300 ${
+          isTop ? " top-[40px]" : "top-[30px]"
+        }`}
       >
         <span
           className={`z-40 bg-black block transition-all duration-300 ease-out 
