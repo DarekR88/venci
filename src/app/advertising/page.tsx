@@ -13,7 +13,7 @@ import paperIcon from "../../../public/icons/paper-plane-svgrepo-com.svg";
 
 export default function Advertising() {
   return (
-    <main className="lg:max-w-[1200px] pt-[50px] lg:pt-[162px] m-auto px-5">
+    <main className="lg:max-w-[1200px] pt-[120px] lg:pt-[162px] m-auto px-5">
       <div className="flex flex-col lg:mb-[100px] mb-[50px]">
         <h1 className="font-bold text-5xl mb-[10px]">Build Your Brand</h1>
         <p className="lg:max-w-[850px] lg:pl-[10px] lg:text-2xl">

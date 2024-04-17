@@ -36,7 +36,7 @@ export default function Contact() {
   };
 
   return (
-    <main className="lg:pt-[162px] pt-[50px] px-5">
+    <main className="lg:pt-[162px] pt-[120px] px-5">
       <div className="flex flex-col lg:flex-row lg:gap-10 max-w-[1200px] m-auto lg:mb-[80px] mb-[50px]">
         <div className="flex items-center lg:w-[750px] lg:h-[350px] overflow-hidden mb-[20px] rounded-md shadow-md border-2 border-cOne">
           <Image src={helloImg} alt="weights" />
