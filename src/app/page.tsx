@@ -57,10 +57,10 @@ export default function Home() {
               Website Design &Management
             </h1>
             <p className="px-5 h-[222px] pt-[10px] pb-[20px] h-[225px]">
-              With Google being the top platform for discovering new businesses,
-              our FREE SEO (Search Engine Optimization) services guarantee your
-              presence in relevant searches, maximizing your visibility and
-              attracting potential customers.
+              At Venci, get a professional website for $0 down and $19.99/month.
+              Our services include free SEO, ensuring visibility and impact.
+              Stand out online with Venci&#39;s website design and management
+              expertise.
             </p>
 
             <Link
@@ -80,14 +80,14 @@ export default function Home() {
               />
             </div>
             <h1 className="text-3xl m-auto mt-[10px] font-bold bg-white w-[150px]">
-                Google Business
-              </h1>
+              Google Business
+            </h1>
             <p className="px-5 h-[222px] pb-[20px] pt-[10px]">
-              Standing out online is key to staying ahead of the competition.
-              With our affordable plan of $0 down and just $19.99 a month,
-              you&#39;ll get a uniquely designed website that sets your company
-              apart from the crowd, ensuring visibility and making a lasting
-              impression.
+              Venci&#39;s Google Business Profile management service offers
+              professional photo integration and review management. Enhance your
+              online presence with expertly curated content. Let us optimize
+              your profile for maximum visibility and positive customer
+              engagement.
             </p>
             <Link
               href={"/googlebusiness"}
@@ -105,13 +105,15 @@ export default function Home() {
                 className="bg-white mt-[-20px]"
               />
             </div>
-            <h1 className="text-3xl font-bold bg-white m-auto mt-[20px] w-[200px] text-center">Advertising</h1>
+            <h1 className="text-3xl font-bold bg-white m-auto mt-[20px] w-[200px] text-center">
+              Advertising
+            </h1>
 
-            <p className="px-5 h-[222px] pt-[10px] pb-[20px] h-[225px]">
-              Our comprehensive hosting and security services streamline website
-              management. For just $19.99 a month, we handle maintenance,
-              monitoring, and analytics, ensuring your site remains secure,
-              accessible, and optimized for performance at all times.
+            <p className="px-5 h-[222px] pt-[10px] pb-[20px] h-[225px] mb-[10px]">
+              Venci's advertising services encompass brand development and
+              social media management. Elevate your brand with our strategic
+              approach to marketing. From crafting your identity to engaging
+              your audience, trust Venci to amplify your presence.
             </p>
             <Link
               href={"/advertising"}
