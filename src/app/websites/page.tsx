@@ -5,11 +5,11 @@ import pyramidIcon from "../../../public/icons/pyramidA rotated.svg";
 import shieldIcon from "../../../public/icons/shield-alt-svgrepo-com.svg";
 import mobileIcon from "../../../public/icons/mobile-svgrepo-com.svg";
 import diamondIcon from "../../../public/icons/diamondA.svg";
-import toolsIcon from "../../../public/icons/tools-alt-svgrepo-com.svg";
 import checkIcon from "../../../public/icons/check-box-svgrepo-com.svg";
 import ionDemoImg from "../../../public/images/ionPhotoSS.png";
 import insightDemoImg from "../../../public/images/insightptSS.png";
 import floreoDemoImg from "../../../public/images/floreoSS.png";
+import puzzleIcon from "../../../public/icons/puzzle-connect-join-assemble-puzzle-svgrepo-com.svg";
 
 export default function Websites() {
   return (
@@ -165,13 +165,13 @@ export default function Websites() {
             </Link>
           </div>
           <div className="w-full lg:w-1/3 rounded-md shadow-lg border-2 border-cFive">
-            <div className="flex flex-row justify-center mt-[-20px]">
+            <div className="flex flex-row justify-center mt-[-20px] mb-[10px]">
               <h1 className="text-3xl font-bold bg-white">Custom</h1>
               <Image
-                src={toolsIcon}
+                src={puzzleIcon}
                 alt="tool"
-                width={70}
-                className="bg-white mt-[-20px]"
+                width={50}
+                className="bg-white mt-[-20px] ml-[5px]"
               />
             </div>
             <div className="flex flex-col text-xl mb-[20px] font-bold w-fit m-auto">
@@ -225,7 +225,7 @@ export default function Websites() {
               <h1 className="flex flex-row text-3xl font-bold mb-[5px]">
                 Custom{" "}
                 <span className="ml-[10px] mt-[0px]">
-                  <Image src={toolsIcon} height={40} alt="pyramid" />
+                  <Image src={puzzleIcon} height={40} alt="pyramid" />
                 </span>
               </h1>
             </div>
