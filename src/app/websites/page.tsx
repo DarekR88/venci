@@ -382,7 +382,7 @@ export default function Websites() {
       <h1 className="text-5xl mb-[20px] font-bold px-2 lg:px-0">
         Website Demos
       </h1>
-      <div className="flex flex-col lg:flex-row gap-5 lg:gap-5 lg:h-[210px] lg:mb-[100px] mb-[50px]">
+      <div className="relative z-10 flex flex-col lg:flex-row gap-5 lg:gap-5 lg:h-[210px] lg:mb-[100px] mb-[50px]">
         <div className="relative flex items-center overflow-hidden w-full lg:w-1/3 bg-cOne rounded-md border-2 border-cOne shadow-lg">
           <h1 className="absolute z-20 text-3xl ml-[20px]">Sophisticated</h1>
           <a

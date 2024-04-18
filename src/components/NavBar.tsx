@@ -110,7 +110,7 @@ export function NavBar() {
         </Link>
       </div>
       <header
-        className={`bg-white fixed bg-white flex flex-wrap gap-5 py-4 items-center w-screen lg:flex-row lg:justify-between lg:px-20 lg:h-${
+        className={`bg-white fixed bg-white flex flex-wrap z-20 gap-5 py-4 items-center w-screen lg:flex-row lg:justify-between lg:px-20 lg:h-${
           isTop ? "28" : "20"
         } lg:mb-${isTop ? "[75px]" : "[25px]"} ${
           !isTop
