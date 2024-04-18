@@ -111,7 +111,7 @@ export default function Home() {
             </h1>
 
             <p className="px-5 h-[222px] pt-[10px] pb-[20px] h-[225px] mb-[10px]">
-              Venci's advertising services encompass brand development and
+              Venci&#39;s advertising services encompass brand development and
               social media management. Elevate your brand with our strategic
               approach to marketing. From crafting your identity to engaging
               your audience, trust Venci to amplify your presence.
