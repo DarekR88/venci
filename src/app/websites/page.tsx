@@ -374,7 +374,7 @@ export default function Websites() {
       </div>
       <Link
         href={"/contact"}
-        className="hidden lg:flex w-fit font-Montserrat shadow-xl text-center text-xl m-auto p-[10px] bg-white border-2 border-cOne rounded-full mb-[100px] hover:bg-cOne hover:border-transparent hover:shadow-none hover:scale-105 transition-all duration-300"
+        className="hidden lg:flex w-fit font-Montserrat shadow-xl text-center text-xl m-auto p-[10px] bg-white border-2 border-cSeven rounded-full mb-[100px] hover:bg-cSeven hover:border-transparent hover:shadow-none hover:scale-105 transition-all duration-300"
       >
         Book a Free Consultation Today
       </Link>
