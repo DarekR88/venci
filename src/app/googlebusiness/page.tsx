@@ -83,7 +83,7 @@ export default function GoogleBusiness() {
               <li>Analytics Reporting</li>
             </ul>
           </div>
-          <div className="flex flex-col items-center shadow-lg w-full lg:w-1/3 border-2 border-cThree rounded-lg py-7 px-10">
+          <div className="flex flex-col items-center shadow-lg w-full lg:w-1/3 border-2 border-cSeven rounded-lg py-7 px-10">
             <h1 className="text-2xl font-bold">Premium</h1>
             <Image src={diamondIcon} alt="diamond" height={30} />
             <p className="text-2xl mb-[10px]">Starts at: $199/month</p>
@@ -96,7 +96,7 @@ export default function GoogleBusiness() {
         </div>
         <Link
           href={"/contact"}
-          className="flex w-fit mb-[50px] lg:mb-[150px] font-Montserrat shadow-xl text-center text-l lg:text-xl lg:ml-[225px] m-auto p-[10px] bg-white border-2 border-cSeven rounded-full mt-[20px] hover:bg-cSeven hover:border-transparent hover:shadow-none hover:scale-105 transition-all duration-300"
+          className="flex w-fit mb-[50px] lg:mb-[150px] font-Montserrat shadow-xl text-center text-l lg:text-xl lg:ml-[225px] m-auto p-[10px] bg-white border-2 border-cFive rounded-full mt-[20px] hover:bg-cFive hover:border-transparent hover:shadow-none hover:scale-105 transition-all duration-300"
         >
           Book a Free Consultation Today
         </Link>

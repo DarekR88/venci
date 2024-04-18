@@ -4,12 +4,13 @@ import Link from "next/link";
 import trainerImg from "../../public/images/ptss.png";
 import photoImg from "../../public/images/photosite.png";
 import gardenImg from "../../public/images/lsss.png";
-import restaurantImg from "../../public/images/restaurantss.png";
-import landscapeImg from "../../public/images/growgreen.png";
-import constructionImg from "../../public/images/constructionss.png";
 import logoIcon from "../../public/icons/pyramidA rotated.svg";
 import googleIcon from "../../public/icons/google-chrome-svgrepo-com.svg";
 import adIcon from "../../public/icons/advertising-expense-svgrepo-com.svg";
+import ionDemoImg from "../../public/images/ionPhotoSS.png";
+import insightDemoImg from "../../public/images/insightptSS.png";
+import floreoDemoImg from "../../public/images/floreoSS.png";
+
 
 export default function Home() {
   return (
@@ -128,7 +129,7 @@ export default function Home() {
       <h1 className="text-5xl mb-[20px] font-bold px-2 lg:px-0">
         Website Demos
       </h1>
-      <div className="flex flex-col lg:flex-row gap-5 lg:gap-5 lg:h-[165px] lg:mb-[100px] mb-[50px]">
+      <div className="flex flex-col lg:flex-row gap-5 lg:gap-5 lg:h-[210px] lg:mb-[100px] mb-[50px]">
         <div className="relative flex items-center overflow-hidden w-full lg:w-1/3 bg-cOne rounded-md border-2 border-cOne shadow-lg">
           <h1 className="absolute z-20 text-3xl ml-[20px]">Sophisticated</h1>
           <a
@@ -136,7 +137,7 @@ export default function Home() {
             target="_blank"
             className="relative z-50 hover:opacity-0 transition-opacity duration-300"
           >
-            <Image src={photoImg} alt="photo" />
+            <Image src={ionDemoImg} alt="photo" />
           </a>
         </div>
         <div className="relative flex items-center overflow-hidden w-full lg:w-1/3 bg-cThree rounded-md border-2 border-cFour shadow-lg">
@@ -148,7 +149,7 @@ export default function Home() {
             target="_blank"
             className="relative z-50 hover:opacity-0 transition-opacity duration-300"
           >
-            <Image src={trainerImg} alt="photo" />
+            <Image src={insightDemoImg} alt="photo" />
           </a>
         </div>
         <div className="relative flex items-center overflow-hidden w-full lg:w-1/3 bg-cFive rounded-md border-2 border-cSeven shadow-lg">
@@ -158,7 +159,7 @@ export default function Home() {
             target="_blank"
             className="relative z-50 hover:opacity-0 transition-opacity duration-300"
           >
-            <Image src={gardenImg} alt="photo" />
+            <Image src={floreoDemoImg} alt="photo" />
           </a>
         </div>
       </div>
