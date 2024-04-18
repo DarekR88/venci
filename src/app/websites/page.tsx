@@ -135,9 +135,9 @@ export default function Websites() {
 
             <Link
               href={"/contact"}
-              className="flex w-fit mb-[-20px] hover:bg-cFive hover:border-transparent hover:scale-105 transition-all duration-300 font-Montserrat shadow-lg italic text-center text-xl m-auto p-[10px] bg-white shadow-lg border-2 border-cFive rounded-full"
+              className="flex w-fit mb-[-20px] hover:bg-cFive hover:border-transparent hover:scale-105 transition-all duration-300 font-Montserrat shadow-lg text-center text-l m-auto p-[10px] bg-white shadow-lg border-2 border-cFive rounded-full"
             >
-              Book Free Consultation
+              Book a Free Consultation Today
             </Link>
           </div>
           <div className="w-full lg:w-1/3 rounded-md shadow-lg border-2 border-cThree">
@@ -163,7 +163,7 @@ export default function Websites() {
             </div>
             <Link
               href={"/googlebusiness"}
-              className="flex w-fit mb-[-20px] hover:bg-cTwo hover:border-transparent hover:scale-105 transition-all duration-300 font-Montserrat shadow-lg italic text-center text-xl m-auto p-[10px] bg-white shadow-lg border-2 border-cTwo rounded-full"
+              className="flex w-fit mb-[-20px] hover:bg-cTwo hover:border-transparent hover:scale-105 transition-all duration-300 font-Montserrat shadow-lg text-center text-xl m-auto p-[10px] bg-white shadow-lg border-2 border-cTwo rounded-full"
             >
               Book Free Consultation
             </Link>
@@ -194,7 +194,7 @@ export default function Websites() {
             </div>
             <Link
               href={"/contact"}
-              className="flex w-fit mb-[-20px] hover:bg-cThree hover:border-transparent hover:scale-105 transition-all duration-300 font-Montserrat shadow-lg italic text-center text-xl m-auto p-[10px] bg-white shadow-lg border-2 border-cThree rounded-full"
+              className="flex w-fit mb-[-20px] hover:bg-cThree hover:border-transparent hover:scale-105 transition-all duration-300 font-Montserrat shadow-lg text-center text-xl m-auto p-[10px] bg-white shadow-lg border-2 border-cThree rounded-full"
             >
               Book Free Consultation
             </Link>
