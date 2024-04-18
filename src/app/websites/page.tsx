@@ -343,7 +343,7 @@ export default function Websites() {
               <p>Add on</p>
             </div>
             <div className="w-1/4 border-l-2 border-cFive p-[10px] flex items-center justify-center">
-              <p>Options Available</p>
+              <Image src={checkIcon} alt="x" height={30} width={30} />
             </div>
           </div>
           <div className="flex flex-row items-center bg-gray-100">
@@ -357,7 +357,7 @@ export default function Websites() {
               <p>Add on</p>
             </div>
             <div className="w-1/4 border-l-2 border-cFive h-full flex items-center flex items-center justify-center">
-              <p>Options Available</p>
+              <Image src={checkIcon} alt="x" height={30} width={30} />
             </div>
           </div>
           <div className="flex flex-row items-center">
@@ -371,7 +371,7 @@ export default function Websites() {
               <p>Add on</p>
             </div>
             <div className="flex w-1/4 border-l-2 border-cFive p-[10px] h-full items-center justify-center">
-              <p>Options Available</p>
+              <Image src={checkIcon} alt="x" height={30} width={30} />
             </div>
           </div>
         </div>
