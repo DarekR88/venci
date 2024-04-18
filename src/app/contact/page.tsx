@@ -68,15 +68,17 @@ export default function Contact() {
                   width={23}
                   className="mr-[5px]"
                 />
-                <span>Call or Text</span>
-              </a>
-              <a
-                href="tel:408-761-4606"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="flex flex-row justify-center"
-              >
-                <span>&#40;408&#41;-761-4606</span>
+                <span>
+                  {" "}
+                  <a
+                    href="tel:408-761-4606"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="flex flex-row justify-center"
+                  >
+                    <span>&#40;408&#41;-761-4606</span>
+                  </a>
+                </span>
               </a>
             </div>
             <div>
@@ -92,15 +94,17 @@ export default function Contact() {
                   width={23}
                   className="mr-[5px]"
                 />
-                <span>E-mail</span>
-              </a>
-              <a
-                href="tel:408-761-4606"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="flex flex-row justify-center"
-              >
-                <span>VenciDesign@Gmail.com</span>
+                <span>
+                  {" "}
+                  <a
+                    href="tel:408-761-4606"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="flex flex-row justify-center"
+                  >
+                    <span>VenciDesign@Gmail.com</span>
+                  </a>
+                </span>
               </a>
             </div>
           </div>
@@ -108,10 +112,10 @@ export default function Contact() {
       </div>
 
       <div>
-      {messageSent && (
-        <p className="fixed w-[335px] text-2xl lg:left-[40%] lg:bottom-[250px] bottom-[350px] p-7 bg-cTwo border-2 border-cTwo rounded-md text-center font-bold font-poppins">
-          Message sent!
-        </p>
+        {messageSent && (
+          <p className="fixed w-[335px] text-2xl lg:left-[40%] lg:bottom-[250px] bottom-[350px] p-7 bg-cTwo border-2 border-cTwo rounded-md text-center font-bold font-poppins">
+            Message sent!
+          </p>
         )}
         <h1 className="text-center text-3xl mb-[20px]">
           Send us a message anytime!
