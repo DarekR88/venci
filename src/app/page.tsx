@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <main className="lg:max-w-[1200px] m-auto px-4">
       <div className="flex flex-col lg:pt-[162px] pt-[120px] lg:mb-[100px] mb-[50px]">
-        <h1 className="font-bold text-5xl lg:mb-[20px] px-2 lg:px-0">
+        <h1 className="font-bold text-5xl mb-[20px] px-2 lg:px-0">
           Get More Business
         </h1>
         <div className="flex lg:flex-row">
