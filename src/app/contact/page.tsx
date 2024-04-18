@@ -19,11 +19,12 @@ export default function Contact() {
 
     const formData = new FormData(form.current);
 
-    emailjs.sendForm("service_qfgklbh", "template_nkx1gkp", form.current, {
-      publicKey: "kvoo8qIQ_D8PVYgsu",
-    })
+    emailjs
+      .sendForm("service_qfgklbh", "template_nkx1gkp", form.current, {
+        publicKey: "kvoo8qIQ_D8PVYgsu",
+      })
       .then(() => {
-        console.log('SUCCESS!');
+        console.log("SUCCESS!");
         setMessageSent(true);
         setTimeout(() => {
           setMessageSent(false);
@@ -31,7 +32,7 @@ export default function Contact() {
         form.current?.reset(); // Clear form fields
       })
       .catch((error) => {
-        console.error('FAILED...', error.text);
+        console.error("FAILED...", error.text);
       });
   };
 
@@ -107,17 +108,39 @@ export default function Contact() {
       </div>
 
       <div>
-        <h1 className="text-center text-3xl mb-[20px]">Send us a message anytime!</h1>
-        <form ref={form} className="flex flex-col max-w-[350px] m-auto gap-3 mb-[100px]" onSubmit={sendEmail}>
+      {messageSent && (
+        <p className="fixed w-[335px] text-2xl lg:left-[40%] lg:bottom-[250px] bottom-[350px] p-7 bg-cTwo border-2 border-cTwo rounded-md text-center font-bold font-poppins">
+          Message sent!
+        </p>
+        )}
+        <h1 className="text-center text-3xl mb-[20px]">
+          Send us a message anytime!
+        </h1>
+        <form
+          ref={form}
+          className="flex flex-col max-w-[350px] m-auto gap-3 mb-[100px]"
+          onSubmit={sendEmail}
+        >
           <label>Name</label>
-          <input className="border-2 border-black" type="text" name="user_name" />
+          <input
+            className="border-2 border-black"
+            type="text"
+            name="user_name"
+          />
           <label>Email</label>
-          <input className="border-2 border-black" type="email" name="user_email" />
+          <input
+            className="border-2 border-black"
+            type="email"
+            name="user_email"
+          />
           <label>Message</label>
           <textarea className="border-2 border-black" name="message" />
-          <input className="border-2 border-black cursor-pointer" type="submit" value="Send" />
+          <input
+            className="border-2 border-black cursor-pointer"
+            type="submit"
+            value="Send"
+          />
         </form>
-        {messageSent && <p className="w-[350px] text-2xl m-auto">Message sent!</p>}
       </div>
     </main>
   );
