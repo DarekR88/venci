@@ -166,7 +166,7 @@ export function NavBar() {
               : "ml-[40px] text-3xl transition-all duration-300"
           }`}
         >
-          VENCI
+          <Link href={"/"}>VENCI</Link>
         </h1>
 
         <div className="hidden lg:flex gap-6">
