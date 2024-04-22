@@ -118,6 +118,7 @@ export function NavBar() {
             : "transition-all duration-300"
         }`}
       >
+        <a href="/app/api/auth/auth0/login" className="hidden lg:absolute lg:flex right-[50px]">Login/Sign Up</a>
         <Link
           href={"/"}
           className={`rounded-full hidden lg:flex justify-center items-center text-5xl ml-[20px] bg-gradient-to-r from-cOne to-cSeven ${
